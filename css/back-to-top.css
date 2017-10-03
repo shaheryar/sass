@@ -1,0 +1,61 @@
+/* start scroll down arrow classes */
+
+#back-top {
+  bottom: 45px;
+  position: fixed;
+  right: 100px;
+  z-index: 100;
+}
+
+#back-top a {
+  color: #bbb;
+  display: block;
+  font: 11px/100% "proximanovalight",sans-serif !important;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 1s ease 0s;
+  width: 50px;
+}
+
+#back-top .fa.fa-chevron-up {
+  font-size: 25px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+  transition: all 1s ease 0s;
+}
+
+a .fa.fa-chevron-up {
+  background-color: #000;
+  border-radius: 6px;
+  display: block;
+  padding: 10px !important;
+}
+
+#back-top .fa.fa-chevron-up:hover {
+  color: #eee;
+  opacity: 1 !important;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+/* tart 200px to 767px ----------- */
+		@media screen and (min-width: 200px) and (max-width:767px) {
+			#back-top {
+				bottom: 60px !important;
+				right: 25px !important;
+			}
+		}
+	/* end 200px to 667px ----------- */
+
+
+	/* tart 768px to 1024px ----------- */
+		@media screen and (min-width: 768px) and (max-width:1024px) {
+			#back-top {
+				bottom: 35px !important;
+				right: 25px !important;
+			}
+		}
+	/* end 200px to 667px ----------- */	
+
+/* end scroll down arrow classes */

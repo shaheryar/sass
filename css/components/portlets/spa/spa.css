@@ -1,0 +1,163 @@
+.center-align {
+	text-align: center;
+}
+
+.middle-align {
+	vertical-align: middle;
+}
+
+.spaTaskAutoComplete {
+    width: auto !important;
+}
+
+.center-align-update {
+	display: block !important;
+	width: 50px;
+	margin: auto !important;
+}
+
+.center-align-cancel {
+	display: block !important;
+	width: 50px;
+	margin: auto !important;;
+}
+
+.spa-search-controls .ui-widget-content {
+	background: transparent !important;
+}
+
+ 
+.margin-top {
+	margin-top: 5px;
+}
+
+.background-size {
+	background-size: 100% 100%;
+}
+
+.spa-floppy, .spa-pencil, .spa-trash {
+	font-size: 1.5em !important;
+}
+
+.search-controls-label {
+	color: #fff !important;
+    font-weight: 700 !important;
+    text-shadow: 1px 1px #000000;
+    font-size: 1.1em !important;
+    text-transform: uppercase;	
+}
+
+.spaTaskAutoComplete {
+    width: auto !important;
+}
+
+.spaProviderDropdown {
+    width: 100px !important;
+}
+
+.spaCalendar input {
+    width: auto !important;
+}
+
+.spa-res-list-buttons a {
+    text-decoration: inherit !important;
+}
+
+.spa-res-list-buttons a:hover {
+    text-decoration: inherit !important;
+}
+
+.spa-res-list-buttons a:active {
+    text-decoration: inherit !important;
+}
+
+.spaNameSelectionAutocomplete {
+	width:auto !important;
+}
+
+.spaNameSelectionAutocomplete input {
+	-webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.cancel-dialog .ui-dialog-buttonpane {
+    padding: .3em .4em .5em .4em !Important;
+}
+
+.dropdown-autowidth {
+	width:auto !important;
+}
+
+.gender-radio label {
+    margin-top: 0px !Important;
+}
+
+.inline-block {
+	display:inline-block;
+}
+
+.span12.available-times-label {
+	display: table-cell !important;
+}
+
+.span12.employeeName {
+	display: table-cell !important;
+}
+
+@media ( max-width : 640px) {
+	.spa-list-smartphone {
+		display: block;
+	}
+	.spa-res-list-buttons {
+		display: none
+	}
+	.edit-reservation-label {
+		font-size:16px !important;
+	}
+	.confirm-heading-label {
+		font-size:18px !important;
+	}
+	.center-align-cancel, .center-align-update {
+		width: 100px !important;
+		display: inline !important;
+		padding: 5px !important;
+	}
+	.span12.available-times-label {
+		font-size: 14px;
+	}
+	.span12.employeeName {
+		font-size: 14px;
+	}
+}
+
+@media ( min-width : 641px) {
+	.spa-list-smartphone {
+		display: none;
+	}
+	.spa-res-list-buttons {
+		display: block;
+	}
+	.center-align-table-component {
+		text-align: center !important;
+		margin: auto !important;
+		display: block !important;
+	}
+	.search-newService-btn {
+		width: 200px;
+		display: inline-block;
+	}
+	.make-newRes-btn {
+		width: 200px !important;
+		display: inline-block;
+	}
+	.dropdown-service {
+		max-width: 270px;
+	}
+	.dropdown-provider {
+		max-width: 270px;
+	}
+	
+	    
+}
+

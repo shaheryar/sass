@@ -1,0 +1,15 @@
+td.expand-col .ui-column-title {
+    display: none !important;
+}
+
+@media ( min-width : 640px) {
+	.committee-details-table .ui-column-title {
+		display: block !important;
+	}
+	.committee-details-table .ui-datatable-data .ui-column-title {
+		display: none !important;
+	}
+	.expand-col {
+		width: 20px !important;
+	}
+}

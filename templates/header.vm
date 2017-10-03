@@ -1,0 +1,77 @@
+<header class="large">
+   <div class="row-fluid background-white hidden-phone hidden-tablet">
+	<div class="row-fluid">
+            <nav>
+				<div class="container text-center">
+                  #set ($navigationPortletId = "dropdownnavigation_WAR_dropdownnavigationportlet") $velocityPortletPreferences.setValue("portlet-setup-show-borders", "false") $velocityPortletPreferences.setValue("navigationView", "textured-responsive") $velocityPortletPreferences.setValue("mmMenuScript", "$('#menu').mmenu({'slidingSubmenus': false});") #set($restoreRenderingPortletContent = $theme.runtime($navigationPortletId, "", $velocityPortletPreferences.toString())) $restoreRenderingPortletContent $velocityPortletPreferences.reset()
+				  </div>
+               </nav>
+         </div>
+      <div class="container">
+         <div class="row-fluid">
+            <div class="span6">
+               <div class="logo-area text-left">
+                  #if ($themeDisplay.getLayout().isPublicLayout())
+                  #if($is_signed_in)
+                  <div class="hidden-phone hidden-tablet">
+                     <div class="site-title">
+                        <a class="logo" href="/group/pages/home" title="#language_format (" $logo_description ", [$site_name])"> <img alt="$logo_description" src="$site_logo" /> </a>
+                     </div>
+                  </div>
+                  #else
+                  <div class="hidden-phone hidden-tablet">
+                     <div class="site-title">
+                        <a class="logo" href="/web/pages/home" title="#language_format (" $logo_description ", [$site_name])"> <img alt="$logo_description" src="$site_logo" /> </a>
+                     </div>
+                  </div>
+                  #end
+                  #else
+                  <div class="hidden-phone hidden-tablet">
+                     <div class="site-title">
+                        <a class="logo" href="/web/pages/home" title="#language_format (" $logo_description ", [$site_name])"> <img alt="$logo_description" src="$site_logo" /> </a>
+                     </div>
+                  </div>
+                  #end
+               </div>
+            </div>
+            <div class="span6 text-left">
+               <div class="follow-us">
+                  #if ($themeDisplay.getLayout().isPublicLayout()) #if($is_signed_in)                       
+                  <div class="row-fluid text-right">
+                     <div id="user-greeting"  class="member-login-btn member-login-btn-color pull-right">
+                        <a href="/group/pages/home"><i class="fa fa-user padd-6px "></i> $user_greeting ,</a> <a href="$sign_out_url" rel="nofollow" class="logout-style"><i class="fa fa-power-off padd-6px"></i> Logout</a>
+                     </div>
+                  </div>
+                  #else
+				 
+                  <div class="row-fluid text-right">
+                     <div class="member-login-btn member-login-btn-color pull-right">
+					<a href="/web/pages/login"> Member Login</a>
+				</div>
+                  </div>
+                  #end
+                  #else
+                  <div class="row-fluid text-right">
+                     <div id="user-greeting" class="member-login-btn member-login-btn-color pull-right"><a href="/web/pages/home"><i class="fa fa-user padd-6px "></i> $user_greeting ,</a> <a href="$sign_out_url" rel="nofollow" class="logout-style"><i class="fa fa-power-off padd-6px"></i> Logout</a></div>
+                  </div>
+                  #end
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+    <div class="row-fluid hidden-desktop mobile-menu">
+      <div class="row-fluid">
+         <div style="width: 100%" class="text-center">
+            <div class="text-center mobile-Oaks-logo">
+               <a href="#menu">
+                  <div class='hamburger example1'>
+                  </div>
+                  <!-- 	<p style="font-size:8px;color: #fff; text-align: left; text-transform: uppercase;">Menu</p> -->
+               </a>
+               <img class="logo" src="$images_folder/club-images/mobile-logo.png" />
+            </div>
+         </div>
+      </div>
+   </div>
+</header>

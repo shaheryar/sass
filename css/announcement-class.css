@@ -1,0 +1,168 @@
+/* start announcement portlet classes */
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-state-active em {
+  background: #ee3439 none repeat-x scroll left -1400px padding-box !important;
+  border: 1px solid #aaaaaa;
+  color: #ffffff !important;
+  font-weight: normal;
+}
+
+.iceCmdBtn.portlet-form-button.tabButton.green {
+  background-color: #007042;
+  background-image: none !important;
+  border: medium none;
+  color: #fff;
+  padding: 3px 5px;
+}
+
+.iceCmdBtn.portlet-form-button.tabButton {
+  background-color: #25809a;
+  background-image: none !important;
+  border: medium none;
+  color: #fff;
+  padding: 3px 5px;
+}
+
+
+/* .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+  font-family: "open_sanslight",sans-serif !important;
+  font-size: 16px !important;
+} */
+
+.ui-tabset .ui-tabs-nav div {
+  background-color: #c6992f;
+  background-image: none !important;
+  border-bottom: 0 none !important;
+  color: #fff;
+  float: left;
+  font-family: 'open_sansregular' !important;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+}
+
+.iceCmdBtn.portlet-form-button.textfieldsbt2 {
+  background-color: #25809a;
+  background-image: none;
+  border: medium none;
+  color: #fff;
+  padding: 3px 5px;
+}
+.iceCmdBtn.portlet-form-button.textfieldsbt2:hover {
+  background-color: #ee3439;
+}
+
+.ui-tabset .ui-tabs-nav div em {
+  padding: 0 6px !important;
+}
+
+.ui-tabset .ui-tabs-nav {
+  padding: 0.2em 0.2em 0.1em !important;
+}
+
+.bx-wrapper {
+  border: 5px solid #f2f2f2;
+  box-shadow: 0 1px 4px #999;
+  margin-bottom: 10px !important;
+/*   width: 100% !important; */
+}
+
+.bx-viewport {
+  max-height: 327px;
+}
+
+.bx-wrapper img {
+  margin-right: 20px;
+}
+
+.layoutTwoContentSpan {
+  background-image: url("../images/club-images/announcement-bg.png");
+  background-repeat: no-repeat;
+  color: #fff !important;
+  display: block !important;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: bold;
+  height: 100%;
+  padding: 100px 10px 7px;
+  position: absolute !important;
+  text-decoration: none !important;
+ /*  top: 0; */
+  vertical-align: middle;
+  width: 100%;
+  margin-top: -328px;
+}
+
+.layoutTwoContentSpan span {
+  display: block;
+  max-width: 300px !important;
+}
+
+/* .member-home-wrapper .iceOutLbl.portlet-form-label.layoutTwoShorDes {
+  font-family: "Roboto-Regular",sans-serif !important;
+  font-size: 14px !important;
+  padding: 10px 10px;
+  text-align: left;
+} */
+
+.member-home-wrapper .layoutTwoShorDes {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  bottom: 0;
+  color: #fff !important;
+  display: block !important;
+  font-size: 16px !important;
+  max-height: 50px;
+  min-height: 50px;
+  overflow: hidden;
+  padding: 5px;
+  position: absolute !important;
+  width: 100%;
+}
+
+.layoutTwoContentSpan a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+
+/* end announcement portlet classes */
+
+
+
+
+
+for admin css
+
+/* announcement portlet classes */
+
+.announcement-wrapper {
+    overflow: inherit !important;
+    max-height: inherit !important;
+}
+
+.member-home-wrapper .layoutTwoShorDes {
+  bottom: 25px !important;
+}
+
+.layoutTwoContentSpan {
+    bottom: 85px !important;
+    position: absolute !important;
+}
+.bx-viewport {
+  max-height: 100% !important;
+}
+
+.layoutTwoContentSpan {
+  background-color: #285e43;
+  background-image: none !important;
+  height: auto !important;
+  margin-top: -205px !important;
+  padding-top: 10px !important;
+  position: relative !important;
+  width: auto !important;
+}
+
+/* end announcement portlet classes */

@@ -1,0 +1,100 @@
+.mp-grid-col i {
+    display: $icon-display;
+}
+.mp-picture-image {
+	padding: .25em;
+    box-shadow: 0 0 0.1em rgba(0,0,0,0.35);
+    margin-bottom: 5px;
+	width: 180px;
+}
+.mp-dn-heading {
+    font-size: 26px !important;
+    background: none !important;
+    margin: 0 !important;
+    line-height: normal !important;
+	text-align: left;
+}
+.mp-header {
+    background-color: transparent!important;
+    color: #333 !important;
+    padding: 12px 0px !important;
+    text-align: left;
+    font-size: 26px;
+    font-weight: normal;
+}
+.col-head {
+	width: 33.33333% !important;
+}
+
+.mp-grid-col {
+	padding: 5px !important;
+}
+
+.mp-dep-picture-image {
+	padding: 0.25em;
+	box-shadow: $default-boxShadow;
+	width: 90px;
+	height: 95px !important;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+.dependent-box {
+	width: 100%;
+	text-align: center;
+	@include border;
+}
+
+.mp-view-button {
+	margin-bottom: 10px;
+}
+
+.mp-upload-delete {
+	font-size:$default-font-size;
+}
+
+.mp-edit-grid {
+	
+}
+
+span.pm-secondary {
+	word-break: break-all;
+}
+
+i.mp-upload {
+	margin-right: 20px;
+}
+
+.mp-upload {
+    margin-right: 20px;
+}
+
+.ui-datagrid-content-empty {
+	color: $default-fontColor;
+	background-color:$secondry-bg !important;
+	@include border ;
+}
+
+@media screen and (min-width:768px) and (max-width:980px) {
+   .mp-picture-image {
+  width: auto !important;
+} 
+    
+}
+
+@media ( max-width : 640px) {
+	.mp-picture-image {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	.mp-grid-col {
+		padding: 0px !important;
+	}
+	.mp-dn-heading {
+		text-align: center;
+	}
+	.mp-email {
+		font-size: 15px;
+		word-break: break-all;
+	}
+}

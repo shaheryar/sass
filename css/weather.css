@@ -1,0 +1,163 @@
+/* Weather-Start */
+
+
+
+.weather-update .icon-0:before { content: ":"; }
+.weather-update .icon-1:before { content: "p"; }
+.weather-update .icon-2:before { content: "S"; }
+.weather-update .icon-3:before { content: "Q"; }
+.weather-update .icon-4:before { content: "S"; }
+.weather-update .icon-5:before { content: "W"; }
+.weather-update .icon-6:before { content: "W"; }
+.weather-update .icon-7:before { content: "W"; }
+.weather-update .icon-8:before { content: "W"; }
+.weather-update .icon-9:before { content: "I"; }
+.weather-update .icon-10:before { content: "W"; }
+.weather-update .icon-11:before { content: "I"; }
+.weather-update .icon-12:before { content: "I"; }
+.weather-update .icon-13:before { content: "I"; }
+.weather-update .icon-14:before { content: "I"; }
+.weather-update .icon-15:before { content: "W"; }
+.weather-update .icon-16:before { content: "I"; }
+.weather-update .icon-17:before { content: "W"; }
+.weather-update .icon-18:before { content: "U"; }
+.weather-update .icon-19:before { content: "Z"; }
+.weather-update .icon-20:before { content: "Z"; }
+.weather-update .icon-21:before { content: "Z"; }
+.weather-update .icon-22:before { content: "Z"; }
+.weather-update .icon-23:before { content: "Z"; }
+.weather-update .icon-24:before { content: "E"; }
+.weather-update .icon-25:before { content: "E"; }
+.weather-update .icon-26:before { content: "3"; }
+.weather-update .icon-27:before { content: "a"; }
+.weather-update .icon-28:before { content: "A"; }
+.weather-update .icon-29:before { content: "a"; }
+.weather-update .icon-30:before { content: "A"; }
+.weather-update .icon-31:before { content: "6"; }
+.weather-update .icon-32:before { content: "1"; }
+.weather-update .icon-33:before { content: "6"; }
+.weather-update .icon-34:before { content: "1"; }
+.weather-update .icon-35:before { content: "W"; }
+.weather-update .icon-36:before { content: "1"; }
+.weather-update .icon-37:before { content: "S"; }
+.weather-update .icon-38:before { content: "S"; }
+.weather-update .icon-39:before { content: "S"; }
+.weather-update .icon-40:before { content: "M"; }
+.weather-update .icon-41:before { content: "W"; }
+.weather-update .icon-42:before { content: "I"; }
+.weather-update .icon-43:before { content: "W"; }
+.weather-update .icon-44:before { content: "a"; }
+.weather-update .icon-45:before { content: "S"; }
+.weather-update .icon-46:before { content: "U"; }
+.weather-update .icon-47:before { content: "S"; }
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+#weather h6 {
+  color: #fff;
+  font-size: 28px !important;
+  font-weight: lighter;
+  line-height: inherit !important;
+  margin: 0 0 9px !important;
+  padding: 0;
+  text-align: center;
+}
+
+
+.weather-update i {
+  color: #fff;
+  font-family: weather !important;
+  font-size: 126px !important;
+  line-height: inherit !important;
+}
+
+/* #weather {
+  padding-top: 20px;
+}
+ */
+
+#weather h6 i {
+  display: block;
+  font-family: weather !important;
+  margin-bottom: 35px;
+  margin-top: 12px;
+}
+
+#weather li {
+  font-size: 20px;
+  list-style: outside none none;
+  text-align: center;
+}
+
+/* Extra Classes start */
+.html-generator-portlet .container {
+  position: relative;
+  top: -346px;
+  z-index: 21;
+}
+.weather-area-home {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgba(0,0,0,0.8);
+}
+.weather-area-home  h1 {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 18px !important;
+  text-align: center;
+  margin-bottom: 36px !important;
+}
+
+#slide-1-layer-1 {
+  padding: 25px 15px 13px !important;
+}
+#slide-1-layer-2 {
+  padding: 9px 15px 25px !important;
+}
+#slide-2-layer-1 {
+  padding: 25px 15px 13px !important;
+}
+#slide-2-layer-2 {
+  padding: 9px 15px 25px !important;
+}
+#slide-3-layer-1 {
+  padding: 25px 15px 13px !important;
+}
+#slide-3-layer-2 {
+  padding: 9px 15px 25px !important;
+}
+@media screen and (min-width: 220px) and (max-width:1260px) {
+.weather-area-home {
+  background-color: #0e5839;
+  position: relative;
+}
+.weather-update {
+  height: auto;
+  padding: 19px 0 29px 0;
+  width: auto;
+}
+.html-generator-portlet .container {
+  position: relative;
+  top: 0;
+  z-index: 21;
+  width: 100%;
+}
+	
+}
+/* Extra Classes end */
+
+
+/* Weather-End */

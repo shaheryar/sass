@@ -1,0 +1,186 @@
+/* custom-styles-start */
+.accordionContainer {
+  position: relative;
+}
+@media screen and (min-width:768px){
+.accordionContainer li:first-child {
+background: url(/documents/10184/15105/dining-tab-img.jpg) !important;
+background-size: cover;
+background-repeat: no-repeat !important;
+}
+.accordionContainer li:nth-child(2) {
+background: url(/documents/10184/15105/tennis-tab-img.jpg) !important;
+background-size: cover;
+background-repeat: no-repeat !important;	
+}
+.accordionContainer li:nth-child(3) {
+background: url(/documents/10184/15105/fitness-tab-img.jpg) !important;
+background-size: cover;
+background-repeat: no-repeat !important;
+/* border: 1px solid #fff;	 */
+}
+.accordionContainer li:last-child {
+background: url(/documents/10184/15105/Children-tab-img.jpg) !important;
+background-size: cover;
+background-repeat: no-repeat !important;
+}
+
+.accordionContainer li:first-child .content {
+background: url(/documents/10184/15105/dining-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+background-position: right center !important;
+}
+.accordionContainer li:nth-child(2) .content {
+background: url(/documents/10184/15105/tennis-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;	
+background-position: right center !important;
+}
+.accordionContainer li:nth-child(3) .content {
+background: url(/documents/10184/15105/fitness-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+background-position: right center !important;
+}
+.accordionContainer li:last-child .content {
+background: url(/documents/10184/15105/childern-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+background-position: right center !important;
+}
+
+.uberAccordion > li {
+  height: 573px !important;
+  cursor: pointer !important;
+}
+
+.uberAccordion .content{
+  height: 573px !important;
+  left: 188px !important;
+  cursor: default !important;
+}
+.custom-content-area {
+  position: absolute;
+  margin: auto;
+  right: 155px;
+  top: 0;
+  bottom: 0;
+  height: 30%;
+}
+.custom-content-area h2 {
+  color: #fff !important;
+  font-size: 23px !important;
+  text-shadow: 1px 1px 3px #000;
+}
+.custom-content-area h2 span {
+  font-size: 36px;
+  font-family: 'lato-bold';
+  margin-top: 11px !important;
+  display: inline-block;
+}
+}
+@media screen and (min-width:200px) and (max-width:767px) {
+.accordionContainer .uberAccordion > li > h1 {
+  background-color: #ebebeb;
+  display: block !important;
+  margin: 0 !important;
+  font-size: 23px !important;
+  padding: 8px !important;
+  border-bottom: 1px solid #bbb;
+  text-shadow: none !important;
+  color: #000 !important;
+}
+.home-accordion-area .accordionContainer li:first-child .content {
+background: url(/documents/10184/15105/dining-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+.accordionContainer li:nth-child(2) .content {
+background: url(/documents/10184/15105/tennis-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;	
+}
+.accordionContainer li:nth-child(3) .content {
+background: url(/documents/10184/15105/fitness-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+.accordionContainer li:last-child .content {
+background: url(/documents/10184/15105/childern-content-img.jpg) !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}	
+.custom-content-area h2 {
+  color: #fff !important;
+  font-size: 23px !important;
+  text-shadow: 1px 1px 3px #000;
+}
+.custom-content-area h2 span {
+  font-size: 30px;
+  font-family: 'lato-bold';
+  margin-top: 11px !important;
+  display: inline-block;
+}	
+}
+@media screen and (min-width:768px) and (max-width:980px) {
+.custom-content-area h2 span {
+  font-size: 27px;
+}	
+.custom-content-area {
+  margin-left: 9px;
+}	
+}
+/* custom-styles-end */
+
+.home-accordion-area ul {
+  margin: 0 !important;
+}
+
+.uberAccordion {
+   padding: 0;
+}
+
+.uberAccordion > li {
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.uberAccordion > li > h1 { 		
+    margin: 30px 0 0 12px !important;
+    font-size: 28px !important;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff !important;
+    font-family: "Lato-light" !important;	
+	text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.uberAccordion > li > div {
+    padding: 15px;
+}
+
+
+/* Default CSS for sub-accordion */
+
+.uberAccordion .uberAccordion > li > h1 {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.uberAccordion .uberAccordion > li > div {
+   background-color: #666666;
+   color: #FFF;
+}
+
+
+/* Default CSS for vertical orientation */
+
+.uberAccordion.accordion-vertical {
+    height: 300px;
+}
+
+.uberAccordion .uberAccordion.accordion-vertical {
+    height: 260px;
+}

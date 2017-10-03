@@ -1,0 +1,159 @@
+.calendar-add-event-btn {
+    background-color: $background-dark !important;
+    background-image: none !important;
+}
+.scheduler-base-today {
+	background-color: $background-dark !important;
+    background-image: none !important;
+}
+.scheduler-base-icon-prev {
+  background-color: $background-dark !important;
+  background-image: none !important;
+  border: 0 none !important;
+  color: $Light-fontColor !important;
+  margin-right: 3px !important;
+  text-shadow: none !important;
+  padding: 6px 10px !important;
+}
+.scheduler-base-icon-next {
+	background-color: $background-dark !important;
+    background-image: none !important;
+    color: $Light-fontColor !important;
+	text-shadow: none !important;
+	border: 0px !important;
+    padding: 6px 10px !important;
+}
+.calendar-portlet .btn-group-content button {
+  padding: 5px 8px !important;
+}
+.scheduler-base-view {
+	background-color: $background-dark !important;
+    background-image: none !important;
+}
+.scheduler-base-views .active {
+  background-color: $background-dark !important;
+  color:$Light-fontColor !important;
+}
+.yui3-calendar-day.yui3-calendar-day-selected {
+    background-color: $background-light !important;
+    color: $dark-fontColor !important;
+}
+.btn-primary {
+  background-color: $background-dark !important;
+  background-image: none !important;
+  border-radius: 0 !important;
+  padding: 5px 20px !important;
+}
+.yui3-calendar-header-label {
+  color:$Light-fontColor;
+  text-align: center;
+}
+.yui3-u.yui3-calendarnav-nextmonth > span {
+    background: $background-dark none repeat scroll 0 0;
+    color: $Light-fontColor;
+    display: block  !important;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 10px 1px;
+    position: absolute;
+}
+.yui3-u.yui3-calendarnav-prevmonth > span {
+    background: $background-dark ;
+    padding: 10px 3px;
+    margin-top: 0px;
+    display: block !important;
+    color:$Light-fontColor;
+    font-weight: bold;
+    position: absolute;
+}
+.yui3-calendarnav-prevmonth {
+  border-right-color: $Light-fontColor !important;
+}
+.yui3-calendarnav-nextmonth {
+  border-left-color: $Light-fontColor !important;
+}
+ th.yui3-calendar-weekday {
+    background-color: $background-light;
+    @include border;
+	color: $dark-fontColor !important;
+    font-weight: bold !important;
+}
+.yui3-calendar-grid .yui3-calendar-row td {
+    color: $dark-fontColor;
+    @include border;
+}
+.yui3-calendar-prevmonth-day {
+    @include border;
+}
+.yui3-calendar-day {
+     @include border;
+}
+.yui3-calendar-day:hover {
+	    background: $background-dark !important;
+		color: $Light-fontColor !important;
+}
+.lfr-current-day {
+	    background: $primary-bg !important;
+		color: $Light-fontColor !important;
+}
+.yui3-calendar-nextmonth-day {
+	 @include border;
+}
+.yui3-skin-sam .yui3-calendar-header {
+	padding-bottom: 0px !important;
+}
+.yui3-calendar-header {
+  background-color: $background-dark;
+  padding-top: 8px;
+  min-height: 27px;
+}
+/*.calendar-portlet .lfr-busy-day:after {
+    display: none !important;
+}*/
+.scheduler-view-table-header-table th {
+    background-color:$background-dark !important;
+    color: $Light-fontColor ;
+    @incluide border;;
+}
+.scheduler-base-view-date {
+  display: block;
+  font-weight: bold !important;
+  margin: 4px 0 0 !important;
+}
+#editBtn {
+  background-color: $background-dark !important;
+  background-image: none !important;
+  color: $Light-fontColor !important;
+  margin-right: 2px;
+  text-shadow: none !important;
+  border: 1px solid;
+  padding: 5px 10px;
+}
+#saveBtn {
+  background-color: $background-dark !important;
+  background-image: none !important;
+  border: 1px solid;
+  color: $Light-fontColor !important;
+  margin-right: 2px;
+  text-shadow: none !important;
+  padding: 5px 10px;    
+}
+#viewBtn {
+  background-color: $background-dark !important;
+  background-image: none !important;
+  color: $Light-fontColor !important;
+  margin-right: 2px;
+  text-shadow: none !important;
+}
+#deleteBtn {
+  background-color:$background-dark !important;
+  background-image: none !important;
+  color:$Light-fontColor !important;
+  text-shadow: none !important;
+}
+@media (max-width: 979px) {
+	.aui .btn {
+    padding: 4px 12px;
+    font-size: 14px;
+}
+}

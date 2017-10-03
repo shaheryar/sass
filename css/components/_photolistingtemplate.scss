@@ -1,0 +1,14 @@
+.photo-list-container ul.photo-list-ul {
+    margin-left: 0px !important;
+}
+
+/* For Default Desktop View */
+@media screen and (min-width:981px) and (max-width:3200px){
+	.photo-list-container ul.cstm-tmplt-ul > li.cstm-tmplt-ul:nth-child(odd) .photo {
+		margin-left: 5px;
+	}
+
+	.photo-list-container ul.cstm-tmplt-ul > li.cstm-tmplt-li:nth-child(even) {
+		padding-left: 15px;
+	}
+}

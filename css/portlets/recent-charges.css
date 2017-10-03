@@ -1,0 +1,21 @@
+.rc-label {
+	margin-left: 3px;
+}
+
+.rc-min-label {
+	margin-top: 15px;
+}
+
+.rc-tree {
+	margin-left: -19px;
+}
+
+.ui-panel-title {
+	text-shadow: none;
+}
+
+.rc-datatable th { /* 	padding: 0px !important; */
+	/* 	    margin: 0px ; */
+	/* 	    zoom: 1; */
+	display: none;
+}

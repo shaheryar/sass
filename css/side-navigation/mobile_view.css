@@ -1,0 +1,126 @@
+a {
+    font-weight: 400;
+}
+
+li.subLeft {
+    background-image: none !important;
+    list-style: outside none none;
+    margin: 0 !important;
+    padding: 10px 0 10px 0px !important;
+    font-size: 20px !important;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+li.sidenav-mobile-view-parent {
+
+    color: #d0c797;
+    display: block;
+    padding: 10px 0px 0px 0px;
+    text-shadow: none;
+}
+
+
+span.sidenav-mobile-view-heading {
+    background-color: #01773e;
+    color: #fff !important;
+    display: block !important;
+    margin-left: 0 !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+    padding: 10px 0 10px 12px !important;
+    text-transform: uppercase;
+    
+}
+
+
+
+span.side-nav-mobile-view-unselected-item {
+    color: #000000 !important;
+    display: block;
+    font-size: 17px !important;
+    padding: 0 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    padding: 4px 0px 4px 5px !important;
+}
+
+a.sidenav-mobile-view-parent-a {
+    background-color: #938c6f;
+}
+
+
+span.side-nav-mobile-view-selected-item {
+    color: #000000 !important;
+    display: block;
+    font-size: 17px !important;
+    padding: 4px 0 4px 4px !important;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase !important;
+}
+
+
+li.sidenav-mobile-view-parent i {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -37px;
+    color: #000 !important;
+    font-size: 16px !important;
+    background-color: #fff;
+    padding: 4px 7px 4px 6px;
+    font-weight: normal;
+    left: -3px;
+}
+
+
+
+.sidenav-mobile-view-ul {
+  margin: 0 !important;
+}
+
+.sidenav-mobile-view-children {
+    margin: 0 !important;
+}
+
+.sidenav-mobile-view-children .subLeft > a {
+  display: block;
+}
+
+.sidenav-mobile-view-selected-heading {
+    color: #fff !important;
+    display: block !important;
+    margin-left: 0 !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+    background-color: #036e3c;
+    padding: 10px 0 10px 12px !important;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.sidenav-mobile-down-img {
+    background: url("../../images/side-navigation/down.png");
+    width: 14px !important;
+    height: 16px !important;
+    position: relative;
+    top: -30px;
+    right: 15px;
+	float:right;
+}
+
+.sidenav-mobile-up-img {
+    background: url("../../images/side-navigation/up.png");
+    width: 14px !important;
+    height: 16px !important;
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 15px;
+}
+
+#sidenav-mob-ul li {
+    border-bottom: 1px solid #e5e5e5;
+}

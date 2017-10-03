@@ -1,0 +1,25 @@
+ <div id="footer">
+      <div class="container">
+            <div class="row-fluid footer-links text-center">
+				<ul>
+					<li><a href="/web/pages/contacts">Contacts</a></li>
+					<li><a href="/web/pages/community-resources">Community Resources</a></li>
+					<li><a href="/web/pages/government-links"> Government Links</a></li>
+					<li><a href="/web/pages/animal-services">Animals Services</a></li>
+					<li><a href="/web/pages/commercial-links">Commercial Links</a></li>
+					<li><a href="/web/pages/direction/maps"> Direction/Maps</a></li>
+				</ul>
+			</div>
+			<div class="row-fluid social-links text-center">
+				<ul>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+ Instragram</a></li>
+					<li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+					<li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+					<li><a href="#"> <i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</a></li>
+				</ul>
+			</div>
+         </div>
+   </div>
+   <!-- 
+    <p>Copyright © 2017 West Bay Club. All Rights Reserved Powered by <a href="http://www.globalnorthstar.com/" target="_blank">Northstar Technologies Inc</a></p>    -->

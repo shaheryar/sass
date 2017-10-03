@@ -1,0 +1,245 @@
+
+#textured-cssmenu,
+#textured-cssmenu ul,
+#textured-cssmenu ul li,
+#textured-cssmenu ul li a,
+#textured-cssmenu #menu-button {
+  margin: 0;
+/*   padding: 0; */
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#textured-cssmenu:after,
+#textured-cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#textured-cssmenu #menu-button {
+  display: none;
+}
+#textured-cssmenu {
+  width: auto;
+/* font-family: 'Oswald', sans-serif !important; */
+
+}
+
+#textured-cssmenu > ul {
+
+}
+#textured-cssmenu.align-right > ul > li {
+  float: right;
+}
+/* #textured-cssmenu > ul > li {
+  background-image: url("/documents/10180/1139818/nav-sep.png");
+  background-position: right 30px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 0 25px 0 0;
+} */
+#textured-cssmenu > ul > li {
+  background-position: right 30px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  /* margin-right: 158px; */
+}
+#textured-cssmenu > ul > li:hover {
+  background-position: right 30px;
+}
+#textured-cssmenu.align-center > ul {
+  float: none;
+  text-align: center;
+}
+#textured-cssmenu.align-center > ul > li {
+  float: none;
+}
+#textured-cssmenu.align-center ul ul {
+  text-align: left;
+}
+#textured-cssmenu > ul > li > a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 0px 0px 5px #000;
+  text-shadow: 1px 1px 1px #000;
+  text-transform: uppercase;
+}
+#textured-cssmenu > ul > li > a:hover {
+  color: #fff;
+  text-decoration:none;
+}
+
+#textured-cssmenu > ul > li > a:focus {
+  color: #fff !important;
+  text-decoration:none;
+}
+/* @media screen and (min-width: 1100px) and (max-width:1280px) {
+#textured-cssmenu > ul > li > a {
+  padding: 5px 04px;
+}
+} */
+@media screen and (min-width: 768px) and (max-width:1199px) {
+/* #textured-cssmenu > ul > li > a {
+  font-size: 12px;
+  padding: 25px 0px;
+} */
+/* #textured-cssmenu > ul > li {
+  margin-right: 110px;
+} */
+#textured-cssmenu ul ul {
+  font-size: 14px !important;
+}
+/* #textured-cssmenu ul ul li a {
+  width: 142px !important;
+} */
+}
+
+
+
+#textured-cssmenu > ul > li.has-sub > a {
+  padding-right: 45px;
+}
+#textured-cssmenu > ul > li.has-sub > a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: #d3eced;
+  right: 17px;
+  top: 22px;
+}
+#textured-cssmenu > ul > li.has-sub.active > a::after,
+#textured-cssmenu > ul > li.has-sub:hover > a {
+  border-top-color: #ffffff;
+}
+#textured-cssmenu ul ul {
+/*   font-size: 15px; */
+  left: -9999px;
+  opacity: 0;
+  padding-top: 6px;
+  position: absolute;
+  top: 60px;
+  transition: top 0.2s ease 0s, opacity 0.2s ease-in 0s;
+/*   text-transform: uppercase; */
+}
+#textured-cssmenu.align-right ul ul {
+  text-align: right;
+}
+
+#textured-cssmenu.align-right > ul > li > ul::after {
+  left: auto;
+  right: 20px;
+}
+#textured-cssmenu ul ul ul::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-right-color: #396e1f;
+  top: 11px;
+  left: -4px;
+  display:none;
+}
+#textured-cssmenu.align-right ul ul ul::after {
+  border-right-color: transparent;
+  border-left-color: #396e1f;
+  left: auto;
+  right: -4px;
+}
+#textured-cssmenu > ul > li > ul {
+  text-align: left;
+  z-index: 5;
+}
+/* @media only screen 
+		  and (min-width: 979px) 
+		  and (max-width: 1200px) {
+#textured-cssmenu > ul > li > ul {
+  top: 15px !important;
+  z-index: 5;
+}		  
+} */
+#textured-cssmenu > ul > li:hover > ul {
+  top: 43px;
+  left: 0;
+  opacity: 1;
+  display:block !important;
+}
+#textured-cssmenu.align-right > ul > li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#textured-cssmenu ul ul ul {
+  padding-top: 0;
+  padding-left: 7px;
+}
+#textured-cssmenu.align-right ul ul ul {
+  padding-right: 7px;
+}
+#textured-cssmenu ul ul > li:hover > ul {
+  left: 180px;
+  top: 0;
+  opacity: 1;
+  display:block !important;
+}
+#textured-cssmenu.align-right ul ul > li:hover > ul {
+  left: auto;
+  right: 100%;
+  opacity: 1;
+  display:block !important;
+}
+
+
+#textured-cssmenu ul ul li:hover > a,
+#textured-cssmenu ul ul li.active > a {
+  color: #fff;
+/*   text-shadow:1px 1px 1px #fff; */
+}
+#textured-cssmenu ul ul li:first-child > a {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#textured-cssmenu ul ul li:last-child > a {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#textured-cssmenu > ul > li > ul::after {
+  position: absolute;
+  display: block;
+}
+#textured-cssmenu ul ul li.has-sub > a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-left-color: #777777;
+  right: 17px;
+  top: 14px;
+}
+#textured-cssmenu.align-right ul ul li.has-sub > a::after {
+  border-left-color: transparent;
+  border-right-color: #777777;
+  right: auto;
+  left: 17px;
+}
+#textured-cssmenu ul ul li.has-sub.active > a::after,
+#textured-cssmenu ul ul li.has-sub:hover > a::after {
+  border-left-color: #333333;
+}
+#textured-cssmenu.align-right ul ul li.has-sub.active > a::after,
+#textured-cssmenu.align-right ul ul li.has-sub:hover > a::after {
+  border-right-color: #333333;
+  border-left-color: transparent;
+}

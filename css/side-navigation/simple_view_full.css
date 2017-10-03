@@ -1,0 +1,119 @@
+span.sidenav-full-selected-heading {
+    color: yellow;
+}
+
+a {
+    font-weight: 400;
+}
+
+.sidenav-full-ul {
+    margin: 0 !important;
+}
+
+li.subLeft {
+    background-image: none !important;
+    list-style: outside none none;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+li.sidenav-full-parent {
+  background-image: none !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  list-style: outside none none;
+  margin: 0 !important;
+  padding: 0 0px 0 0 !important;
+  text-transform: uppercase;
+}
+
+
+span.side-nav-full-unselected-item {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a.sidenav-full-parent-a {
+    background-color: #938c6f;
+}
+
+span.side-nav-full-selected-item {
+    color: #000;
+    display: block;
+    font-size: 18px !important;
+    line-height: 30px;
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.sidenav-full-parent > a:hover {
+	text-decoration: none;
+}
+
+.sidenav-full-children {
+  margin-left: 15px !important;
+}
+
+.subLeft > a {
+  color: #000;
+}
+
+
+.sidenav-full-children {
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 0 !important;
+}
+
+ul.sidenav-full-children-level2 {
+    margin: 0;
+}
+
+ul.sidenav-full-children-level2 li a:last-child {
+    border: none;
+}
+
+ul.sidenav-full-children li a:last-child {
+    border: none;
+}
+
+li.subLeft:last-child {
+    border: none !important;
+}
+
+.sidenav-full-parent a {
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    font-size: 20px;
+    font-weight: normal !important;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #00529b !important;
+    padding: 10px 0 10px 0;
+}
+
+ul.sidenav-full-children li a {
+    color: #6b6a6a !important;
+}
+
+ul.sidenav-full-children li a:hover {
+    color: #fff !important;
+	transition: all 0.3s linear 0s;
+}
+
+ul.sidenav-full-children li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+ul.sidenav-full-children li.subLeft a {
+    display: block !important;
+    width: 100% !important;
+}

@@ -1,0 +1,171 @@
+
+@media screen and (max-width: 768px) and (min-width: 300px){
+#footer {
+    margin-bottom: 39px;
+}
+.zoom-left {
+    float: none !important;
+}
+.zoom-left {
+    max-width: 300px;
+    margin: auto !important;
+    text-align: center !important;
+}
+.heading-home h1{
+ font-size: $fontsize5;
+}
+}
+@media screen and (max-width: 1920px) and (min-width:1300px) {
+ .top-main-text h1 {
+    font-size: 50px !important;
+	}
+}
+@media screen and (max-width: 669px) and (min-width: 300px){
+.more-details-main-banner {
+    margin-bottom: 0 !important;
+}
+}
+@media screen and (max-width: 1250px) and (min-width: 300px){ 
+.top-main-text h1{
+	font-size: $fontsize1;
+}
+.heading-home h1{
+	font-size: $default-font-size !important;
+}
+
+.more-detail-sec {
+    padding: 0px 20px 50px 20px;
+}
+
+#footer ul li a {
+    padding: 4px 8px;
+    font-size: $footermobilefont;
+}
+.social-links ul li a {
+    font-size: $footermobilefont;
+}
+#footer ul{
+margin-top: 0 !important;
+}
+}
+/* Accordion Color */
+
+/* Mobile logo Size */
+.mobile-Oaks-logo .logo {
+    width: 200px;
+}
+/* Heading Style For Website */
+.p-main-home{
+	color: $clubWhite;
+}
+.more-detail-sec h2, .more-detail-sec h1{
+ color: $clubGreen;
+}
+
+
+/* Details Pages */
+.more-details-main-banner {
+    margin-bottom: 35px;
+}
+/* Inner Page */
+.heading-home-main {
+    background: rgba(217, 217, 215, 0.8);
+    margin-bottom: 73px;
+	padding: 5px 0px !important;
+}
+.heading-home-inner {
+    border: 3px solid #000;
+    margin: 15px 35px;
+}
+.heading-home-inner h1 {
+    font-size: $fontsize3 !important;
+    text-transform: $textuppercase;
+	color: $clubBlack !important;
+	line-height: $lineheight-normal;
+	font-family: $treasurey-font-family;
+	margin-top: 10px !important;
+	margin-bottom:10px !important;
+}
+.heading-home-inner h1 a{
+	color: $clubBlack !important;
+	text-decoration: $none;
+}
+.heading-home-inner h1 a:hover{
+	text-decoration: $none;
+}
+
+/* Home */
+.top-main-text {
+    margin: 180px 0px 45px 0px;
+}
+.top-main-text h1 {
+    text-transform: $textuppercase;
+    color: $clubWhite !important;
+    text-shadow: 3px 2px 5px #051009;
+	font-family: $treasurey-font-family;
+}
+.top-main-text h1 + p{
+    color: $clubWhite;
+	font-size: $fontsize7;
+	text-transform: $textuppercase;
+}
+.heading-home h1 {
+    font-size:$fontsize8 !important;
+    line-height: $lineheight-normal;
+    color: $clubWhite;
+    font-family: $treasurey-font-family;
+    text-transform: $textuppercase;
+	margin-bottom: 38px;
+	a {
+    color: white;
+    &:hover {
+      color: white;
+    }
+	}
+}
+.member-login-btn {
+  padding: 10px 3px;
+  text-align: center;
+  border: 1px solid #e1ded7;
+  background: $transparent;
+  width: auto;
+  border: 3px solid #fff;
+  margin-top: 25px;
+  text-transform: $textuppercase;
+  a {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.zoom { 
+width: 100%; 
+float:left;
+z-index: 10;
+    -webkit-transition: all .3s ease-out; 
+    -moz-transition: all .3s ease-out; 
+    -o-transition: all .3s ease-out; 
+    transition: all .3s ease-out; 
+-webkit-backface-visibility: hidden;
+-webkit-perspective: 1000;
+}
+.zoom-left {
+    border: 7px solid #eee;
+}
+.zoom:hover { 
+    -moz-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.08);
+    -ms-transform: scale(1.08);
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+    M11=2, M12=-0, M21=0, M22=2);
+  
+}
+.zoom-left {
+width: 90%; 
+float:left;
+z-index: 10; 
+overflow: hidden;  
+}

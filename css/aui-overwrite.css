@@ -1,0 +1,18 @@
+.aui .portlet, .aui .portlet-borderless-container {
+  background: transparent none repeat scroll 0 0 !important;
+ }
+ 
+ .aui {
+  background-color: transparent !important;
+  
+}
+
+.aui label {
+	
+	cursor: default !important;
+}
+
+.aui .portlet-borderless-container {
+  padding: 0 !important;
+}
+

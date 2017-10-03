@@ -1,0 +1,745 @@
+
+.homeHeading {
+ background: -moz-linear-gradient(center top , #E41A22 0%, #B41419 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(top, #e41a22 0%, #b41419 100%);
+  border-radius: 10px;
+  border-right: 1px solid #E2E2E2;
+ border-right: 1px solid #E2E2E2;
+  color: #FFFFFF;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 23px;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding: 5px 10px 0;
+  position: relative;
+	background: #e41a22;
+}
+.reservationStatus{
+ font-family: Arial,Helvetica,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.seatingTimeBg {
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	height: 45px;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding: 0 0 0 0;
+	position: relative;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e2e2e2));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2', GradientType=0 );
+	background: linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: #e2e2e2;
+	border-right: 1px solid #E2E2E2;
+	color: #606060;
+}
+
+
+.selectSeating textinput {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: 100%;
+}
+
+#menu_wrap {
+ /* border-radius: 10px;
+  height: 45px;
+  list-style-type: none;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding: 0 10px 0 0;
+  position: relative;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e2e2e2));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2', GradientType=0 );
+	background: linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	list-style:none;
+	
+}
+
+.adultsSpan { 
+	font: 12px/30px Arial,Helvetica,sans-serif;
+}
+.fontClass { 
+	font: 12px/30px Arial,Helvetica,sans-serif;
+}
+
+.dropdown {
+	/*border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;*/
+	/*
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: auto;
+	margin-top: 6px;
+	*/
+}
+
+
+.dropdownHeadCountItems {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: auto;
+	margin-top: 6px;
+}
+
+.multiSelect {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	height: 18px;
+	outline: medium none;
+	padding: 5px;
+	width: 233px;
+	margin-top: 6px;
+}
+.inputTextBox {
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px !important;
+	box-shadow: 0 0 2px #888888;
+	font: 12px Arial,Helvetica,sans-serif !important;
+	height: 18px;
+	outline: medium none;
+	padding: 5px 1px !important;
+	width: auto;
+	margin-top: 6px;
+	background-image:none !important;
+}
+
+.multiSelectOptions {
+	width:235px;
+	 }
+	 
+.editarea { 
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	color: #666666;
+	float: left;
+	outline: medium none;
+	padding: 5px 0 0 10px;
+	background-image:none;
+}
+
+
+#childrenSpan {
+  font: 12px/30px arial,helvetica,sans-serif;
+}
+
+.agree {
+  font: 12px/30px arial,helvetica,sans-serif;
+}
+
+.agree a {
+  background-color: #C8C8C7;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 13px;
+  padding: 2px;
+}
+
+.available-label {
+  font: bold 12px/30px Arial,Helvetica,sans-serif;
+}
+
+.label-custom {
+  
+}
+
+.availableSeats {
+  background: none repeat scroll 0 0 #007204;
+  border: medium none;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
+  color: #FFFFFF;
+  font: bold 16px Arial,Helvetica,sans-serif;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.table-margins {
+  margin-left: 12px;
+  margin-top: 2px;
+  padding-top: 2px;
+}
+
+#ysearchinputmemberId_Reservation{
+	margin-top:-7px !important;
+}
+
+.ysearchinput {
+
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888 !important;
+	color: #666666 !important;
+	float: left;
+	outline: medium none;
+	width: 93% !important;
+	height: 25px !important;
+	margin-top: -2px;
+	text-align: left !important;
+	padding-right: 16px;
+}
+
+
+
+
+.ysearchinputDisabled {
+
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888 !important;
+	color: #666666 !important;
+	float: left;
+	outline: medium none;
+	width: 93% !important;
+	height: 25px !important;
+	margin-top: -2px;
+	text-align: left !important;
+	padding-right: 16px;
+
+}
+
+
+
+.ysearchinputOther {
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888 !important;
+	color: #666666 !important;
+	float: left;
+	outline: medium none;
+	width: 93% !important;
+	height: 25px !important;
+	margin-top: -2px;
+	text-align: left !important;
+	padding-right: 16px;
+}
+
+
+.noleftBorder {
+  border: 0px !important;
+	height:45px;
+	
+}
+
+.partyof { 
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	color: #666666;
+	float: left;
+	outline: medium none;
+	background-image:none !important;
+}
+
+.adultsSpanEvent { 
+	font: bold 12px/30px Arial,Helvetica,sans-serif; 
+}
+.availableTotals {
+	background: none repeat scroll 0 0 #007204;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
+	color: #FFFFFF;
+	font: bold 12px Arial,Helvetica,sans-serif;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.buttonEM {
+	background: none repeat scroll 0 0 #007204 !important;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
+	color: #FFFFFF !important;
+	font: bold 12px Arial,Helvetica,sans-serif;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	background-image:none !important;
+}
+
+.button {
+	background: none repeat scroll 0 0 #B0B0B0 !important;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
+	color: #000000 !important;
+	font: bold 12px Arial,Helvetica,sans-serif;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	background-image:none !important;
+}
+
+.buttonDisable {
+	background: none repeat scroll 0 0 #B0B0B0 !important;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
+	color: #6B6B6B !important;
+	font: bold 12px Arial,Helvetica,sans-serif;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	background-image:none !important;
+}
+
+.reservationTable {
+
+}
+
+.reservationsHeadings {
+	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
+/*	background-color: #FEF7F7 !important;*/
+background :none !important;
+  color: #000;
+  border: 0px;
+	/*border-bottom:1px solid #FF0000;*/
+	text-align: center;
+	
+}
+.reservationsMainHeadings {
+	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
+/*	background-color: #FEF7F7 !important;*/
+background :none !important;
+  color: #000;
+  border: 0px;
+	border-bottom:1px solid #FF0000;
+	text-align: center;
+	
+}
+
+.reservationsTotal {
+	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
+/*	background-color: #FEF7F7 !important;*/
+background :none !important;
+  color: #000;
+  border: 0px;
+	border-bottom:1px solid #FF0000;
+	text-align: center;
+	
+}
+
+.reservationsHeadingsOptional {
+	
+	background-color: #FEF7F7 !important;
+  color: #000;
+  border: 0px;
+	border-bottom:0px solid #FF0000 !important;
+	text-align: center;
+	
+}
+
+.additionalReservations{
+	background-color: #FEF7F7;
+  border: 1px solid #E8B6B6;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.reservationsHeadings .optionalitems {
+  color: #000000;
+	/*background-color:#FEF7F7;*/
+	font-size:12px;
+	text-align: center;
+}
+
+.reservationsHeadings .optionalitemsHeading {
+  color: #000000;
+	background-color:#FEF7F7;
+	font-size:12px;
+	text-align: center;
+}
+.headCountItemAmount{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	text-align:center !important;
+}
+.headCountItemTotalAmount{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	text-align:center !important;
+}
+.optionalItemsAmount{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	text-align:center !important;
+}
+.optionalTotalItemsAmount{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	text-align:center !important;
+}
+.totalAmount{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	text-align:center !important;
+}
+.grandTotalAmount{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	text-align:center !important;
+}
+.totalCount{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	text-align:center !important;
+}
+.totalLabel{
+	font: 12px/30px Arial,Helvetica,sans-serif;
+}
+
+#simplemodal-container {
+  background-color: #FFFFFF;
+  border: 5px solid #B41419 !important;
+  padding: 12px;
+}
+
+#simplemodal-container a.modalCloseImg {
+  background: url("../images/close.png") !important;
+}
+
+.button, .form legend, .legend, .mini-menu {
+  margin-top: 0px !important;
+}
+
+#question-count-show { 
+	color: #000000;
+	font-family: arial;
+	margin: 0;
+	padding: 0; 
+	font-weight:bold;
+}
+.QusetionAnswers {
+	background-color: #FEF7F7;
+	border-radius: 5px;
+	margin: 10px 8px;
+	padding: 5px; 
+}
+
+.questionSpan { 
+	background:none !important;
+	color: #585858 !important;
+	font-family: arial !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	line-height: 32px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.multiselectCheckBox {
+  margin-right: 5px;
+}
+
+.singleselectCheckBox {
+  margin-right: 5px;
+}
+.OptionalItemBox {
+	width: 45%; 
+	border-style:solid; 
+	border-color: #b41419; 
+	border-width: 5px; 
+	background: white; 	
+	text-align: left;
+}
+
+.waitingRow {
+  background-color: #FF8C73;
+  color: #000;
+}
+
+.cancelledRow {
+  background-color: #CC9999;
+  color: #000000;
+}
+
+#itineraryList{
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	font: 12px/30px Arial,Helvetica,sans-serif;
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: 235px;
+	margin-top: 6px;
+	background:none !important;
+
+}
+/*** Reservation List CSS ***/
+
+
+.tableHeader {
+background: -moz-linear-gradient(center top , #E50505 0%, #B41419 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-right: 1px solid #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E50505), color-stop(100%, #B41419));
+	background: -webkit-linear-gradient(top, #b41419 0%, #b41419 100%);
+	background: -o-linear-gradient(top, #E50505 0%, #B41419 100%);
+	background: -ms-linear-gradient(top, #E50505 0%, #B41419 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E50505', endColorstr='#B41419', GradientType=0 );
+	background: linear-gradient(top, #E50505 0%, #B41419 100%);
+	padding:4px;
+	background-color:#B41419;
+}
+
+.tableHeader a {
+  color: #fff;
+	font-family: arial;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.tableHeader a:hover {
+  color: #000;
+	font-family: arial;
+	font-size:12px;
+}
+
+.oddRow { 
+	border:1px dotted #000;
+	font-family: arial;
+	font-size:12px;
+}
+
+.evenRow { 
+	border:1px dotted #000;
+	font-family: arial;
+	font-size:12px;
+}
+
+.boldWhite {
+  color: #5D5B5B;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.buttonEM {
+	background: none repeat scroll 0 0 #007204 !important;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
+	color: #FFFFFF !important;
+	font: bold 12px Arial,Helvetica,sans-serif;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	background-image:none !important;
+}
+
+.tableNavigation {
+	background-color: #A3A1A1;
+	border-radius: 5px;
+	box-shadow: 1px 1px 0 #FFFFFF;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 27px 5px 20px;
+}
+
+.WGuestStatus { /* Waiting Status */
+  background-color: #FF8C73;
+}
+
+.WGuestStatusLabel { /* Waiting Status */
+  color: #000000;
+} 
+
+.DGuestStatus {/* Cancelled Status */
+  background-color: #CC9999;
+  color: #000000;
+}
+
+.DGuestStatusLabel { /* Cancelled Status */
+  color: #000;
+}
+
+.reservationTimeHeading {
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.bookFor {
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.reservationDaysHeading {
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	font-size:14px;
+}
+
+.reservationDaysOnHeading {
+	font: 12px/30px Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.reservationListLink,.addCommentsSpan {
+	font: bolder 12px/30px Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	margin-top: -10px;
+	margin-bottom: -20px;
+	text-align: right;
+	cursor: pointer;
+}
+
+.guestTableHeadingSeparator {
+	border-bottom: 1px solid #FF0000;
+}
+
+.ItemSelectionGuestHeading {
+	color: #84b8d9;
+	font-size: 20px;
+	font: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.ItemSelectionHeading {
+	color: #000;
+	font-size: 18px;
+	font: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ItemSelectionLabel{
+	color: #000;
+	font: 12px/30px Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.ItemSelectionQTYField{
+	font: 12px/30px Arial, Helvetica, sans-serif !important;
+	width: 35px;
+	text-align: right;
+	padding: 0px 5px 0px 0px !important;
+	height: 28px;
+	/*padding-right: 12px !important;*/ 
+	background: none !important;
+}
+.GuestItemLabel {
+	color: #000;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 0px !important;
+	height:20px;
+}
+.GuestItemsDisplayTd{
+}
+.GuestItemsDisplayTd:HOVER{
+	text-decoration: underline;
+}
+
+.ItemsHeader{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.ItemsHeader:HOVER{
+	color: royalblue;
+}
+
+.GuestRowSeparator{
+border-bottom: dotted 1px;
+border-bottom-color: rgb(255, 176, 176);
+}
+
+.DeleteReservationRow{
+	background-color: lightgray;
+	color: #000;
+}
+.CustomCheckBox{
+	background: transparent  url("../images/checkbox_unchecked.gif");
+}
+
+.MandatorySign{
+	color:red;
+}
+
+.searialNumberTD{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.addNewRow{
+	position: absolute; 
+	margin-left: -25px;
+	background: transparent  url("../images/plus.png")  no-repeat;
+	padding-left: 25px;
+}
+
+.eventReservationFont {
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.eventReservationFontBold {
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+.errorTextBox{
+	border: 1px red solid !important;
+}
+.errorMessage{
+	color:red;
+}
+
+.popoverContainerItemSummary {
+    background-color: #fff !important;
+    border: 1px solid #000;
+}
+
+.popoverItemSummary div {
+    color: #000;
+}
+
+.buttonAlert {
+    background: #007204 none repeat scroll 0 0 !important;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #ffffff, 0 0 1px #000000 inset;
+    color: #ffffff !important;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.no-scroll {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+div[aria-describedby="showModalDialogDiv"] {
+    height: auto !important;
+    max-height: none !important;
+    top: 36% !important;
+}

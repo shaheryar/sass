@@ -1,0 +1,23 @@
+.campaignCategory-portlet .ui-datagrid-header {
+  text-shadow: none !important;
+  padding: 10px 0;
+  font-size: 17px;
+}
+
+.campaignCategory-portlet .compaign-switch-heading {
+  display: block !important;
+  text-align: center;
+}
+
+.campaignCategory-portlet .compaign-switch {
+  margin: 0 auto 23px !important;
+  display: block !important;
+  border: 1px solid #ccc !important;
+}
+
+.campaignCategory-portlet .compaign-switch .ui-inputswitch-on {
+  background: #009b94 !important;
+  border: medium none;
+  color: #fff;
+  text-shadow: none;
+}

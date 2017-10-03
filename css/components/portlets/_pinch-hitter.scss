@@ -1,0 +1,18 @@
+.pinch-datatable {
+	margin-top: 10px;
+}
+
+.pinch-dep-box {
+	text-align: center;
+}
+
+.pinch-revert-icon {
+	
+	color: darkorange;
+}
+
+@media ( max-width : 640px) {
+	.pinch-revert-icon {
+		display: none;
+	}
+}

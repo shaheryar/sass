@@ -1,0 +1,186 @@
+.rosterAddresses label {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  padding: 0 0 0 3px;
+  margin: 0;
+}
+.box-style a label {
+  cursor: unset !important;
+}
+
+
+.navRoster {
+  display: block;
+  float: right; }
+
+.navRoster, .menuRoster, .menuRoster > li, .menuRoster > li > a {
+height: 100%;
+margin: 0 !important;  
+}
+
+  
+.menuRoster div > li {
+display: inline-block;
+list-style: outside none none;
+margin: 1px 0 4px 0;
+text-align: center;
+}
+
+.menuRoster div > li > a {
+  background: $secondry-bg none repeat scroll 0 0;
+  box-shadow: $default-boxShadow;
+  box-sizing: border-box;
+  color: $Light-fontColor !important;
+  display: block;
+  font-weight: normal;
+  line-height: 1;
+  padding: 14.5px;
+  text-decoration: none !important;
+  transition: all 0.25s linear 0s;
+}
+
+.menuRoster div > li > a:hover, .menuRoster div > li > a:focus {
+  background: $primary-bg none repeat scroll 0 0;
+   box-shadow: $default-boxShadow;
+  color:$Light-fontColor;
+}
+
+.iPhone-menuRoster {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    list-style: none;
+    padding: 0 10px !important;
+    text-align: center;
+    font-weight: bold;
+    background-color: $background-light;
+    color: $Light-fontColor !important;
+	z-index:110;
+}
+
+.iPhone-menuRoster li {
+    line-height: 14px !important;
+}
+
+.iPhone-menuRoster li a {
+  color: $Light-fontColor !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  font-size: 11px;
+}
+.img-user-profile {
+  text-align: center !important;
+}
+.iceDatPgrCol > a {
+  background: #212121 none repeat scroll 0 0;
+  color: $Light-fontColor !important;
+  display: inline-block;
+  margin: 5px 0;
+  padding: 2px 5px;
+}
+.iceDatPgrScrCol a {
+    background-color: $background-dark;
+    border-radius: 0;
+    color: $Light-fontColor !important;
+    display: block;
+    font-weight: bold;
+/*     margin-left: 2px;
+    margin-right: 2px; */
+    padding: 2px 5px;
+}
+.paginatorFirst {
+    background-image: url("../images/arrow-first.gif");
+    background-position: right bottom;
+    display: block;
+    padding: 12px;
+}
+.paginatorPrevious {
+    background-image: url("../images/arrow-previous.gif");
+    background-position: right bottom;
+    display: block;
+    padding: 12px;
+}
+
+.paginatorNext {
+    background-image: url("../images/arrow-next.gif");
+    background-position: right bottom;
+    display: block;
+    padding: 12px;
+}
+.paginatorLast {
+    background-color: $danger-bg;
+    background-image: url("../images/arrow-last.gif");
+    background-position: right bottom;
+    display: block;
+    padding: 12px;
+}
+
+.box-style {
+  background-color: $background-light;
+  @include border;
+  margin: 5px;
+  min-height: 163px;
+  padding: 7px;
+  text-align: center;
+  width: 240px;
+  word-break: break-all;
+}
+.aui .pagination ul {
+  box-shadow: none !important;
+  margin: 0 !important;
+  vertical-align: top;
+}
+.iceSelInpTxtList {
+    background-color: $background-light;
+    box-shadow: 2px 2px 3px #8a8d90;
+  z-index: 9;
+}
+.iceSelInpTxtRow {
+    padding: 5px;
+    @include border;;
+}
+.iceSelInpTxtSelRow {
+  background-color:$background-dark;
+  color: $Light-fontColor;
+  cursor: pointer;
+  display: block;
+  z-index: 1001;
+}
+
+.member-roaster-box-style {
+  background-color: transparent;
+  @include border;
+  margin: 5px;
+  min-height: 152px;
+  padding: 7px;
+  text-align: center;
+  width: 236px;
+}
+/*Also used in Dependents*/
+.square {
+     @include border;
+    height: 80px !important;
+    width: 80px !important;
+     @include border;
+}
+/*Also used in Dependents*/
+
+/*Roster Configuration*/
+
+.MidMid div {
+  background-color: $background-light;
+    @include border;
+  color: $dark-fontColor;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.MidMid div:hover {
+  background-color:$background-light-hover;
+  text-decoration: none;
+}
+.MidMid div td:hover {
+  background-color: $background-light-hover;
+  text-decoration: none;
+}
+/*Roster Configuration*/

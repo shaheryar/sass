@@ -1,0 +1,226 @@
+<!DOCTYPE html> 
+#parse ($init)
+<html class="$root_css_class" dir="#language (" lang.dir ")" lang="$w3c_language_id">
+<head>
+   <title>$the_title - $site_name</title>
+   <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+   <meta name="format-detection" content="telephone=no">
+   <!-- LOAD JQUERY LIBRARY -->
+   <script type="text/javascript" src="$javascript_folder/jquery-1.11.1.min.js"></script>
+   <!-- Add fancyBox main JS and CSS files -->
+   <script type="text/javascript" src="$javascript_folder/featherlight.js"></script>
+   <script type="text/javascript" src="$javascript_folder/vegas.min.js"></script>
+   #if ($themeDisplay.getLayout().isPrivateLayout()) 
+   #if ($themeDisplay.getLayout().getFriendlyURL() == "/analytics" )
+   <link rel="stylesheet" type="text/css" href="$css_folder/admin-statistics.css" />
+   #else
+   #end
+   #end
+   <script type="text/javascript">
+      var themerjQuery = jQuery.noConflict();
+      var revolutionSliderjQuery = jQuery.noConflict();
+   </script>
+   <script type="text/javascript" src="$javascript_folder/side-navigation/accordion.js"></script>
+   <script type="text/javascript" src="$javascript_folder/bootstrap-tab.js"></script>
+   <script type="text/javascript" src="$javascript_folder/navigation/desktop-nav.js"></script>
+   <script src="$javascript_folder/doubletaptogo.js" type="text/javascript"></script>
+   <script type="text/javascript" src="$javascript_folder/jquery.fancybox.js"></script>
+   <link rel="stylesheet" href="$css_folder/vegas.css" />
+   <!-- LOADING FONTS AND ICONS -->
+   <link rel="stylesheet" type="text/css" href="$templates_folder/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+   <link rel="stylesheet" type="text/css" href="$templates_folder/revolution/fonts/font-awesome/css/font-awesome.min.css">
+   <!-- REVOLUTION STYLE SHEETS -->
+   <link rel="stylesheet" type="text/css" href="$templates_folder/revolution/css/settings.css">
+   <!-- REVOLUTION LAYERS STYLES -->
+   <link rel="stylesheet" type="text/css" href="$templates_folder/revolution/css/layers.css">
+   <!-- REVOLUTION NAVIGATION STYLES -->
+   <link rel="stylesheet" type="text/css" href="$templates_folder/revolution/css/navigation.css">
+   <!-- <link rel="stylesheet" type="text/css" href="$templates_folder/assets/css/noneed.css"> -->
+   <!-- REVOLUTION JS FILES -->
+   <script type="text/javascript" src="$templates_folder/revolution/js/jquery.themepunch.tools.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/jquery.themepunch.revolution.min.js"></script>
+   <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+      (Load Extensions only on Local File Systems ! 
+       The following part can be removed on Server for On Demand Loading) -->
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+   <script type="text/javascript" src="$templates_folder/revolution/js/extensions/revolution.extension.video.min.js"></script>
+   <script>
+		themerjQuery(document).on('ready', function (e) {
+			themerjQuery(".various").fancybox({
+				maxWidth	: 775,
+				maxHeight	: 450,
+				fitToView	: false,
+				width		: '90%',
+				height		: '80%',
+				autoSize	: false,
+				closeClick	: false,
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+			// hide #back-top first
+			themerjQuery("#back-top").hide();
+			
+			// fade in #back-top
+			themerjQuery(window).scroll(function () {
+      			if (themerjQuery(this).scrollTop() > 200) {
+      				themerjQuery('#back-top').fadeIn();
+      			} else {
+      				themerjQuery('#back-top').fadeOut();
+      			}
+      		});
+		
+      		// scroll body to 0px on click
+      		themerjQuery('#back-top a').click(function () {
+      			themerjQuery('body,html').animate({
+      				scrollTop: 0
+      			}, 800);
+      			return false;
+      		});
+		});
+	</script>
+	$theme.include($top_head_include)
+   #parse ("$full_templates_path/condition.vm")
+</head>
+<body class="$css_class body-bg">
+   <div class="vegas-slider">
+      $theme.include($body_top_include)
+      #set( $isAdmin = false )
+      #foreach( $role in $$themeDisplay.getUser().getRoles() )
+      #if ($role.Name == 'Administrator' || $role.Name == 'Club Administrator' || $role.Name == 'Web Administrator') 
+      #set( $isAdmin = true ) 
+      #end
+      #end 
+      #if ($isAdmin) #dockbar()
+      <link rel="stylesheet" href="$css_folder/admin.css" />
+      #else
+      <link rel="stylesheet" href="$css_folder/member.css" />
+      #end 
+      <div id="wrap">
+	  #parse ("$full_templates_path/header.vm")
+         <div id="ui-area">
+            #if($selectable) $theme.include($content_include)
+            #else
+            $portletDisplay.recycle() $portletDisplay.setTitle($the_title)
+            $theme.wrapPortlet("portlet.vm", $content_include)
+            #end
+         </div>
+         <div id="back-top"> <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a> </div>
+      </div>
+      #parse ("$full_templates_path/footer.vm")    
+      #parse ("$full_templates_path/mobile-login.vm")    
+   </div>
+   $theme.include($body_bottom_include) 
+   $theme.include($bottom_include)
+	<script type="text/javascript">
+		var tpj= revolutionSliderjQuery;			
+		var revapi4;
+		tpj(document).ready(function() {
+			if(tpj("#rev_slider_4_1").revolution == undefined){
+				revslider_showDoubleJqueryError("#rev_slider_4_1");
+			}else{
+				revapi4 = tpj("#rev_slider_4_1").show().revolution({
+					sliderType:"standard",
+					jsFileLocation:"../../revolution/js/",
+					sliderLayout:"fullwidth",
+					dottedOverlay:"none",
+					delay:5000,
+					
+					navigation: {
+						keyboardNavigation:"off",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation:"off",
+						onHoverStop:"off",
+						touch:{
+							touchenabled:"on",
+							swipe_threshold: 75,
+							swipe_min_touches: 1,
+							swipe_direction: "horizontal",
+							drag_block_vertical: false
+						}
+						,
+						arrows: {
+							style:"uranus",
+							enable:true,
+							hide_onmobile:true,
+							hide_under:600,
+							hide_onleave:true,
+							hide_delay:200,
+							hide_delay_mobile:1200,
+							tmp:'',
+							left: {
+								h_align:"left",
+								v_align:"center",
+								h_offset:30,
+								v_offset:0
+							},
+							right: {
+								h_align:"right",
+								v_align:"center",
+								h_offset:30,
+								v_offset:0
+							}
+						}
+						,
+						bullets: {
+							enable:true,
+							hide_onmobile:true,
+							hide_under:778,
+							style:"hermes",
+							hide_onleave:false,
+							hide_delay:200,
+							hide_delay_mobile:1200,
+							direction:"horizontal",
+							h_align:"center",
+							v_align:"bottom",
+							h_offset:0,
+							v_offset:20,
+							space:5,
+							tmp:''
+						}
+					},
+					viewPort: {
+						enable:true,
+						outof:"pause",
+						visible_area:"80%"
+					},
+					responsiveLevels:[1240],
+					gridwidth:[1240,1024,778,480],
+					gridheight:[498],
+					lazyType:"none",
+					parallax: {
+						type:"mouse",
+						origo:"slidercenter",
+						speed:2000,
+						levels:[0],
+					},
+					shadow:0,
+					spinner:"spinner2",
+					stopLoop:"off",
+					stopAfterLoops:-1,
+					stopAtSlide:-1,
+					shuffle:"off",
+					autoHeight:"off",
+					hideThumbsOnMobile:"off",
+					hideSliderAtLimit:0,
+					hideCaptionAtLimit:0,
+					hideAllCaptionAtLilmit:0,
+					debugMode:false,
+					fallbacks: {
+						simplifyAll:"off",
+						nextSlideOnWindowFocus:"off",
+						disableFocusListener:false,
+					}
+				});
+			}
+		});
+	</script>
+</body>
+</html>

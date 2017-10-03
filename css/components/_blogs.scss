@@ -1,0 +1,41 @@
+.nav-collapse ul {
+    margin: 0 !important;
+}
+.portlet-blogs label {
+    display: block !important;
+}
+.taglib-header h3 {
+    margin: 0 0 0 0 !important;
+    padding: 10px 0;
+}
+.portlet-blogs-aggregator {
+  margin-top: 30px;
+}
+.portlet-blogs-aggregator .blog-content + .text-left a:hover {
+    background:$primary-bg !important;
+    transition: all 0.9s ease 0s;
+	color:#fff !important;
+}
+.portlet-blogs-aggregator .blog-content + .text-left a {
+    background:$background-dark !important;
+    color: $Light-fontColor !important;
+    display: inline-block;
+    margin-bottom: 17px;
+    padding: 8px 7px;
+    text-decoration: none;
+}
+#ui-area .portlet-blogs-aggregator h2 {
+  margin-bottom: 0;
+}
+#ui-area .portlet-blogs-aggregator h2 a {
+  color: $dark-fontColor !important;
+  text-decoration: none !important;
+}
+.entry-author {
+  display: none !important;
+}
+.entry-footer {
+  border-bottom: 1px solid #ccc !important;
+  display: block;
+  margin-bottom: 32px;
+}

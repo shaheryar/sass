@@ -1,0 +1,110 @@
+div.asset-small-image {
+    width: auto;
+    margin: auto;
+    box-shadow: none;
+    text-align: center;
+}
+.entry-title a {
+    color: #000 !important;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.portlet-blogs-aggregator .entry-date {
+    background: none !important;
+    color: #060606 !important;
+    float: left;
+    overflow: hidden;
+    padding-left: 1px;
+    padding-right: 9px;
+    font-size: 14px;
+	    width: 100%;
+    line-height: 30px;
+}
+		
+.comments {
+    text-align: center;
+}
+.comments a {
+    line-height: 1;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px #D2D2D2 solid;
+    border-radius: 3px;
+    padding: 7px 12px 7px 12px;
+    background: white;
+    background: -moz-linear-gradient(top, white 0%, #f6f6f6 48%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(48%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, white 0%, #f6f6f6 48%, #ededed 100%);
+    background: -o-linear-gradient(top, white 0%, #f6f6f6 48%, #ededed 100%);
+    background: -ms-linear-gradient(top, white 0%, #f6f6f6 48%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 48%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    text-align: center;
+    margin: auto !important;
+	color: #000;
+}
+span.taglib-rss {
+    display: none;
+}
+.portlet-blogs-aggregator .entry-tags  {
+border-left: 0px !important;
+}
+.entry-author {
+    display: none !important;
+}
+.portlet-blogs-aggregator .entry {
+     margin: 0px !important;
+}
+.entry-body img {
+  border: 3px solid #d9d9d9!important;
+  box-shadow: none !important;
+  box-sizing: border-box;
+}
+
+#ui-area .portlet-blogs-aggregator h2 a {
+  text-decoration: none !important;
+  color: #009b94 !important;
+}
+#ui-area .portlet-blogs-aggregator h2 {
+  margin-bottom: 0px;
+}
+#ui-area .portlet-blogs h2 a {
+  text-decoration: none !important;
+  color: #009b94 !important;
+}
+#ui-area .portlet-blogs h2 {
+  margin-bottom: 0px;
+}
+#ui-area .portlet-blogs .header-back-to .previous-level {
+  padding: 3px;
+}
+#ui-area .portlet-blogs ul {
+  margin: 0;
+}
+/* .portlet-blogs-aggregator .blog-content + .text-left a {
+  background: #008b71 none repeat scroll 0 0 !important;
+  color: #fff !important;
+  padding: 8px 7px;
+  text-decoration: none;
+  margin-bottom: 17px;
+  display: inline-block;
+}
+.portlet-blogs-aggregator .blog-content + .text-left a:hover {
+  background: black !important;
+  transition: all 0.9s ease 0s;
+} */
+.portlet-blogs .blog-content + .text-left a {
+  background: #008b71 none repeat scroll 0 0 !important;
+  color: #fff !important;
+  padding: 8px 7px;
+  text-decoration: none;
+  margin-bottom: 17px;
+  display: inline-block;
+}
+.portlet-blogs .blog-content + .text-left a:hover {
+  background: black !important;
+  transition: all 0.9s ease 0s;
+}

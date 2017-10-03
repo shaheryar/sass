@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 979px) {
+div#textured-cssmenu {
+    display: none !important;
+}
+.smartphone-nav-div {
+  display: block !important;
+}
+
+
+
+.container-header {
+  width: 100% ;
+}
+}
+
+@media screen and (min-width: 980px) {
+.smartphone-nav-div {
+  display: none !important;
+}
+.textured-nav-div {
+  display: block !important;
+}
+div#mm-0 {
+    transform: initial !important;
+}
+.container-header {
+  width: 110px ;
+}
+}	

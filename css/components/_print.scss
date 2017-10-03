@@ -1,0 +1,71 @@
+@media print {
+	div,span,tr,td,th,h1,button,label {
+		font-family: Arial, sans-serif;
+	}
+	h1 {
+		font-size: 12pt !important;
+	}
+	div,span,tr,td,th,button,label {
+		font-size: 8pt !important;
+	}
+	table,td,th {
+		border: 1pt solid #000 !important;
+		border-collapse: collapse !important;
+	}
+	td {
+		padding: 5px 5px 5px 5px;
+	}
+	table {
+		margin-bottom: 5mm;
+	}
+	.text-bold {
+		font-weight: 600;
+	}
+	.text-center {
+		text-align: center;
+	}
+	.text-right {
+		text-align: right;
+	}
+	.label-info {
+		font-weight: 600;
+	}
+	.ui-grid-responsive .ui-grid-col-6 {
+		width: 50% !important
+	}
+	.ui-grid-col-1,.ui-grid-col-2,.ui-grid-col-3,.ui-grid-col-4,.ui-grid-col-5,.ui-grid-col-6,.ui-grid-col-7,.ui-grid-col-8,.ui-grid-col-9,.ui-grid-col-10,.ui-grid-col-11,.ui-grid-col-12
+		{
+		float: left !important;
+	}
+	.ui-panelgrid-cell,.ui-panel-titlebar,.chit-text,span.text-bold,.row-fluid,td,th.heading-position, ,span.pull-left,span.pull-right
+		{
+		font-size: 15px !important;
+	}
+	.chit-label {
+		font-size: 16px !important;
+	}
+	.ui-grid-row {
+		border-top: 0px !important;
+	}
+	.aui .table-bordered {
+		border: 1px solid black !important;
+	}
+}
+
+@media print and ( -ms-high-contrast : none) {
+	.row-fluid {
+		font-size: 1em !important;
+	}
+	span.text-bold,span.chit-text {
+		font-size: 1.5em !important;
+	}
+	td,th.heading-position,span.pull-left,span.pull-right,.chit-label {
+		font-size: 2.5em !important;
+	}
+	h1.heading.chit-heading {
+		font-size: 3.5em !important;
+	}
+	td {
+		padding: 0.5em 0.5em 0.5em 0.5em !important;
+	}
+}

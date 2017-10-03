@@ -1,0 +1,969 @@
+#mainViewContainer {
+  height: 350px !important;
+}
+
+div#existingReservationAlert {
+  height: auto !important;
+}
+
+.eventPortal_Button.epCloseButton {
+  padding: 5px 4px !important;
+}
+
+div#existingReservationAlert input {
+    margin-bottom: 5px !important;
+}
+
+#resDetailRowTotal0_0 {
+  color: #000 !important;
+}
+
+.GuestItemLabel div span{
+	color: #000 !important;
+}
+
+#resDetailRowTotalContainer0_0 > span {
+  color: #000 !important;
+}
+
+.epReservationListButton{
+background: none repeat scroll 0 0 #b0b0b0 !important;
+border: medium none !important;
+border-radius: 5px!important;
+box-shadow: 0 0 2px #ffffff, 0 0 1px #000000 inset !important;
+color: #000000 !important;
+font-size: 12px !important;
+font-weight: bold !important;
+padding: 4px 12px !important;
+text-align: center !important;
+text-decoration: none !important;
+}
+
+.popoverContainerItemSummary {
+	padding: 8px 8px 8px 8px !important;
+	width: 282px !important;
+	/*   background-position-x: 251px !important;
+	background-position-y: 2px !important; */
+	margin: 5px 0px 0px -250px !important;
+	background: black !important;
+	height: auto !important;
+	background-repeat: no-repeat !important;
+}
+
+.popover.popoverItemSummary {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.homeHeading {
+  /* background: none repeat scroll 0 0 #009b94;
+  border-radius: 10px;
+  border-right: 1px solid #e2e2e2; */
+  color: #000;
+  font-size: 20px !important;
+  font-weight: bold;
+  height: 30px !important;
+  list-style-type: none;
+  margin: 0 auto 30px;
+  padding: 7px 10px 0 !important;
+  position: relative;
+}
+.reservationStatus{
+  	font-size: 11px;
+  	font-weight: bold;
+}
+.seatingTimeBg {
+/* 	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+	height: 45px;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;	
+	padding: 0 0 0 0;
+	position: relative;
+/* 	background: -moz-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e2e2e2));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2', GradientType=0 );
+	background: linear-gradient(top, #ffffff 0%, #e2e2e2 100%); */
+	background: #821c1f;
+	/*border-right: 1px solid #E2E2E2;*/
+	color: #ffffff;
+}
+
+
+.selectSeating textinput {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	font-size: 14px; 
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: 100%;
+}
+
+#menu_wrap {
+ /* border-radius: 10px;
+  height: 45px;
+  list-style-type: none;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding: 0 10px 0 0;
+  position: relative;
+	/* background: -moz-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e2e2e2));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2', GradientType=0 );
+	background: linear-gradient(top, #ffffff 0%, #e2e2e2 100%); */
+	list-style:none;
+	
+}
+
+.adultsSpan {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.fontClass { 
+  font-size: 14px;
+}
+
+/* .dropdown {
+	font-size: 12px;
+	  
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: auto;
+	margin-top: 6px;
+} */
+
+
+.dropdownHeadCountItems {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	font-size: 12px;
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: auto;
+	margin-top: 6px;
+}
+
+.multiSelect {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	font-size: 12px;
+	height: 18px;
+	outline: medium none;
+	padding: 5px;
+	width: 233px;
+	margin-top: 6px;
+}
+.inputTextBox {
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px !important;
+	box-shadow: 0 0 2px #888888;
+	font-size: 12px !important;
+	height: 18px;
+	outline: medium none;
+	padding: 5px 1px !important;
+	width: auto;
+	margin-top: 6px;
+	background-image:none !important;
+}
+
+.multiSelectOptions {
+  width: auto !important;
+}
+	 
+.editarea { 
+	border: 1px solid #DDDDDD;
+	/*border-radius: 5px;*/
+	box-shadow: 0 0 2px #888888;
+	color: #000000;
+	float: left;
+	outline: medium none;
+	padding: 5px 0 0 10px;
+	background-image:none;
+}
+
+
+#childrenSpan {
+  font-size: 14px;
+}
+
+.agree {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.agree a {
+  background-color: #C8C8C7;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 13px;
+  padding: 2px;
+}
+
+.available-label {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.label-custom {
+  font-size: 12px;
+}
+
+.availableSeats {
+  background: #009b94 none repeat scroll 0 0;
+  border: medium none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.table-margins {
+  margin-left: 12px;
+  margin-top: 2px;
+  padding-top: 2px;
+}
+
+#ysearchinputmemberId_Reservation{
+	margin-top:-7px !important;
+}
+
+.ysearchinput {
+
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888 !important;
+	color: #666666 !important;
+	float: left;
+	outline: medium none;
+	width: 93% !important;
+	height: 25px !important;
+	min-height: 25px !important;
+	margin-top: -2px;
+	text-align: left !important;
+	padding-right: 16px;
+	padding-left: 5px;
+}
+
+
+
+
+.ysearchinputDisabled {
+
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888 !important;
+	color: #666666 !important;
+	float: left;
+	outline: medium none;
+	width: 93% !important;
+	height: 25px !important;
+	margin-top: -2px;
+	text-align: left !important;
+	padding-right: 16px;
+
+}
+
+
+
+.ysearchinputOther {
+	border: 1px solid #DDDDDD !important;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888 !important;
+	color: #666666 !important;
+	float: left;
+	outline: medium none;
+	width: 93% !important;
+	height: 25px !important;
+	margin-top: -2px;
+	text-align: left !important;
+	padding-right: 16px;
+}
+
+
+.noleftBorder {
+border: 0 none !important;
+color: #000;
+height: 45px;
+	
+}
+
+.partyof { 
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	color: #666666;
+	float: left;
+	outline: medium none;
+	background-image:none !important;
+}
+
+.adultsSpanEvent {
+  font-family: proxima_nova_rgregular;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.availableTotals {
+  background: none repeat scroll 0 0 #009b94;
+  color: #000;
+  font-family: proxima_nova_rgregular;
+  font-size: 14px;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttonEM {
+  background: none repeat scroll 0 0 #009b94 !important;
+  border: medium none;
+  color: #000 !important;
+  font-family: proxima_nova_rgregular;
+  font-size: 12px;
+  font-weight: normal !important;
+  padding: 5px 12px !important;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius:0 !important;
+}
+
+.button {
+  background: none repeat scroll 0 0 #009b94 !important;
+  border: medium none;
+   color: #000000 !important;
+   font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttonDisable {
+	background: none repeat scroll 0 0 #B0B0B0 !important;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
+	color: #6B6B6B !important;
+	font-size: 12px;
+	font-weight:bold;
+	 
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	background-image:none !important;
+}
+
+.reservationTable {
+
+}
+
+.reservationsHeadings {
+	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
+/*	background-color: #FEF7F7 !important;*/
+background :none !important;
+  color: #000000 !important;
+  border: 0px;
+	/*border-bottom:1px solid #FF0000;*/
+	text-align: center;
+	
+}
+.reservationsMainHeadings {
+	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
+/*	background-color: #FEF7F7 !important;*/
+background :none !important;
+  color: #000;
+  border: 0px;
+	border-bottom:1px solid #FF0000;
+	text-align: center;
+	
+}
+
+.reservationsTotal {
+	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
+/*	background-color: #FEF7F7 !important;*/
+background :none !important;
+  color: #000;
+  border: 0px;
+	border-bottom:1px solid #FF0000;
+	text-align: center;
+	
+}
+
+.reservationsHeadingsOptional {
+	
+	background-color: #FEF7F7 !important;
+  color: #000;
+  border: 0px;
+	border-bottom:0px solid #FF0000 !important;
+	text-align: center;
+	
+}
+
+.additionalReservations {
+  background-color: #d6dab2;
+  border: 1px solid #a2a585;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.oddRow a {
+  color: #009b94;
+}
+
+.reservationsHeadings .optionalitems {
+  color: #000000;
+	/*background-color:#FEF7F7;*/
+	font-size:12px;
+	text-align: center;
+}
+
+.reservationsHeadings .optionalitemsHeading {
+  color: #000000;
+	background-color:#FEF7F7;
+	font-size:12px;
+	text-align: center;
+}
+.headCountItemAmount{
+	font-size: 14px;
+	 
+	text-align:center !important;
+}
+.headCountItemTotalAmount{
+	font-size: 14px;
+	 
+	text-align:center !important;
+}
+.optionalItemsAmount{
+	font-size: 14px;
+	 
+	text-align:center !important;
+}
+.optionalTotalItemsAmount{
+	font-size: 14px;
+	  
+	text-align:center !important;
+}
+.totalAmount{
+	font-size: 14px;
+	  
+	text-align:center !important;
+}
+.grandTotalAmount{
+	font-size: 14px;
+	  
+	text-align:center !important;
+}
+.totalCount{
+	font-size: 14px;
+	  
+	text-align:center !important;
+}
+.totalLabel{
+	font-size: 14px;
+	  
+}
+
+#simplemodal-container {
+  background-color: #ffffff;
+  border: 3px solid #333467 !important;
+  padding: 0 !important;
+  top: 10% !important;
+}
+#simplemodal-container a.modalCloseImg {
+  background-image: url('images/ui-icons_ffffff_256x240.png') !important;
+  background-position: -96px -128px !important;
+  cursor: pointer !important;
+  display: inline !important;	
+  height: 15px !important;
+  position: absolute !important;
+  right: 7px !important;
+  top: 5px !important;
+  width: 15px !important;
+  z-index: 99999 !important;
+}
+
+.simplemodal-data {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.button, .form legend, .legend, .mini-menu {
+  margin-top: 0px !important;
+}
+
+#question-count-show { 
+	color: #FFF;
+	  
+	margin: 0;
+	padding: 0; 
+	font-weight:bold;
+}
+.QusetionAnswers {
+	background-color: #FEF7F7;
+	border-radius: 5px;
+	margin: 10px 8px;
+	padding: 5px; 
+}
+
+.questionSpan { 
+	background:none !important;
+	color: #585858 !important;
+	 
+	font-size: 12px !important;
+	font-weight: bold !important;
+	line-height: 32px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.multiselectCheckBox {
+  margin-right: 5px;
+}
+
+.singleselectCheckBox {
+  margin-right: 5px;
+}
+.OptionalItemBox {
+	width: 45%; 
+	border-style:solid; 
+	border-color: #b41419; 
+	border-width: 5px; 
+	background: white; 	
+	text-align: left;
+}
+
+.waitingRow {
+  background-color: #000000;
+  color: #000;
+}
+
+.cancelledRow {
+  background-color: #CC9999;
+  color: #000000;
+}
+
+#itineraryList{
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #888888;
+	font-size: 14px;
+	  
+	height: 30px;
+	outline: medium none;
+	padding: 5px;
+	width: 235px;
+	margin-top: 6px;
+	background:none !important;
+
+}
+/*** Reservation List CSS ***/
+
+
+.tableHeader {
+  background-color: #000000 !important;
+  border-right: 1px solid #ffffff;
+  color: #ffffff !important;
+  padding: 4px;
+  text-transform: uppercase;
+}
+
+.tableHeader a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.tableHeader a:hover {
+  color: #000;
+	 
+	font-size:12px;
+}
+
+.oddRow {
+  border: none;
+  font-size: 14px !important;
+  text-transform: uppercase;
+}
+
+
+.UGuestStatusLabel {
+  color: #009b94;
+  font-size: 16px !important;
+  text-transform: uppercase !important;
+}
+
+.evenRow {
+  border: medium none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.subheading {
+  text-transform: uppercase;
+}
+
+/* .content {
+  text-transform: uppercase;
+} */
+
+.evenRow a {
+  color: #009b94;
+}
+
+.boldWhite {
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.buttonEM {
+  background: none repeat scroll 0 0 #009b94 !important;
+   /*border: medium none;
+	border-radius: 5px;*/
+  box-shadow: 0 0 2px #ffffff, 0 0 1px #000000 inset;
+  color: #000000 !important;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  /* margin-bottom:7px !important; */
+}
+
+.tableNavigation {
+	background-color: #A3A1A1;
+	border-radius: 5px;
+	box-shadow: 1px 1px 0 #FFFFFF;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 27px 5px 20px;
+}
+
+.WGuestStatus { /* Waiting Status */
+  background-color: #FF8C73;
+}
+
+.WGuestStatusLabel { /* Waiting Status */
+  color: #000000;
+} 
+
+.DGuestStatus {/* Cancelled Status */
+  background-color: #CC9999;
+  color: #000000;
+}
+
+.DGuestStatusLabel { /* Cancelled Status */
+  color: #000;
+}
+
+.reservationTimeHeading {
+	font-size: 14px;
+	font-weight:bold;
+	  
+}
+
+.bookFor {
+	font-size: 14px;
+	font-weight:bold;
+	  
+}
+
+.reservationDaysHeading {
+	font-size: 14px;
+	font-weight:bold;
+	  
+	text-decoration: underline;
+}
+
+.reservationDaysOnHeading {
+	font-size: 14px;
+	  
+}
+
+.reservationListLink, .addCommentsSpan {
+  color: #009b94;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: -20px;
+  margin-top: -10px;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing:1px;
+}
+
+.guestTableHeadingSeparator {
+	/*border-bottom: 1px solid #009b94;*/
+}
+
+.ItemSelectionGuestHeading, .eventPortal_PopupHeading {
+  background-color: #009b94;
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 3px 12px;
+  text-transform: capitalize;
+}
+
+.ItemSelectionHeading {
+	color: #000;
+	  
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.ItemSelectionLabel{
+	color: #000;
+	font-size: 14px;
+	  
+	font-weight: normal;
+  	padding-bottom: 18px;
+  	padding-left: 10px;
+}
+.ItemSelectionQTYField{
+	font-size: 14px;
+	  
+	width: 35px;
+	text-align: right;
+	padding: 0px 5px 0px 0px !important;
+	height: 28px;
+	/*padding-right: 12px !important;*/ 
+	background: none !important;
+}
+.GuestItemLabel {
+  color: #000;
+   
+  font-size: 14px;
+  font-weight: bold;
+  height: 20px;
+  margin-bottom: 0 !important;
+}
+.GuestItemsDisplayTd{
+}
+.GuestItemsDisplayTd:HOVER{
+	text-decoration: underline;
+}
+
+.ItemsHeader{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.ItemsHeader:HOVER{
+	color: royalblue;
+}
+
+.GuestRowSeparator{
+border-bottom: dotted 1px;
+border-bottom-color: rgb(255, 176, 176);
+color: #000000 !important;
+}
+
+.DeleteReservationRow{
+	background-color: #821c1f;
+	color: #000;
+}
+.CustomCheckBox{
+	background: transparent  url("../images/checkbox_unchecked.gif");
+}
+
+.MandatorySign{
+	color:red;
+}
+
+.searialNumberTD{
+	text-align: left !important;
+	padding-left: 10px;
+}
+
+.addNewRow{
+	position: absolute; 
+	margin-left: -25px;
+	background: transparent  url("../images/plus.png")  no-repeat;
+	padding-left: 25px;
+}
+
+.eventReservationFont {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.eventReservationFontBold {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.errorTextBox{
+	border: 1px red solid !important;
+}
+.errorMessage{
+	color:red;
+}
+
+.eventportal_CommentsTextBox{
+	    width: 153px;
+}
+
+.eventPortal_reservationHeadingsTH{
+color: #000;
+font-size: 14px;
+text-align: left !important;
+text-transform: uppercase;
+letter-spacing:1px;
+}
+
+.eventPortal_memberHeading {
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: left !important;
+  text-transform: uppercase;
+}
+
+.multiSelectOptions LABEL {
+  display: block;
+  padding: 2px 5px;
+  color: #000 !important;
+}
+
+.eventPortal_applybutton,.eventPortal_quetionFinishbutton, .eventPortal_quetionUpdatebutton,.eventPortal_waiverFinishbutton,
+.newGuestButtonOk {
+    background-color: #5CC7CF !important;
+    border: medium none !important;
+    color: white !important;
+    
+}
+
+.eventPortal_cancelbutton, .eventPortal_quetionClosebutton,.eventPortal_waiverClosebutton,.newGuestButtonCancel  {
+	background-color: red !important;
+	border: medium none !important;
+	color: white !important;
+	  
+}
+
+.eventPortal_itemsPopupButtons, .eventPortal_questionsPopupButtons {
+	padding-bottom:20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.eventPortal_waiverCountShow{
+	float:right;
+	margin-right: 35px;
+}
+
+.eventPortal_waiverTitle{
+	float:left;
+	text-decoration: underline;
+}
+
+.eventPortal_questionContent{
+	border:1px solid #808080; 
+	height:350px; 
+	overflow-y: auto !important;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.eventPortal_reservationSchedule{
+	padding: 5px;
+}
+
+.eventPortal_seatingId{
+	height:18px;
+}
+
+#reservationSchedule.multiSelect {
+	padding: 5px;
+}
+
+.eventPortal_Button {
+  border: medium none !important;
+  border-radius: 0 !important;
+  color: #000 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px !important;
+  font-weight: normal;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 3px 9px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing:2px;
+  margin-bottom:1px;
+}
+	
+.epCloseButton{
+	
+}
+.eventPortal_createReservationButton{
+	background: none repeat scroll 0px 0px #009b94 !important;
+	box-shadow: 0px 0px 2px #FFF, 0px 0px 1px #000 inset;
+	color: #000000 !important;
+}
+.eventPortal_ReservationListButton{
+	
+}
+
+input.multiSelect {
+  color: #000 !important;
+  font-weight: normal;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+/*   box-shadow: 0 0 5px #ccc inset !important;
+  font-family: proxima_nova_rgregular !important;
+  font-size: 14px !important;
+  height: 35px !important;
+  text-transform: uppercase !important;
+  width: 250px !important;
+  letter-spacing:1px; */
+}
+
+input.multiSelect:hover {
+  border: medium none !important;
+  box-shadow: none !important;
+}
+
+.ui-menu .ui-menu-item a {
+  color: #000 !important;
+  font-size: 14px !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}

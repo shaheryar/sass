@@ -1,0 +1,24 @@
+.add-acc-panel h3.ui-accordion-header {
+	padding: 0 0 0 1.5em;
+	font-size: 18px;
+}
+
+@media ( max-width : 640px) {
+	.add-tab-view li {
+		width: 100%;
+	}
+}
+
+@media ( max-width : 400px) {
+	.add-icon {
+		display: none;
+	}
+}
+
+.add-grid {
+	border: 1px dotted;
+}
+
+span.add-email {
+	word-break: break-all;
+}

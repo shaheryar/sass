@@ -1,0 +1,57 @@
+.picture-image {
+	padding: .25em;
+	box-shadow:$default-boxShadow;
+	width: 100px;
+	height: 110px !important;
+}
+
+.nm-dependent-box th {
+	background-color: transparent !important;
+}
+
+.nm-box {
+	@include border;;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.nm-left-box {
+	width: 40%;
+}
+
+.nm-right-box {
+	width: 60%;
+}
+
+
+.nm-grid .ui-paginator {
+	background-color: transparent;
+	border: 0px
+}
+
+.nm-grid .ui-datagrid-content-empty {
+    background-color: #fee5e2 !important;
+    border: 1px solid #fcaca5 !important;
+    color: #b50303;
+}
+
+@media only screen and (min-width : 1025px) {
+	.nm-desc-dialog {
+		width: 40% !important;
+		left: 30% !important;
+	}
+}
+
+@media ( max-width : 740px) {
+	.nm-height {
+		height: 300px
+	}
+}
+
+@media ( min-width : 641px) and (max-width: 740px) {
+	.nm-desc-dialog {
+		overflow-y: hidden;
+	}
+}

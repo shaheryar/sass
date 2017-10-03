@@ -1,0 +1,49 @@
+.pmnt-makepmnt-btn-div {
+	margin-bottom: 5px;
+}
+
+.pmnt-addresses .ui-widget-content {
+	border: none;
+}
+
+.pmnt-address {
+	
+}
+
+.pmnt-total {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.pmnt-col-last-statement-balance {
+	text-align: right !important;
+}
+
+.pmnt-col-recent-payments {
+	text-align: right !important;
+}
+
+.pmnt-col-current-amnt-due {
+	text-align: right !important;
+}
+
+.pmnt-col-amnt-due {
+	text-align: right !important;
+}
+
+/* 1px to 640px */
+@media ( min-width : 1px) and ( max-width : 640px) {
+	.pmnt-col-last-statement-balance {
+		text-align: left !important;
+	}
+	.pmnt-col-recent-payments {
+		text-align: left !important;
+	}
+	.pmnt-col-amnt-due {
+		text-align: left !important;
+	}
+}
+
+.pmnt-specific-dates {
+	border: 1px solid #8d8d8d !important;
+}

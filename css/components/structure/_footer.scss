@@ -1,0 +1,67 @@
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+  /*  height:81px;  */  /* Height of the footer */
+   background: $footerbg;
+}
+#footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+#footer ul {
+    margin-top: 10px !important;
+	margin-bottom: 0px !important;
+}
+#footer ul li a {
+    color: #fff;
+    padding: 4px 20px;
+	font-size: $footerfont;
+	text-transform: $textuppercase;
+}
+.social-links ul li a{
+	font-size: 11px !important;
+	text-transform: $textuppercase;
+}
+#footer ul li a i {
+    border-right: 1px solid #808080;
+    padding: 1px 8px;
+}
+
+/* On Mobile Member Login */
+.Member-login-footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: $dropdownlinkclr;
+    text-transform: $textuppercase;
+    line-height: 3;
+    z-index: 110;
+    border-radius: 0;
+	a {
+    color: $dropdownlinkclr !important;
+	font-size: $fontsize5 !important;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.Member-login-footer  h2 {
+    font-size: $fontsize5;
+    margin: 0;
+	text-shadow: $none;
+    color: $dropdownlinkclr;
+    text-align: center;
+    text-transform: $textuppercase;
+}
+#user-greeting {
+    font-size: $fontsize5;
+	color: $dropdownlinkclr;
+}
+.mobile-Oaks-logo img {
+    width: 200px !important;
+	margin-top: 30px !important;
+}
+/*End On Mobile Member Login */

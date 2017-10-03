@@ -1,0 +1,35 @@
+@media screen and (max-width: 1025px) {
+.smartphone-nav-div {
+  display: block;
+}
+.desktop-nav-div {
+  display: none;
+}
+div#classic-mob-toggleMenu {
+    display: block;
+}
+div#textured-cssmenu {
+	display: none;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.smartphone-nav-div {
+  display: none;
+}
+.desktop-nav-div {
+  display: block;
+}
+div#classic-mob-toggleMenu {
+    display: none;
+}
+div#classic-mob-menu {
+    display: none !important;
+}
+div#textured-cssmenu {
+	display: block;
+}
+div#mm-0 {
+    transform: initial !important;
+}
+}	

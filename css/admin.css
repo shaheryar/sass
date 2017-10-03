@@ -1,0 +1,28 @@
+ .portlet-borderless-container {
+	min-height: 2.5em;
+	position: relative;
+}
+
+header {
+    position: relative !important;
+    z-index: 1 !important;
+	background: #000;
+}
+header.large {
+    height: auto;
+}
+header.small .logo-login-area {
+    display: block !important;
+}
+.small .top-navigation {
+    margin-top: 38px !important;
+}
+header.small #textured-cssmenu > ul > li > a {
+    padding: 0 0 10px !important;
+}
+header.small #textured-cssmenu > ul > li > ul {
+    top: 20px !important;
+}
+#wrap {
+    padding-top: 44px;
+}

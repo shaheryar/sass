@@ -1,0 +1,41 @@
+.unslider .unslider-nav li {
+	display: inline-block;
+	padding: 0px 2px;
+	border-radius: 30px;
+	cursor: pointer;
+	height: 12px;
+}
+
+.unslider-nav li {
+	background: dimgray;
+	color: transparent !important;
+	margin: 5px !important;
+}
+
+ol {
+	text-align: center;
+}
+
+.unslider-nav li.unslider-active {
+	background: rgba(0, 0, 0, .1);
+}
+
+.event-image {
+	background-size: 100% 100%;
+	width: 100%;
+	height: 300px !important;
+	cursor: pointer;
+}
+
+.event-detail {
+	padding: 10px;
+	color: white;
+	background-color: black;
+	opacity: 0.75;
+}
+
+.event-link {
+	color: cornflowerblue;
+	font-weight: 700;
+	cursor: pointer;
+}

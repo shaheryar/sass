@@ -1,0 +1,240 @@
+
+
+
+
+/*-----------For Iphone6 Responsive css ------- */
+
+@media screen and (min-height:900px){
+
+	.reservationList{
+		overflow: scroll !important;
+		top: 52% !important;
+		height: 590px !important;
+		
+	}
+	
+	.spa-cancel-dialog{
+		top: 52% !important;
+
+	}
+	
+	.ui-datatable-scrollable-body{
+
+		height: 350px !important;
+
+	}
+	.reservationAlreadyAlertDialog{
+		top: 20% !important;
+	}
+	.questionAnsDialog{
+		overflow: scroll !important;
+		top: 52% !important;
+		height: 590px !important;
+	}
+	
+	.salesItemInfoDialog{
+	
+		top: 48% !important;
+	}
+	
+	
+	.clockImg {
+		margin: 0px 10px 0px 0;
+	}
+
+	.clockDateTime{
+		font-weight: normal ; 
+		vertical-align:0px ;
+	}
+	
+}
+
+
+
+/*-----------For other mobile Responsive css ------- */
+
+
+@media screen and (max-height:480px){
+
+	.ui-datatable-scrollable-body{
+
+		height: 160px !important;
+
+	}
+
+	.waiverHideColumn{
+		width: 60% !important;
+	}
+	
+
+
+}
+
+@media screen and (max-height:400px){
+
+	.ui-datatable-scrollable-body{
+
+		height: 100px !important;
+
+	}
+
+	.waiverHideColumn{
+		display: none;
+	}
+}
+
+
+/*-----------Event Reservation Responsive css ------- */
+
+
+@media (min-width: 641px) and (max-width: 818px)  {
+
+	.memberIconColumn{
+	    width: 230px;
+	}
+	.memberIconRight{
+		margin-left: 5px !important;
+	}
+}
+
+@media (min-width: 419px) and (max-width: 425px)  {
+
+	.memberIconRight{
+		margin-left: 46px !important;
+		margin-top: -64px;
+	}
+}
+
+@media (max-width: 418px){
+
+	.memberIconRight{
+		margin-top: -58px; 
+		margin-left: -148px !important;
+	}
+
+	.childTxt{
+		margin-top: 4px;
+		text-align: left;
+	}
+
+
+}
+
+
+@media (min-width: 419px){
+
+
+	.memberIconRight{
+	 
+		margin-left: -10px ;
+	}
+
+
+	.childTxt{
+		margin-top: 4px;
+		text-align: left;
+	}
+
+
+
+}
+
+@media (max-width: 328px){
+	.memberIconRight {
+		margin-top: -118px !important;;
+		margin-left: 50px !important;
+	}
+}
+
+@media (min-width: 640px){
+	.adultTxt{
+		margin-top: 4px;
+	}
+	.childTxt{
+		margin-top: 4px;
+		margin-right: 4%;
+		width: 14%;
+		text-align: right;
+	}
+
+	.innerMemberIconColumn{
+
+		width:100%;
+
+	}
+	.innerMemberButtonColumn{
+		width:240px;
+	}
+	
+	.reservationList{
+		width: 88% !important;
+		margin-left: -3% !important;
+	}
+	
+	.resAttendeeSICol{
+		width: 200px;
+	}
+	.itemsColumnForCss{
+		margin-top: -18px;
+}
+}
+
+@media (min-width: 1156px){
+
+
+	.innerMemberIconColumn{
+
+		width:230px;
+		float: left;
+		margin-right:8%;
+
+	}
+		.innerMemberButtonColumn{
+		float: left;
+		width:240px;
+	}
+
+
+}
+
+@media (min-width: 1079px) {
+
+	.reservationList{
+		width: 90% !important;
+		margin-left: -14% !important;
+	}
+  
+}
+@media (max-width: 640px){
+	.typeColumn{
+		margin: -27px 0 0 33%;
+	}
+		.typeColumnHeader{
+		margin-top: 4px !important; 
+		margin-bottom: -10px;
+	}
+		.ui-column-title {
+		margin: 0em 1em -.4em -.4em !important;
+	}
+	.totalReservationLabel{
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	.publishReservationLabel{
+		 width: 100%;
+		 float: left;
+	 }
+}
+@media (max-width: 480px){
+	.typeColumn{
+		margin: -27px 0 0 35%;
+	}
+	.typeColumnHeader{
+		margin-top: 4px !important; 
+		margin-bottom: -10px;
+	}
+	.ui-column-title {
+		margin: 0em 1em -.4em -.4em !important;
+	}
+}

@@ -1,0 +1,84 @@
+@media ( max-width : 640px) {
+	.del-col {
+		display: block;
+	}
+	.name-col {
+		display: none !important;
+	}
+}
+
+.del-col {
+	display: none;
+}
+
+.name-col {
+	display: block;
+}
+
+.cc-icon-size {
+	font-size: 1.5em;
+}
+
+.cc-del {
+	margin-left: 10px;
+}
+
+.cc-grid-view .ui-grid-row {
+	border-top: 0px !important;
+}
+
+@media ( min-width : 980px) {
+	.cc-form-msg {
+		width: 220px;
+	}
+	.cc-exp-grid {
+		width: 270px;
+	}
+}
+
+@media ( max-width : 980px) {
+	.cc-exp-grid {
+		width: 100%;
+	}
+}
+
+.cc-openedge-iframe {
+	border: 1px solid #c1c1c1;
+	border-radius: 3px;
+	width: 100%;
+}
+
+/* 321px and less */
+@media ( max-width : 321px) {
+	.cc-openedge-iframe {
+		height: 1342px;
+	}
+}
+
+/* 322px to 548px */
+@media ( min-width : 322px) and ( max-width : 548px) {
+	.cc-openedge-iframe {
+		height: 1302px;
+	}
+}
+
+/* 549px to 840px */
+@media ( min-width : 549px) and ( max-width : 840px) {
+	.cc-openedge-iframe {
+		height: 982px;
+	}
+}
+
+/* 841px and above */
+@media ( min-width : 841px) {
+	.cc-openedge-iframe {
+		height: 947px;
+	}
+}
+
+.cc-ezidebit-iframe {
+	border: 1px solid #c1c1c1;
+	border-radius: 3px;
+	width: 100%;
+	height: 771px;
+}

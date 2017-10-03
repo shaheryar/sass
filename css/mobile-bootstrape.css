@@ -1,0 +1,47 @@
+
+
+.span-xs1,.span-xs2, .span-xs3, .span-xs4,.span-xs5,.span-xs6,.span-xs7,.span-xs8,.span-xs9,.span-xs10,.span-xs11, .col-sm-11, .col-md-11,.span-xs12 {
+  position: relative !important;
+  min-height: 1px !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+.span-xs1, .span-xs2, .span-xs3, .span-xs4, .span-xs5, .span-xs6, .span-xs7, .span-xs8, .span-xs9, .span-xs10, .span-xs11, .span-xs12 {
+  float: left !important;
+}
+.span-xs12 {
+  width: 100% !important;
+}
+.span-xs11 {
+  width: 91.66666667% !important;
+}
+.span-xs10 {
+  width: 83.33333333% !important;
+}
+.span-xs9 {
+  width: 75% !important;
+}
+.span-xs8 {
+  width: 66.66666667% !important;
+}
+.span-xs7 {
+  width: 58.33333333% !important;
+}
+.span-xs6 {
+  width: 50% !important;
+}
+.span-xs5 {
+  width: 41.66666667% !important;
+}
+.span-xs4 {
+  width: 33.33333333% !important;
+}
+.span-xs3 {
+  width: 25% !important;
+}
+.span-xs2 {
+  width: 16.66666667% !important;
+}
+.span-xs1 {
+  width: 8.33333333% !important;
+}

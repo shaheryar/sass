@@ -1,0 +1,227 @@
+
+ul.sidenav-mobile-view-ul {
+    /*background: #eceadd;*/
+    border-radius: 6px 6px 0 0;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    /* display: inline-block; *//* 
+    margin: 20px 0 0 0 !important; */
+}
+
+
+
+a {
+    font-weight: 400;
+}
+
+li.subLeft {
+    background-image: none;
+    list-style: outside none none;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    text-transform: capitalize;
+}
+
+li.sidenav-mobile-view-parent {
+    background-image: none !important;
+    list-style: outside none none;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+
+
+
+span.sidenav-mobile-view-heading {
+    background:#01773e ;
+    border-radius: 0px;
+    color: #fff;
+    display: block;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+
+span.side-nav-mobile-view-unselected-item {
+    color: #000000 !important;
+    display: block;
+    font-size: 16px !important;
+    padding: 0 !important;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: none;
+    padding: 10px 0px 10px 0px !important;
+}
+
+a.sidenav-mobile-view-parent-a {
+    background-color: red;
+}
+
+
+
+span.side-nav-mobile-view-selected-item {
+    color: #000000 !important;
+    display: block;
+    font-size: 17px !important;
+    padding: 4px 0 4px 4px !important;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase !important;
+}
+
+span.mobile-sidenav-custom-accordion-heading {
+    background-color: #525252;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 83%;
+}
+
+
+
+.sidenav-mobile-view-ul {
+  margin: 0 !important;
+}
+
+
+
+.sidenav-mobile-view-children .subLeft > a {
+  display: block;
+}
+
+.sidenav-mobile-view-selected-heading {
+ /*  background: #099ad1 url("../../img/arrow.png") no-repeat scroll 96% center; 
+  border-radius: 3px;*/
+  color: #fff;
+  display: block;
+  font-size: 19px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+/* .sidenav-mobile-down-img {
+    background: url("../../images/side-navigation/down.png");
+	background-repeat: no-repeat;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.sidenav-mobile-up-img {
+    background: url("../../images/side-navigation/up.png");
+    width: 16px !important;
+    height: 16px !important;
+} */
+
+
+
+.humburger-mobile-up-img {
+    float: right !important;
+    right: 15px;
+    position: relative;
+    top: 10px;
+    color: #fff;
+}
+
+
+.sidenav-mobile-view-parent a {
+    text-decoration: none !important;
+}
+
+
+.mobile-sidenav-custom-accordion-selected-heading {
+    background: #25809a;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 3px 10px;
+    text-transform: uppercase;
+}
+
+.sidenav-mobile-custom-accordion-div i {
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 16px;
+	position: relative;
+    right: 75px;
+}
+
+li.mobile-sidenav-custom-accordion-parent {
+    line-height: 22px;
+}
+
+span.mobile-side-nav-custom-accordion-unselected-item {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 30px;
+    display: block;
+}
+
+.hidden-sidenav-mob-ul1 ul li:last-child {
+  border-bottom: medium none !important;
+}
+
+span.mobile-side-nav-custom-accordion-selected-item {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: block;
+    background-color: #ee3439;
+}
+
+
+ul#hidden-sidenav-mob-ul1 {
+    background-color: #7b7777;
+    margin: 0 !important;
+	width:87%;
+}
+
+ul#hidden-sidenav-mob-ul1 a {
+    text-decoration: none;
+}
+
+ul#hidden-sidenav-mob-ul1 > li {
+
+}
+
+ul#hidden-sidenav-mob-ul2 {
+    list-style: none;
+}
+
+ul#hidden-sidenav-mob-ul2 li {
+
+}
+
+#hidden-sidenav-mob-ul2 span.mobile-side-nav-custom-accordion-unselected-item {
+    padding-left: 40px;
+}
+
+#hidden-sidenav-mob-ul2 span.mobile-side-nav-custom-accordion-selected-item {
+    padding-left: 40px;
+}
+
+ul.sidenav-mobile-custom-accordion-ul.skin-minimal.ctAccordion {
+	margin:0 !important;
+}
+
+.sidenav-mobile-custom-accordion-home-ul {
+    margin: 0 !important;
+}
+
+.sidenav-mobile-custom-accordion-home-ul li {
+	list-style: none;
+	border-bottom: 1px solid #fff;
+}

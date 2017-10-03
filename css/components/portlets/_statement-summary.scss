@@ -1,0 +1,80 @@
+.stmt-info-button {
+	position: inherit !important;
+	margin-bottom: 5px !important;
+}
+
+.stmt-previous-button,.stmt-next-button,.stmt-print-button,.stmt-pmnt-btn {
+	margin-bottom: 5px !important;
+}
+
+.stmt-well {
+	word-wrap: break-word;
+}
+
+.stmt-message {
+    color: $danger-bg;
+    font-weight: bold;
+}
+.stmt-file-text-icon{
+	    color: $stmt-file-text-icon !important;
+}
+
+/* Button */
+
+/* My Modification */
+.ui-datatable .ui-datatable-header, .ui-datatable .ui-datatable-footer {
+	padding: 0px !important;
+}
+.ui-column-title {
+	text-shadow: none !important;
+}
+.ui-selectonemenu-items .ui-state-hover {
+	border: 0px !important;
+	background-image: none !important;
+	background-color: $primary-bg !important;
+	color: $Light-fontColor !important;	
+	border-radius: 0px !important;
+}
+.ui-selectonemenu-items .ui-state-highlight {
+	border: 0px !important;
+	background-image: none !important;
+	background-color: $primary-bg !important;
+	color: $Light-fontColor !important;	
+	border-radius: 0px !important;
+}
+
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+	-webkit-box-shadow: inset 0 0px 0px #8f8f8f !important;
+    box-shadow: inset 0 0px 0px #8f8f8f !important;
+}
+.ui-state-hover {
+	-webkit-box-shadow: inset 0 0px 0px #8f8f8f !important;
+    box-shadow: inset 0 0px 0px #8f8f8f !important;
+}
+/*.ui-selectonemenu-items-wrapper .ui-widget {
+	font-size: 13px !important;
+}
+*/
+
+/* Chits Styles */
+.ui-widget-content {
+    border: 0px !important;
+    background: $background-light !important;
+    color: $dark-fontColor;
+}
+
+.fa-print {
+    color: #fff;
+    
+}
+
+.chit-times{
+	color: $Light-fontColor;   
+}
+.chit-print {
+	color:$Light-fontColor!important;
+}
+.fa-file-text-o {
+    
+}
+/* End */

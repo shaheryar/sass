@@ -1,0 +1,36 @@
+aui,
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   width:100%;
+}
+/* *,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+body {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  width:100%;
+}
+
+.body-bg {
+    background: transparent !important;
+}
+#mm-0 {
+    min-height: 100%;
+	padding-bottom:81px; 
+}
+#wrap{
+   min-height:100%;
+   position:relative;
+}
+	@media screen and (max-width: 1920px) and (min-width:1250px){
+	.aui .container, .aui .navbar-static-top .container, .aui .navbar-fixed-top .container, .aui .navbar-fixed-bottom .container {
+    width: 1220px !important;
+}
+}

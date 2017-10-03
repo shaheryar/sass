@@ -1,0 +1,334 @@
+.roster-resp-view-member-box {
+	text-align: center;
+	width: 100%;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word; /*Non standard for webkit*/
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	-webkit-hyphenate-before: 2;
+	-webkit-hyphenate-after: 3;
+	hyphenate-lines: 3;
+}
+
+.roster-resp-view-member-box-container {
+	border: 1px solid #bcc2a7;
+	padding: 10px 5px;
+	min-height: 170px;
+}
+
+.view-member-box {
+	position: relative;
+}
+
+.view-member-box .member-box-link-container {
+	display: block;
+	width: 100%;
+	height: 100%  ;
+	position: absolute;
+	top: 0;
+	left: 0;   
+	z-index: 0;
+}
+
+.view-member-box .roster-normal-link {
+	position: relative; 
+	z-index: 1;  
+}
+
+img.member-img {
+	border: 1px solid #ddd;
+	height: 75px;
+	width: 75px;
+}
+
+.roster-pref-chkbx-container .ui-chkbox.ui-widget {
+	display: block !important;
+	margin: 5px 0;
+}
+
+.roster-search-item .ui-autocomplete {
+	width: 100%;
+}
+
+.roster-search-item .ui-autocomplete-input.ui-inputfield.ui-widget.ui-state-default.ui-corner-all
+	{
+	width: 100%;
+}
+
+.roster-search-item .ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all
+	{
+	width: 100%;
+}
+
+.roster-search-item .ui-selectonemenu.ui-widget.ui-state-default.ui-corner-all
+	{
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.roster-search-alphabet-container {
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	width: 46px;
+}
+
+.roster-search-alphabet {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: #f1f1f3;
+}
+
+.roster-search-item .ui-outputlabel.ui-widget {
+	margin-bottom: 0;
+}
+
+.roster-search-type-btn-container {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* 980px and above */
+@media ( min-width : 980px) {
+	.roster-search-reset-btn-container {
+		margin-top: 31px;
+	}
+}
+
+/* 641px to 979px */
+@media ( min-width : 641px) and ( max-width : 979px) {
+	.roster-search-reset-btn-container {
+		margin-top: 42px;
+	}
+	.roster-btn-search {
+		height: 38px;
+		line-height: 2em;
+	}
+	.roster-btn-reset {
+		height: 38px;
+		line-height: 2em;
+	}
+	.roster-search-item .ui-selectonemenu {
+		height: 38px;
+	}
+	.roster-search-item .ui-selectonemenu-label.ui-inputfield.ui-corner-all
+		{
+		height: 28px;
+		line-height: 2em;
+	}
+	.roster-search-item .ui-icon.ui-icon-triangle-1-s.ui-c {
+		margin-top: 10px;
+	}
+	.roster-search-item .ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all
+		{
+		height: 38px;
+	}
+}
+
+/* 641px and above */
+@media ( min-width : 641px) {
+	.roster-reset-btn-container {
+		padding-left: 5px;
+	}
+	.ui-grid-col-4.roster-item:nth-child(1n+2) {
+		padding-left: 10px;
+	}
+	.ui-grid-col-6.roster-item:nth-child(2n) {
+		padding-left: 10px;
+	}
+	.ui-grid-col-4.roster-item-dependent:nth-child(1n+2) {
+		padding-left: 10px;
+	}
+	.ui-grid-col-6.roster-item-dependent:nth-child(2n) {
+		padding-left: 10px;
+	}
+	.roster-col-address {
+		max-width: 350px;
+	}
+	.roster-dg .ui-grid-row .ui-datagrid-column:nth-child(n+2) {
+		padding-left: 5px;
+	}
+	.roster-search-item.ui-grid-col-3 {
+		padding-right: 5px;
+	}
+	.roster-search-item.ui-grid-col-3:nth-child(4n) {
+		padding-right: 0;
+	}
+	.roster-pref-col.ui-grid-col-3 {
+		padding-right: 10px;
+	}
+	.roster-pref-col.ui-grid-col-3:nth-child(4n) {
+		padding-right: 0;
+	}
+}
+
+/* 1px to 640px */
+@media ( min-width : 1px) and ( max-width : 640px) {
+	.roster-reset-btn-container {
+		padding-left: 0;
+	}
+	.roster-search-reset-btn-container .ui-grid-col-6 {
+		margin-bottom: 5px;
+	}
+	.roster-profile-pic-container {
+		text-align: center;
+	}
+	.roster-profile-name {
+		text-align: center;
+	}
+	.roster-profile-email {
+		text-align: center;
+	}
+	/*
+	.ui-grid-col-4.roster-item:nth-child(2n) {
+		padding-left: 0px;
+	}
+	.ui-grid-col-4.roster-item:nth-child(3n) {
+		padding-left: 0px;
+	}
+	.ui-grid-col-6.roster-item:nth-child(2n) {
+		padding-left: 0px;
+	}
+	*/
+}
+
+/* 641px to 1210px */
+@media ( min-width : 641px) and ( max-width : 1210px) {
+	.roster-info {
+		padding-left: 10px;
+	}
+}
+
+.roster-profile-pic {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.35);
+	padding: 0.25em;
+	width: 12em;
+	box-sizing: border-box;
+}
+
+.roster-dependent-pic {
+	height: 200px !important;
+}
+
+.roster-item .ui-grid-row:nth-child(2n) {
+	background-color: #eff6d7;
+}
+
+.roster-item-dependent .ui-grid-row:nth-child(2n+3) {
+	background-color: #eff6d7;
+}
+
+.roster-basic-info .ui-grid-row:nth-child(2n) {
+	background-color: #eff6d7;
+}
+
+.roster-item .ui-grid-row {
+	border-top: 1px solid #dddddd;
+	line-height: 35px;
+	padding-left: 5px;
+}
+
+.roster-item-dependent .ui-grid-row {
+	border-top: 1px solid #dddddd;
+	line-height: 35px;
+	padding-left: 5px;
+}
+
+.roster-basic-info .ui-grid-row {
+	border-top: 1px solid #dddddd;
+	line-height: 35px;
+	padding-left: 5px;
+}
+
+.ui-grid-row.roster-profile-pic-container {
+	border-top: medium none;
+	margin-bottom: 10px;
+}
+
+.roster-row {
+	margin-top: 10px;
+}
+
+.roster-address-type-name {
+	font-weight: bold;
+}
+
+.roster-table .ui-datatable-tablewrapper table {
+	table-layout: auto;
+}
+
+.roster-norecords {
+	margin-top: 10px;
+}
+
+.roster-member-address-tabs-container {
+	margin-bottom: 5px;
+}
+
+.roster-table th, .roster-table td {
+	padding: 8px 2px !important;
+}
+
+.roster-col-statistics {
+	text-align: center !important;
+	width: 25px;
+}
+
+.roster-col-vcard {
+	text-align: center !important;
+	width: 25px;
+}
+
+.roster-dg .ui-grid-row .ui-datagrid-column {
+	padding-bottom: 5px;
+}
+
+.roster-export-link-container {
+	margin-right: 5px;
+	margin-top: -8px;
+}
+
+.pref-heading {
+	font-weight: bold !important;
+}
+
+.roster-col-buddy {
+	width: 25px;
+	text-align: center !important;
+}
+
+.roster-buddy-img {
+	width: 20px;
+	height: 20px;
+}
+
+.roster-buddy-receiver-img-and-name-container {
+	text-align: center;
+	padding-top:5px;
+}
+
+.roster-buddy-request-message-container {
+	padding-left: 10px;
+}
+
+.roster-buddy-request-message-label {
+	padding: 0px;
+}
+
+.roster-buddy-request-message-text-area {
+	width: 100% !important;
+}
+
+.roster-buddy-message-container {
+	padding-top: 10px;
+}
+
+.roster-buddy-btns-container {
+	padding-top: 10px;
+}

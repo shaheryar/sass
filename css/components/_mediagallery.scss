@@ -1,0 +1,106 @@
+/* media galley desktop start */
+
+.portlet-image-gallery-display .header-back-to a {
+  padding: 0;
+}
+
+.portlet-image-gallery-display .lfr-asset-column.lfr-asset-column-details{
+  margin-left:0;		
+}
+
+.portlet-image-gallery-display ul {
+  margin-left: 0 !important;
+}
+
+.portlet-image-gallery-display .image-thumbnail img {
+  height: 100px;
+  width: 128px;
+}
+
+.folder-thumbnail-div {
+    cursor: pointer;
+}
+
+.image-title, .folder-title {
+  white-space: normal !important;
+}
+.folder-icon {
+  height: auto !important;
+}
+.portlet-image-gallery-display .taglib-header .header-back-to a {
+  margin: 5px 9px 0 0;
+}
+.portlet-image-gallery-display .image-icon {
+  padding: 5px 8px 0;
+}
+
+/* Search Button Start */
+div.input-append > input.search-query + button.btn[type="submit"] {
+  padding: 5px 8px 5px 4px !important;
+}
+/* Search Button End */
+
+/* media galley desktop End */
+
+/* media galley mobile start */
+
+/* Smartphone-start */
+@media screen and (min-width: 220px) and (max-width:767px) {
+.portlet-image-gallery-display ul {
+  margin:16px 0 !important;
+}
+	
+.portlet-image-gallery-display .image-icon {
+  display: block !important;
+  float: inherit !important;
+  max-width: 100% !important;
+}
+
+.image-thumbnail-div {
+  margin: 0 auto !important;
+}
+.portlet-image-gallery-display .image-icon:hover, .portlet-image-gallery-display .image-icon.hover {
+  background-color: transparent !important;
+}
+.portlet-image-gallery-display .image-title {
+  margin: 5px auto 0;
+}
+.portlet-image-gallery-display .image-icon, .portlet-image-gallery-display .folder-icon {
+  float: inherit  !important;
+  width: 140px;
+  margin: 20px auto;
+}
+}
+/* Smartphone-end */
+
+/* iPad-Portrait-start */
+@media screen and (min-width: 768px) and (max-width:979px) {
+.portlet-image-gallery-display .image-icon {
+  margin: 10px 3px;
+  padding: 5px 20px 0;
+}
+.portlet-image-gallery-display .image-icon, .portlet-image-gallery-display .folder-icon {
+  width: 141px;
+  margin: 20px auto;
+}
+}
+/* iPad-Portrait-End */
+
+/* iPad-Landscape-start */
+@media screen and (min-width: 980px) and (max-width:1199px) {
+.portlet-image-gallery-display .image-icon {
+  margin: 10px 3px;
+  padding: 5px 17px 0;
+}
+}
+/* iPad-Landscape-end */
+
+.image-thumbnail-div {
+  cursor: pointer;
+}
+
+.portlet-image-gallery-display .lfr-asset-metadata {
+  display: none;
+}
+
+/* media galley mobile end */

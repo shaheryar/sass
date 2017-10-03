@@ -1,0 +1,70 @@
+.accordion, .accordion * {
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+ 
+/* .accordion {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  overflow: hidden;
+} */
+
+.accordion {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+
+/* .accordion h3 {
+  background: #009b94 none repeat scroll 0 0;
+  border-bottom: 1px solid #666;
+  color: #fff !important;
+  font-size: 20px !important;
+  margin: 0 !important;
+  padding: 10px;
+  text-shadow: 0 1px 0 #4d522d;
+  transition: all 0.15s linear 0s;
+}
+  */
+.accordion h3 {
+  background: #0271c9 none repeat scroll 0 0;
+  border-bottom: 1px solid #3792d9;
+  color: #fff !important;
+  font-size: 20px !important;
+  margin: 0 !important;
+  padding: 10px;
+  transition: all 0.15s linear 0s;
+  line-height: inherit !important;
+}
+  
+/* .accordion h3.active, .accordion h3:hover {
+    background: #212121 !important;
+    text-decoration: none !important;
+} */
+.accordion h3.active, .accordion h3:hover {
+  background: #005395 none repeat scroll 0 0 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+ 
+.accordion h3:last-child {
+    border-bottom: none;
+}
+
+.accordion-toggle {
+	cursor: pointer;
+}
+	
+	
+.accordion-content {
+    padding: 15px;
+    display: none;
+}
+
+.accordion-content.default {
+	display: block;
+}

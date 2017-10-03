@@ -1,0 +1,763 @@
+/* #ui-datepicker-div .ui-datepicker-header {
+   background: $secondry-bg !important; 
+}
+*/
+.mp-grid-col label {
+    font-size: $default-font-size !important;
+}
+.mp-grid-col input {
+    font-size: $default-font-size !important;
+}
+.aui {
+	font-family: $default-font-family;
+}
+
+/* Media Queries for popup ----------- */
+@media only screen and (max-width : 1024px) {
+	.ui-dialog {
+		left: 10% !important;
+		position: fixed !important;
+		top: 11% !important;
+		width: 80% !important;
+	}
+	.avatar {
+		width: 70px !important;
+		height: 120px !important;
+	}
+	.hidden-min {
+		display: none !important
+	}
+	/* 	.ui-confirm-dialog { */
+	/* 		width: 72% !important; */
+	/* 		left: 8% !important; */
+	/* 	} */
+}
+
+@media only screen and (min-width : 1025px) {
+	.ui-dialog {
+		left: 20% !important;
+		position: fixed !important;
+		top: 11% !important;
+		width: 60% !important;
+	}
+	.ui-confirm-dialog {
+		width: 40% !important;
+		left: 30% !important;
+	}
+}
+
+@media ( max-width : 640px) {
+	.ui-datatable-reflow thead {
+		display: none;
+	}
+	.ui-column-title,.reference-id {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-datatable-even {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-datatable-odd {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-datatable tbody td {
+		padding: 4px 1px 4px 1px !important;
+	}
+	td {
+		font-size: $default-mobile-fontSize !important;
+	}
+	.ui-panelgrid-cell,.ui-panel-titlebar,.chit-text {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-grid-col-1,.ui-grid-col-2,.ui-grid-col-3,.ui-grid-col-4,.ui-grid-col-5,.ui-grid-col-6,.ui-grid-col-7,.ui-grid-col-8,.ui-grid-col-9,.ui-grid-col-10,.ui-grid-col-11,.ui-grid-col-12
+		{
+		height: initial !important;
+	}
+	label.text-center {
+		font-size: $default-mobile-fontSize;
+	}
+	th {
+		font-size: $default-mobile-fontSize;
+		text-align: center !important;
+	}
+	.aui label {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-selectonemenu-panel .ui-selectonemenu-list-item {
+		font-size: $default-mobile-fontSize;
+	}
+	.aui h1 {
+		font-size: 25px;
+	}
+	.aui h3 {
+		font-size: 18px;
+	}
+	.main-label {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-datatable-tablewrapper {
+		border-left: 1px solid $border-color;
+		border-right: 1px solid $border-color;
+	}
+	.col-amount {
+		text-align: left !important;
+	}
+	.col-right {
+		float: right;
+	}
+	.ui-outputlabel.ui-widget {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-chkbox-label {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-selectlistbox-item.ui-corner-all {
+		font-size: $default-mobile-fontSize;
+	}
+	button.ui-datepicker-trigger.ui-button {
+		width: 8%;
+		padding: 3px;
+		float: right;
+		height: 33px;
+	}
+	.hasDatepicker {
+		width: 90% !important;
+	}
+	td.ui-grid-col-1 {
+		width: 8.33333% !important;
+	}
+	td.ui-grid-col-2 {
+		width: 16.66666% !important;
+	}
+	td.ui-grid-col-3 {
+		width: 25% !important;
+	}
+	td.ui-grid-col-4 {
+		width: 33.33% !important;
+	}
+}
+
+/* End: Media Queries for popup ----------- */
+
+/* 1px to 640px */
+@media ( min-width : 1px) and ( max-width : 640px) {
+	.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all.hasDatepicker {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all {
+		font-size: $default-mobile-fontSize;
+	}
+}
+
+/* 1px to 979px */
+@media ( min-width : 1px) and ( max-width : 979px) {
+	.aui select,.aui textarea,.aui input[type="text"],.aui input[type="password"],.aui input[type="datetime"],.aui input[type="datetime-local"],.aui input[type="date"],.aui input[type="month"],.aui input[type="time"],.aui input[type="week"],.aui input[type="number"],.aui input[type="email"],.aui input[type="url"],.aui input[type="search"],.aui input[type="tel"],.aui input[type="color"],.aui .uneditable-input
+		{
+		padding: 7px;
+	}
+}
+
+@media ( max-width : 400px) {
+	.chit-height {
+		height: 400px
+	}
+	button.ui-datepicker-trigger.ui-button {
+		width: 7%;
+	}
+}
+
+@media ( max-width : 320px) {
+	td.ui-grid-col-4 {
+		width: 100% !important;
+	}
+}
+
+@media ( max-width : 640px) and ( min-width : 401px) {
+	.chit-height {
+		height: 325px
+	}
+}
+
+@media ( min-width : 641px) and (max-width: 740px) {
+	.ui-panelgrid-cell,.ui-panel-titlebar,.chit-text {
+		font-size: 14px !important;
+	}
+	.chit-height {
+		height: 325px
+	}
+	.bar-text {
+		font-size: $default-mobile-fontSize !important;
+	}
+	th,table {
+		font-size: $default-mobile-fontSize !important;
+	}
+	.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all.hasDatepicker {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-datatable-tablewrapper {
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+	}
+}
+
+/* 741px and above */
+@media ( min-width : 741px) {
+	.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all.hasDatepicker {
+		font-size: $default-mobile-fontSize;
+	}
+	.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all {
+		font-size: $default-mobile-fontSize;
+	}
+}
+
+/* 641px to 767px */
+@media ( min-width : 641px) and ( max-width : 767px) {
+	.ui-panelgrid-cell,.ui-panel-titlebar,.chit-text {
+		font-size: 14px !important;
+	}
+	.aui .table th,.aui .table td {
+		padding: 3px;
+	}
+	.aui .btn {
+		padding: 11px 6px;
+	}
+	.reference-id {
+		font-size: 11px;
+	}
+}
+
+/* 641px and above */
+@media ( min-width : 641px) {
+	.col-amount {
+		text-align: right !important;
+	}
+	.reference-id {
+		font-size: $default-mobile-fontSize;
+	}
+	.hasDatepicker {
+		width: 80% !important;
+	}
+	.ui-calendar input {
+		height: 30px !important;
+	}
+}
+
+/* 641px to 979px */
+@media ( min-width : 641px) and ( max-width : 979px) {
+	.ui-outputlabel {
+		padding: 11px 4px;
+	}
+	button.ui-datepicker-trigger.ui-button {
+		width: 20px;
+	}
+}
+
+/* 768px to 979px */
+@media ( min-width : 768px) and ( max-width : 979px) {
+	/* .aui .btn {
+		padding: 11px 12px;
+	} */
+}
+
+/* 980px and above */
+@media ( min-width : 980px) {
+	.ui-outputlabel {
+		padding: 5px 0;
+	}
+	.ui-fluid .ui-inputtext {
+		max-width: 270px;
+	}
+	.ui-fluid .ui-autocomplete-input {
+   		max-width: 270px;
+	}
+	.ui-fluid .ui-selectonemenu {
+		max-width: 270px;
+	}
+	.ui-fluid .ui-selectcheckboxmenu {
+		max-width: 270px;
+	}
+	.ui-fluid .ui-calendar,.ui-fluid .ui-calendar input {
+		max-width: 235px;
+	}
+	.ui-fluid .ui-selectmanymenu {
+		max-width: 270px;
+	}
+	button.ui-datepicker-trigger.ui-button {
+		width: 30px;
+	}
+}
+
+/* 641px to 767px */
+@media ( min-width : 641px) and ( max-width : 1250px) {
+	.pmnt-create-cc-error {
+		margin-left: 5px;
+	}
+}
+
+.ui-paginator-pages {
+	display: inline-flex !important;
+}
+
+/*End: New Member Paginator Classes*/
+.new-members {
+	padding-right: 20px;
+}
+
+.ui-datagrid {
+	display: block !important;
+}
+
+.ui-datagrid-column {
+	background-color: $background-light;
+	border: 0px !important;
+	padding: 1px;
+}
+
+.ui-widget-content {
+	border: 0px !important;
+}
+
+.ui-grid-row {
+	display: block !important;
+}
+
+.box {
+	@include border;
+	width: 100%;
+	height: 175px;
+	text-align: center;
+}
+
+.address-box {
+	width: 100%;
+	text-align: center;
+}
+
+.box th {
+	font-size: larger !important;
+}
+
+td.amount-position {
+	text-align: right !important;
+}
+
+span.amount-position {
+	float: right !important;
+}
+
+th.heading-position {
+	text-align: center !important;
+}
+
+td.left-position {
+	text-align: left !important;
+}
+
+td.center-position {
+	text-align: center !important;
+}
+
+.ui-selectcheckboxmenu-panel {
+	background-color: $background-light;
+}
+
+.ui-paginator-current {
+	display: block !important;
+}
+
+.ui-dialog-title {
+	color: $Light-fontColor !important;
+	text-shadow: none;
+}
+
+.ui-state-default {
+	margin-bottom: 10px;
+}
+
+.aui input[type="color"],.aui input[type="date"],.aui input[type="datetime"],.aui input[type="datetime-local"],.aui input[type="email"],.aui input[type="month"],.aui input[type="number"],.aui input[type="password"],.aui input[type="search"],.aui input[type="tel"],.aui input[type="text"],.aui input[type="time"],.aui input[type="url"],.aui input[type="week"],.aui select,.aui textarea,.aui .uneditable-input
+	{
+	color: $dark-fontColor !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label {
+	background-color:$background-light;
+	border: 1px solid grey !important;
+	cursor: pointer;
+	display: block;
+	margin: 0;
+	padding: 3px 26px 3px 5px;
+}
+
+.ui-panel-content {
+	padding: 0.5em 0em !important;
+}
+
+/*Added on 10-12-2015*/
+.ui-icon-circle-close {
+	background-position: -32px -192px !important;
+	background-color: black;
+}
+
+.ui-datagrid-content-empty {
+	
+	background-color: $warning-bg !important;
+	@include border;
+	padding: 8px 35px 8px 14px;
+}
+
+.ui-dialog {
+	overflow-y: auto;
+	max-height: 80% !important;
+}
+
+.ui-confirm-dialog {
+	overflow-y: hidden;
+}
+
+.ui-chkbox {
+	display: inline-flex !important;
+	margin-right: 10px;
+}
+
+.table-heading {
+	background-color: $primary-color !important;
+	color: $Light-fontColor;
+	font-weight: 700;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.cross {
+	float: right;
+	padding-right: 5px;
+	font-size: 20px !important;
+}
+
+.cancel-trash {
+	color: $danger-bg;
+	float: right;
+	font-size: large;
+	font-size: 20px !important;
+}
+
+.distant {
+	margin-right: 5px;
+}
+
+.label-custom {
+	white-space: normal !important;
+}
+
+button.ui-datepicker-trigger {
+	margin-left: 5px;
+}
+
+.text-bold,.ui-column-title,label.text-bold {
+	font-weight: normal;
+}
+
+.responsive-image {
+	height: 80px !important;
+	width: 75px;
+	padding: .25em;
+	box-shadow: 0 0 .1em rgba(0, 0, 0, 0.35);
+}
+
+.signature-image {
+	width: 150px;
+	height: 100px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.row-margin {
+	margin-left: 0px !important;
+}
+
+.mandatory {
+	color: $danger-bg;
+	font-size: 15px;
+	margin-left: 2px;
+	display: inline;
+}
+
+.aui select,.aui textarea,.aui input[type="text"],.aui input[type="password"],.aui input[type="datetime"],.aui input[type="datetime-local"],.aui input[type="date"],.aui input[type="month"],.aui input[type="time"],.aui input[type="week"],.aui input[type="number"],.aui input[type="email"],.aui input[type="url"],.aui input[type="search"],.aui input[type="tel"],.aui input[type="color"],.aui .uneditable-input
+	{
+	height: auto;
+}
+
+.ui-panelgrid .ui-panelgrid-cell {
+	padding: 4px 0;
+}
+
+.ui-chkbox .ui-chkbox-label {
+	cursor: pointer;
+	display: inline-block;
+	margin: 1px 0 0 3px;
+	outline: medium none;
+	vertical-align: top;
+	z-index: 1;
+}
+
+.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default {
+	margin-bottom: 3px;
+}
+
+.ui-scrollpanel-native {
+	overflow-x: hidden;
+}
+
+.pref-save-btn-div {
+	float: left;
+}
+
+.aui .btn-group-primefaces>.btn+.btn {
+	margin-left: 5px;
+}
+
+@media ( max-width : 767px) {
+	.aui .btn {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		display: block;
+		margin-left: 0 !important;
+		margin-top: 5px;
+        margin-bottom: 2px !important;
+		width: 100%;
+	}
+}
+
+.ui-datalist-item {
+	font-weight: 100 !important;
+}
+
+.ui-tree .ui-treenode-label {
+	margin: 0;
+}
+
+.rc-icon {
+	color:$danger-bg !important;
+}
+
+.aui label {
+	cursor: context-menu;
+}
+
+.ui-panel-titlebar-icon {
+	margin-top: 2px !important;
+	margin-bottom: 5px;
+}
+
+.info-bar-left {
+	margin-left: 10px;
+    color: $label-fontColor !important;
+}
+.rc-message {
+    font-size:$alerts-font-size !important;
+}
+
+.info-bar-right {
+	float: right;
+	margin-right: 10px;
+}
+
+.btn-responsive {
+	padding: 2px;
+}
+
+/* implement colors 
+.ui-panel-titlebar {
+    background-color: black;
+    color: white;
+    text-shadow: none;
+}
+th, th.ui-state-default {
+    background-color: black !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+th {
+    background: #c4c4c4 -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0)));
+}
+.main-label {
+    background: #c4c4c4 -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0)));
+    background-color: black !important;
+    color: white;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.information-bar {
+    background: #c4c4c4 -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0)));
+    background-color: yellow;
+    color: brown;
+    padding: 10px 0px 10px 0px;
+    width: 100% !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ui-confirmdialog-yes {
+    background-color: #f1331e!important;
+    color: white !important;
+    font-weight: 100 !important;
+}
+.ui-confirmdialog-no {
+    background-color: black!important; 
+    color: white !important;
+    font-weight: 100 !important;
+}
+.ui-dialog-titlebar {
+    background-color: yellow;
+ }
+*/
+.aui .table-bordered caption+thead tr:first-child th,.aui .table-bordered caption+tbody tr:first-child th,.aui .table-bordered caption+tbody tr:first-child td,.aui .table-bordered colgroup+thead tr:first-child th,.aui .table-bordered colgroup+tbody tr:first-child th,.aui .table-bordered colgroup+tbody tr:first-child td,.aui .table-bordered thead:first-child tr:first-child th,.aui .table-bordered tbody:first-child tr:first-child th,.aui .table-bordered tbody:first-child tr:first-child td
+	{
+	vertical-align: middle;
+}
+
+.aui .table th,.aui .table td {
+	word-wrap: break-word;
+	vertical-align: middle;
+}
+
+th.ui-state-default {
+	text-align: center !important;
+	vertical-align: middle !important;
+}
+
+.ui-selectonemenu-items-wrapper {
+	max-height: 250px !important;
+}
+
+.ui-outputlabel.ui-widget.label.label-info {
+	white-space: normal;
+}
+
+.ui-confirm-dialog-severity {
+	position: fixed;
+	margin-top: 2px;
+}
+
+.ui-confirm-dialog-message {
+	margin-left: 20px;
+}
+
+/* table { */
+/* 	border-right: 1px dotted black; */
+/* } */
+.ui-selectlistbox-item.ui-corner-all {
+	word-wrap: break-word;
+}
+
+.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default {
+	margin-bottom: -3px;
+}
+
+.ui-selectlistbox-filter.ui-inputfield.ui-widget.ui-state-default.ui-corner-all {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.ui-selectonemenu-label.ui-inputfield.ui-corner-all {
+	text-overflow: ellipsis;
+}
+
+.ui-fileupload-progress {
+	display: none;
+}
+
+.ui-selectonemenu-filter-container {
+	display: inherit !important;
+}
+
+button.ui-datepicker-trigger.ui-button {
+	margin-bottom: 7px;
+}
+
+.ui-fileupload-choose {
+	margin-bottom: 0px;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	cursor: default;
+}
+
+/* font size settings */
+
+
+.even-row {
+	background-color: $background-light;
+	height: 35px;
+}
+
+.odd-row {
+	background-color: $background-light;
+	height: 35px;
+	border-bottom: 1px dotted;
+	border-top: 1px dotted;
+}
+
+.odd-col {
+	padding: 8px;
+}
+
+.even-col {
+	padding: 8px;
+}
+
+.grid {
+	width: 100%;
+}
+
+.all-header {
+	background-color:  $primary-color !important;
+	color: $Light-fontColor;
+	padding: 8px;
+}
+
+.ui-colorpicker_field input[type="text"],.ui-colorpicker_hex input[type="text"] {
+	background-color: transparent;
+	border: 0px;
+	height: 13px;
+	width: 60px;
+}
+
+.ui-colorpicker_hsb_h.ui-colorpicker_field,.ui-colorpicker_hsb_s.ui-colorpicker_field,.ui-colorpicker_hsb_b.ui-colorpicker_field
+	{
+	display: none;
+}
+
+@media all and (-ms-high-contrast:none) {
+	.ui-colorpicker_field input[type="text"],.ui-colorpicker_hex input[type="text"] {
+		height: 19px;
+		margin-top: -7px;
+	}
+}
+
+@-moz-document url-prefix() {
+    .ui-colorpicker_field input[type="text"],.ui-colorpicker_hex input[type="text"] {
+		height: 18px;
+		margin-top: -2px;
+	}
+}
+
+.empty-div {
+	display: none;
+}
+
+.ui-editor.ui-widget-content {
+	@include border;
+}
+
+.ui-timepicker-div .ui-widget-header {
+	display: none;
+}
+
+.ui-spinner-down {
+	bottom: -10px;
+}

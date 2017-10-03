@@ -1,0 +1,84 @@
+.mr-datatable tr td {
+	width: 100%;
+}
+
+.mr-datatable thead {
+	display: none;
+}
+
+.mr-header {
+	width: 100% !important;
+	font-weight: 800;
+}
+
+.mr-tee-time {
+	background-color: yellowgreen !important;
+}
+
+.mr-activity {
+	background-color: antiquewhite !important;
+}
+
+.mr-room {
+	background-color: cornsilk !important;
+}
+
+.mr-spa {
+	background-color: palegoldenrod !important;
+}
+
+.mr-dining {
+	background-color: whitesmoke !important;
+}
+
+.mr-event {
+	background-color: yellow !important;
+}
+
+td.text-center {
+	text-align: center !important;
+}
+
+.mr-datatable .ui-expanded-row-content td {
+	background-color: transparent;
+}
+
+.mr-datatable .mr-trash-summ {
+	color: orangered;
+	font-size: 1.5em;
+}
+
+.mr-tree .ui-tree-toggler {
+	display: none;
+}
+
+@media ( max-width : 640px) {
+	.mr-panelGrid .ui-grid-row {
+		border: 0px !important;
+	}
+	.mr-toggler {
+		width: 29px !important;
+	}
+	.mr-datatable .mr-trash {
+		font-size: 1.5em;
+	}
+}
+
+@media ( min-width : 641px) {
+	.mr-toggler {
+		width: 16px !important;
+	}
+	.mr-datatable .mr-trash {
+		font-size: 1.25em;
+	}
+}
+
+@media ( max-width : 740px) {
+	.mr-pref-color-picker span.ui-button-text.ui-c {
+		font-size: 16px;
+	}
+}
+
+.mr-pref-color-grid {
+	margin-top: 30px;
+}

@@ -1,0 +1,31 @@
+
+.mobile-icon {
+  margin-bottom: 23px;
+  margin-top: 32px;
+  width: 30%;
+}
+.mobile-icon a {
+  background-color:$background-light;
+  @include border;
+  border-radius: 5px;
+  color: $dark-fontColor;
+  font-size: 26px;
+  padding: 8px 8px 6px;
+  transition: all 0.9s ease 0s;
+}
+.mobile-icon a:hover {
+    color: $Light-fontColor;
+	 @include border;
+	background-color: $background-dark;
+}
+.mobile-icon a:focus {
+    color: $dark-fontColor;
+	 @include border;
+}
+.mm-panels, .mm-panels > .mm-panel {
+    background: $background-light !important;
+    border-right: 1px solid #E6E6E6 !important;
+}
+.textured-nav-children li a {
+/* 	font-family: 'Open Sans', sans-serif !important; */
+}

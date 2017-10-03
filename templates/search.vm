@@ -1,0 +1,13 @@
+
+#if(!$layout.getName($w3c_language_id).equalsIgnoreCase("Search"))
+	<script type="text/javascript" src="$javascript_folder/search.js"></script>
+	<link rel="stylesheet" href="$css_folder/search.css" />
+	
+	<div class="search-ui">
+		#set ($searchPortletId = "77")
+		$velocityPortletPreferences.setValue("portlet-setup-show-borders", "false")
+		#set($restoreRenderingPortletContent = $theme.runtime($searchPortletId, "", $velocityPortletPreferences.toString()))
+		$restoreRenderingPortletContent
+		$velocityPortletPreferences.reset()
+	</div>
+#end

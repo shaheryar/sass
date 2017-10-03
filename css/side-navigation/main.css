@@ -1,0 +1,47 @@
+@media screen and (min-width: 501px) {
+	.sidenav-page-div {
+		display: block !important;
+	}
+	.sidenav-full-div {
+		display: block !important;
+	}
+	.sidenav-accordion-div {
+		display: block !important;
+	}
+	.sidenav-session-div {
+		display: block !important;
+	}
+	.sidenav-parent-links-div {
+		display: block !important;
+	}
+	.sidenav-session-children-div {
+		display: block !important;
+	}
+	.sidenav-custom-accordion-div {
+		display: block !important;
+	}
+		
+	.sidenav-custom-div {
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 501px) {
+	.sidenav-mobile-view-div {
+		display: block !important;
+	}
+	.sidenav-mobile-custom-accordion-div {
+		/*display: block !important;*/
+	}
+	.sidenav-custom-accordion-div {
+		display: block !important;
+	}
+
+}
+
+
+@media screen and (min-width: 768px){
+	.sidenav-custom-div {
+		display: block !important;
+	}
+}

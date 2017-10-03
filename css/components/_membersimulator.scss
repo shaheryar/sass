@@ -1,0 +1,39 @@
+.deletePopup {
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    display: table;
+    overflow: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 4px;
+    background-color: $background-light;
+    padding: 10px;
+}
+.deletePopupHdr{
+    background-color: $background-dark !important;
+    color:$Light-fontColor !important;
+    font-size: 21px!important;
+    font-weight: bold!important;
+    letter-spacing: 0!important;
+    margin: 0;
+    padding: 0 8px;
+    text-transform: none !important;
+}
+
+.deletePopupBody input {
+  margin-right: 2px;
+  margin-top: 14px !important;
+}
+
+
+.deletePopupHdr label {
+    color: $Light-fontColor !important;
+    line-height: 46px !important;
+    margin: 0 !important;
+    font-size: 23px !important;
+    font-weight: normal !important;
+}

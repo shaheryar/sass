@@ -1,0 +1,105 @@
+div#horizontalDates {
+	max-height: 130px;
+	overflow-y: hidden;
+	overflow-x: scroll !important;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+div#horizontalDates div {
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	background-color: #ffffff;
+	box-shadow: 0 0 2px #949494;
+	border-radius: 4px;
+	width:13.7%;
+}
+
+div#horizontalDates::-webkit-scrollbar {
+	display: none;
+}
+
+.horizontalDates a {
+	text-decoration: none;
+	color: #7abee4;
+	text-shadow: none;
+	font-size: 14px;
+	font-weight: normal;
+	display: block;
+	padding: 2px;
+	transition: 0.8s all ease;
+}
+.horizontalDates a:hover {
+    background-color: #3384b1;
+    color: #ffffff;
+}
+span.calendar-day, span.calendar-date, span.calendar-year {
+	display: block;
+}
+
+span.calendar-year {
+	padding: 1px 0 1px 0;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #7abee4;
+}
+
+.horizontalDates a.selected-date {
+   	background-color: #1a4d69 !important;
+   	color: #fff !important;
+}
+
+.backwardControls a, .forwardControls a {
+    font-size: 30px !important;
+    display: block;
+ 	text-align: center;
+}
+
+.backwardControls a:focus, .forwardControls a:focus {
+	outline: none !important;
+}
+
+.backwardControls span {
+    font-size: 30px !important;
+    display: block;
+ 			text-align: center;
+}
+
+.forwardControls span {
+    font-size: 30px !important;
+    display: block;
+ 			text-align: center;
+}
+
+.horizontalDatePicker {
+	width:100% !important;
+	display: table !important;
+	margin: 5px 0px 5px 0px !important;
+}
+
+.backwardControls, .forwardControls {
+	display: table-cell !important;
+	max-width:20px !important;
+	vertical-align:top !important;
+}
+
+.horizontalDates a {
+    text-decoration: none !important;
+}
+
+@media ( max-width : 500px) {
+	.backwardControls, .forwardControls {
+		display: block !important;
+	    max-width: 100% !important;
+	    width: 100% !important;
+	    background: #f1f1f1;
+	}
+	
+	.backwardControls span, .forwardControls span, .backwardControls a, .forwardControls a{
+		background: rgba(162, 159, 159, 0.41) !important;
+  			margin: 2px !important;
+	}
+}

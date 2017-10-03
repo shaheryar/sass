@@ -1,0 +1,33 @@
+.announcement-portlet {
+  margin-bottom: 24px;
+}
+
+
+.announcement-portlet ul {
+  list-style: outside none none;
+}
+.announcement-portlet ul li b {
+  padding: 0 0 0 5px;
+}
+.announcement-portlet li a {
+  color: #000;
+  
+}
+.announcement-portlet li a:hover {
+    text-decoration: none;
+}
+.announcement-portlet .layoutTwoContentSpan .layoutTwoTitle {
+  color: $default-fontColor;
+  display: block !important;
+ 
+  margin: 3px 0 0;
+  position: relative;
+}
+
+.announcement-portlet .layoutTwoContentShortDesc .layoutTwoShorDes {
+  color: $default-fontColor;
+  display: block;
+ 
+ 
+}
+

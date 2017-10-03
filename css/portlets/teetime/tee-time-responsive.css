@@ -1,0 +1,307 @@
+.teetime-webservice {
+
+@media ( min-width : 640px) {
+	.align-playerName, align-playerHoles, .align-playerResource,
+		.align-playerPhone, .align-playerEmail {
+		text-align: center !important;
+		margin: auto !important;
+		display: block !important;
+	}
+	.align-playerPhone, .align-playerEmail {
+		text-align: left !important;
+		margin: auto !important;
+		display: block !important;
+	}
+	.teetime-player-col-4 {
+		width: 25%;
+		float: left;
+	}
+	.teetime-player-col-5 {
+		width: 20%;
+		float: left;
+	}
+	.teetime-player-col-6 {
+		width: 16.666%;
+		float: left;
+	}
+	.reserved-height-4 {
+		background-color: #effbf9;
+	}
+	.first-block {
+		border-left-style: solid !important;
+		border-left-width: 1px !important;
+		border-left-color: #ddd !important;
+	}
+	.first-block, .second-block {
+		border-bottom: medium none !important;
+	}
+	.member-name {
+		font-size: 0.9vw !important;
+	}
+
+	.legend-row-reserved a {
+		font-size: 0.9vw !important;
+	}
+	.ui-block-b.btn-reserve-area {
+	    margin-top: 5px !important;
+	}
+	h2.heading-height {
+    	margin-bottom: 1px !important;
+   	 	margin-top: -1px !important;
+	}
+	.free-slot a {
+		white-space: nowrap !important;
+    	text-overflow: ellipsis !important;
+    	overflow: hidden !IMPORTANT;
+	}
+	span.member-name a {
+	    white-space: nowrap !important;
+	    text-overflow: ellipsis !important;
+	    overflow: hidden !IMPORTANT;
+	}
+	.ui-bar.ui-bar-a.resource-column-doubletees {
+	    padding: 0em 1em !important;
+	}
+	.player-no-label {
+		display:none !important;
+	}
+	.playerNoLabelColumn, .holesCol {
+		width:70px !important;
+	}
+	.multiple-courses-col-4, .multiple-courses-col-5, .multiple-courses-col-6 {
+		width: 50%;
+		float: left;
+	}
+	.multiple-courses-col-6 a {
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	}
+	.multiple-courses-col-6 .first-block, .multiple-courses-col-6 .second-block {
+		border-bottom: medium none !important;
+	}
+	.multiple-courses-col-4 .first-block, .multiple-courses-col-4 .second-block {
+		border-bottom: medium none !important;
+	}
+	.multiple-courses-height-4 {
+		height:auto !important;
+	}
+	.teetime-player-col-4, .teetime-player-col-5, .teetime-player-col-6 {
+	    height: 47px !important;
+	}
+	.ui-selectonemenu {
+		margin-left: 5px;
+	}
+	.align-playerResource {
+		width: 70% !important;
+	}
+	.resource-sel {
+		width: 160px;
+	}
+	.ui-fluid .ui-selectonemenu {
+		max-width: 175px !important;
+	}
+	.player-actions-div {
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.cancel-reason-div {
+		width: 210px !important;
+	}
+	.teetime-cancel-dialog {
+		width: 40% !important;
+		left: 30% !important;
+	}
+	
+}
+
+@media ( max-width : 600px) {
+	.playersSel .ui-button-text-only, .timePeriodSel .ui-button-text-only {
+		padding: 0 0 0 0 !important;
+		font-size: 10px !important;
+	}
+	span.rwd p {
+	    width: 160px !important;
+	}
+	.available-square {
+	    width: 11px;
+	    margin-right: 3px;
+	}
+
+	.reserved-square {
+    	width: 11px;
+    	margin-right: 3px;
+	}
+	.teetime-webservice .timePeriodSel .ui-button-text-only {
+	    display: table-cell !important;
+	}
+	.timePeriodSel .ui-button-text {
+	    padding: .3em 0.3em !important;
+	}
+}
+
+
+@media ( max-width : 640px) {
+	.res-holes-sel-div, .res-group-sel-div {
+	    width: 100%;
+	}
+}
+
+@media ( max-width : 400px) {
+	.rwd h2 {
+		font-size: 12px!important;
+    	font-stretch: expanded;
+	}
+	.rwd p {
+		margin-top: 7px !important;
+	}
+	.rwd label {
+		font-size: 10px !important;	
+	}
+	.ui-block-b.btn-reserve-area a {
+    	font-size: 10px !important;
+	}
+	.timePeriodSel .ui-button-text-only {
+		display: list-item !important;
+	}
+	.btn-teesheet {
+		font-size: 10px !important;
+	}
+	.btn-teesheet {
+		font-size: 10px !important;
+	}
+	.ui-block-b.btn-teesheet span {
+    	font-size: 10px !Important;
+	}
+	.holesLabel {
+		vertical-align: sub !important;
+	}
+	.ui-area-btn-danger {
+		padding-left: 2px !important;
+    	padding-right: 2px !important;
+	}
+	.ui-block-b.btn-reserve-area span {
+    	font-size: 10px !important;
+	}
+	.heading-selectplayers {
+    	font-size: 12px !important;
+	}
+	.ui-controlgroup-label.reservation-holes-label {
+    	font-size: 11px !important;
+	}
+	.ui-controlgroup-controls.reservation-holes-controlgroup {
+    	width: 80px !important;
+	}
+	.float-right {
+	    float: right !important;
+	}
+	.resource-column, .resource-label {
+		font-size:9px !important;
+	}
+	.ui-bar.ui-bar-a.resource-column {
+    	font-size: 9px !important;
+	}
+	.ui-block-b.btn-reserve-area {
+	    margin-top: 10px !important;
+	}
+	.rwd p {
+	    margin-top: 7px !important;
+	    font-stretch: semi-condensed !important;
+	}
+	span.rwd p {
+	    width: 100px !important;
+	}
+	.playersSel span.ui-button-text.ui-c {
+    	padding: 0.3em 0.5em !important;
+	}
+	
+	.legend-free-slot label {
+		font-stretch: condensed;
+    	font-size: 10px !important;
+	}
+	.courseSlots {
+		min-width: 256px !important;
+    	padding-right: 1px !important;
+	}
+	.blocked-status {
+		font-size: 8px;
+	}
+}
+
+@media ( max-width : 350px) {
+	.rwd h2 {
+		font-size: 10px !important;
+	}
+	.rwd label {
+		font-size: 10px !important;	
+	}
+	.ui-block-b.btn-reserve-area a {
+    	font-size: 10px !important;
+	}
+	.timePeriodSel .ui-button-text-only {
+		display: list-item !important;
+	}
+	.btn-teesheet {
+		font-size: 10px !important;
+	}
+	.btn-teesheet {
+		font-size: 10px !important;
+	}
+	.ui-block-b.btn-teesheet span {
+    	font-size: 10px !Important;
+	}
+	.holesLabel {
+		vertical-align: sub !important;
+	}
+	.ui-area-btn-danger {
+		padding-left: 2px !important;
+    	padding-right: 2px !important;
+	}
+	.ui-block-b.btn-reserve-area span {
+    	font-size: 10px !important;
+	}
+	.heading-selectplayers {
+    	font-size: 12px !important;
+	}
+	.ui-controlgroup-label.reservation-holes-label {
+    	font-size: 11px !important;
+	}
+	.ui-controlgroup-controls.reservation-holes-controlgroup {
+    	width: 80px !important;
+	}
+	.float-right {
+	    float: right !important;
+	}
+	.resource-column, .resource-label {
+		font-size:8px !important;
+	}
+	.ui-bar.ui-bar-a.resource-column {
+    	font-size: 8px !important;
+	}
+	.alignPlayerHoles {
+		width: 160px;
+	}
+	span.rwd p {
+	    width: 100px !important;
+	}
+}
+
+@media only screen and (min-width : 1025px) {
+	.tee-time-dialog {
+		width: 40% !important;
+		left: 30% !important;
+	}
+	.ui-fluid .ui-selectonemenu {
+	    max-width: 270px !important;
+	}
+}
+
+@media ( min-width : 641px) and (max-width: 740px) {
+	.tee-time-dialog {
+		overflow-y: hidden;
+	}
+}
+
+
+
+}

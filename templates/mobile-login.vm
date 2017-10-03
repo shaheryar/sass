@@ -1,0 +1,31 @@
+ <div class="Member-login-footer hidden-desktop">
+      #if ($themeDisplay.getLayout().isPublicLayout()) 
+      #if($is_signed_in)
+      <div class="span12 mobile-margin-top">
+         <div class="text-center user-login-details" >
+            <span><a href="/group/pages/home" id="user-greeting" ><i class="fa fa-user padd-6px "></i> $user_greeting</a>,</span>
+            <span><a href="$sign_out_url" rel="nofollow" class="logout-style"><i class="fa fa-power-off padd-6px"></i> Logout</a></span>
+         </div>
+      </div>
+      #else	
+      <div class="span12">
+         <div class="text-right" >
+            <div class="row-fluid">
+               <div class="span12">
+                  <a class="member-login-large" href="/web/pages/login" id="myTooltip" title="Welcome To Our Site" style="color:#fff;">
+                     <h2> <i class="fa fa-lock" style="padding-right:10px;"></i> Member Login</h2>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      #end
+      #else
+      <div class="span12 mobile-margin-top">
+         <div class="text-center user-login-details" >
+            <span><a href="/web/pages/home" id="user-greeting" ><i class="fa fa-user padd-6px"></i> $user_greeting</a>,</span>
+            <span><a href="$sign_out_url" rel="nofollow" id="user-greeting"><i class="fa fa-power-off padd-6px"></i> Logout</a></span>
+         </div>
+      </div>
+      #end
+   </div>

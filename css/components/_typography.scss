@@ -1,0 +1,126 @@
+
+#ui-area h1 {
+    font-size: $fontsize1;
+    font-family: $treasurey-font-family;
+      margin-top: 0px;
+}
+
+#ui-area h2 {
+    font-size:$fontsize2;
+}
+
+#ui-area h3 {
+    font-size:$fontsize3;
+}
+
+#ui-area h4 {
+    font-size:$fontsize4;
+}
+
+#ui-area h5 {
+    font-size: $fontsize5;
+}
+
+#ui-area h6 {
+    font-size:$fontsize6;
+}
+
+#ui-area p {
+    font-size: $default-font-size;
+    line-height: $type-lineheight;
+      color:$default-fontColor;
+    
+}
+
+
+
+@media screen and (max-width: 1250px) and (min-width: 300px){ 
+
+#ui-area h1{
+	font-size: $fontsize2;
+	line-height: $lineheight-normal !important;
+}
+#ui-area h2{
+	font-size: $fontsize7 !important;
+	line-height: $lineheight-normal !important;
+}
+#ui-area p{
+	font-size: $default-mobile-fontSize;
+}
+#ui-area ul li{
+	font-size: $default-mobile-fontSize;
+}
+
+}
+
+.accordion h3{
+	background: $accgreen !important;
+	border-bottom:  1px solid $accborderclr !important;
+	font-size: $acctitle !important;
+	text-shadow: $none !important;
+}
+.accordion h3.active, .accordion h3:hover{
+	background: $accactivehover !important;
+}
+
+
+.dining-guest-heading {
+	font-size:$fontsize1 !important;
+}
+
+.chit-heading {
+	font-size: $chit-heading !important;
+	line-height: $type-lineheight !important;
+    background-color: $primary-bg;
+    padding: 8px 7px;
+    font-family: $default-font-family !important;
+    color: $Light-fontColor !important;
+}
+
+.dining-search-label {
+	color: $default-fontColor !important;
+	font-size: $default-font-size;
+	font-weight: $type-fontweight;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dining-search-label .ui-widget-content {
+	color: $Light-fontColor !important;
+}
+.add-acc-panel h3.ui-accordion-header {
+	padding: 0 0 0 1.5em;
+	font-size: $fontsize3;
+}
+
+.nm-box th {
+	text-align: center !important;
+	font-size: larger !important;
+}
+.nm-label {
+	font-size: large !important;
+}
+
+.poa-property-heading label {
+	color: $Light-fontColor;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.poa-property-heading h1 {
+	color: $Light-fontColor;
+	padding-right: 5px;
+}
+.pref-heading {
+	font-weight: bold !important;
+}
+.label-long-recent-acti {
+    background-color: $secondry-bg;
+    padding: 10px 0;
+    text-shadow: none;
+}
+
+.announcement-portlet h1 {
+  display: none;
+}

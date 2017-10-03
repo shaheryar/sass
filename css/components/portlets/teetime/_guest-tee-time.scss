@@ -1,0 +1,85 @@
+.guest-teetime-slot {
+	border: solid 1px #eeeeee;
+}
+
+.guest-teetime-slot-details, .guest-teetime-slot-details .ui-widget-content
+	{
+	margin-bottom: 20px;
+	background-color: whitesmoke !important;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.course-sel .ui-selectlistbox-list {
+	border: 1px solid #DDD;
+	color: #8d8d8d;
+	padding: 4px 6px;
+	font-size: 14px;
+	color: #555;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.book-now-div {
+	margin: 0 auto;
+	width: 100px;
+}
+
+.rates-error {
+	color: red !important;
+}
+
+.back-to-search-btn {
+	width: 170px !important;
+	float: right;
+}
+
+.dialogOKBtn {
+	width: 100px !important;
+	display: inline-block !important;
+}
+
+.inline-block {
+	display: inline-block !important;
+}
+
+.reservation-holes {
+	vertical-align: -webkit-baseline-middle;
+}
+
+.guest-teetime-border {
+	border-bottom: 1px #ccc dashed;
+}
+
+.guest-teetime-border-top {
+	border-top: 1px #ccc dashed;
+}
+
+.confirm-title {
+	text-align: center;
+}
+
+.res-no {
+	background: #F3F3F3 !important;
+	text-align: center !important;
+	line-height: 49px !important;
+	vertical-align: middle !important;
+}
+
+.book-another-btn {
+	width: 170px !important;
+	float: right;
+}
+
+@media ( min-width : 640px) {
+	.slot-image {
+		width: 330px !important;
+		height: 220px !important;
+	}
+}

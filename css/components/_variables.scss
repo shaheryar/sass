@@ -1,0 +1,182 @@
+// ==========================================================================
+// NS Connect Northstar UI Prime Faces Portlets
+// ==========================================================================
+//
+// Table of Contents:
+//
+//  1. Global Background Colors
+//  2. Typography
+//  3. Buttons
+//  
+//  
+//  Background Colors 
+//  
+
+/* Complete Webiste Font */
+$default-font-family: "Conv_NunitoSans-Regular" !default;
+$seconday-font-family: $default-font-family !default; 
+$treasurey-font-family:  "Conv_NunitoSans-Bold" !default; 
+
+/* Font Color  */
+$default-fontColor: #000 !default;
+$Light-fontColor: #fff !default;
+$dark-fontColor: $default-fontColor !default;;
+$label-fontColor: $Light-fontColor !default; //Statment summary > Total Recent Payments , Current Amount Due , Total Recent Charges, Current Balance As Of Today 
+
+
+/* Webiste Core Color For NSUI */
+$scotch-colors: (
+  'primary': #000000, 
+  
+);
+@function scotch-color($key: 'primary') {
+  @return map-get($scotch-colors, $key);
+}
+$color-primary: scotch-color('primary'); // %); 
+$color-primary-dark: mix(white, $color-primary, 10%); 
+$color-primary-medium: mix(white, $color-primary, 40%);
+$color-primary-light: mix(white, $color-primary, 60%); 
+$color-primary-lighter: mix(white, $color-primary, 80%); 
+$color-primary-evenRow: mix(white, $color-primary, 90%); 
+$color-primary-oddRow: mix(white, $color-primary, 100%); 
+
+// For Buttons
+$danger-bg: #f1331e !default;	//Cancel & Delete
+$warning-bg: #f1331e !default;
+$success-bg: #000 !default; // Save & Update
+
+$primary-bg: $color-primary-darker !default; 
+$secondry-bg: $color-primary-dark !default; //Edit Button
+
+$inverse-bg :$color-primary-medium !default;
+$info-bg: $color-primary-light !default;
+$print-bg: $color-primary-medium  !default;
+
+$nextx-previous-bg: $color-primary-light !default;
+$statement-bg: $color-primary-medium !default;	//Statement in-Active Tab
+$statement-active:$color-primary-darker !default; //  Statement Active Tab
+$statement-print: $color-primary-dark !default; // Next, Previous and 
+$statement-hover: $color-primary-lighter !default;
+$stmt-file-text-icon: $color-primary-darker !default;
+
+$makepayment-bg: $color-primary-darker !default;
+$makepayment-hover : $color-primary-light !default;
+
+$primary-color: $color-primary !default; //table header background color view statment , credit card, credit book
+$evenRow-bg: $color-primary-evenRow !default;
+$oddRow-bg: $color-primary-oddRow !default;
+/* End */
+
+
+$link-color: $secondry-bg !default;
+$guest-captcha-bg: $warning-bg !default;
+
+
+$disbaled-bg: gainsboro !default;
+$disbaled-font-color:#566573 !default;
+
+$border-color: #ccc !default;
+$secondary-color: #ccc !default;
+
+$background-light: #fff  !default; // Page Bg
+$background-light-hover: #eeeeee !default;
+$background-dark: $primary-color !default; // Profile Heading Background, 
+
+
+//  Alerts Fonts Size //  
+$alerts-font-size: 14px !default;
+
+//  Typography //  
+
+$fontsize1: 30px !default;
+$fontsize2: 22px !default;
+$fontsize3: 16px !default;
+$fontsize4: 15px !default;
+$fontsize5: 14px !default;
+$fontsize6: 12px !default;
+$fontsize7: 15px !default;
+$fontsize8: 17px !default;
+$teeSheetCourseHeading:$fontsize5 !default;
+$default-font-size: 15px !default;
+$default-mobile-fontSize: 14px !default;
+$chit-heading: 22px !default;
+$type-fontweight: 400px !default;
+$type-fontstyle :normal !default;
+$type-lineheight: 25px !default;
+$type-transform: uppercase !default;
+
+
+$none: none !default;
+
+$border-width: 1px !default;
+$border-color: $secondry-bg !default;
+$border-style: solid !default;
+$border-radius: 1px !default;
+
+$lineheight-normal: normal !default;
+$textuppercase: uppercase !default;
+@mixin border  {
+	border: $border-width $border-style $border-color !important;
+	border-radius: $border-radius !important;
+  
+}
+
+$default-cursor: pointer !default;
+$accrodian-heading: $fontsize3;
+$default-boxShadow:  0 0 .1em rgba(0, 0, 0, 0.35) !default;
+
+/* View Profile Icon Display */
+$icon-display: none !default;
+
+//  For Club Website // 
+
+$clubGreen: #3a4a1a !default;
+$sidenavBg: #3a4a1a !default;
+$clubWhite: #fff !default;
+$clubBlack: #000 !default;
+$light-gray: #eee !default;
+$transparent: transparent !default;
+
+
+$sideNavLinkColor: #454545 !default;
+
+
+//  Accordion Color For Web Contents//  
+$acctitle: 17px !default;
+$accgreen: #3a4a1a !default;
+$accborderclr: #586147 !default;
+$accactivehover: #000 !default;
+
+// Header//
+
+$parentfontsize: $fontsize5 !default;
+$linkpaddtb: 17px !default;
+$linkpaddrl: 20px !default;
+/* Header Nav Drop Down */
+$dropdownclr: #fff !default;
+$dropdownsepline: #333 !default;
+$dropdownlinkclr: #fff !default;
+$dropdownlinkclrhoverbg: #3a4a1a !default;
+$dropdownfontweight: 400 !default;
+$dropdownlineheight: 20px !default;
+$dropdownlpaddTB: 7px !default;
+$dropdownlpaddRL: 10px !default;
+$dropdownltextalign: left !default;
+$dropdownwidth: 186px !default;
+
+//Footer //
+$footerbg: #484848 !default;
+$footerfont: 14px !default; 
+$footermobilefont: 10px !default;
+
+
+//Teesheet Background//
+.teetime-webservice .ui-overlay-a, .teetime-webservice .ui-page-theme-a, .teetime-webservice .ui-page-theme-a .ui-panel-wrapper {
+    background-color: $background-light !important;
+   }
+.teeTimeContent ul {
+   background: $background-light !important; // Course Area BG and Border//
+}
+
+
+

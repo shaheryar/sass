@@ -1,0 +1,159 @@
+
+
+/* body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+@media (min-width: 1200px) {
+	.container {
+		    width: 1050px;
+	}
+} */
+.main-container {
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+
+/* h1 {
+	font-size: 24px;
+	color: #698167;
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+	color: #2f6098;
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 12px;
+	font-family: 'Exo', sans-serif;
+	color: #2f6098;
+	font-weight: 500;
+	line-height: 3px !important;
+}
+
+h4 {
+	font-size: 14px;
+	font-family: 'Exo', sans-serif;
+	color: red;
+	font-weight: 500;
+	line-height: 15px !important;
+	text-transform: uppercase;
+} */
+/* spa Reservation */
+.spa-background {
+	background-color: #ECECE1;
+}
+
+.margin-guest-hr {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+.main-spa-div {
+	background-image: url(/documents/10184/12041/dinig-reservation.jpg);
+	padding: 10px;
+}
+
+.spa-margin-top {
+  background-image: url("../images/dining-bg.png");
+  margin-top: 270px;
+  padding: 10px;
+  background: rgba(0,0,0,.8);
+}
+
+.SpaReservation-portlet .ui-datepicker-trigger.ui-button-icon-only .ui-button-text {
+  padding: 2px 0 !important;
+}
+@media ( max-width : 767px) {
+	.spa-margin-top {
+		margin-top: 20px;
+	}
+	.spa-margin-top h1 {
+		font-size: 20px;
+	}
+}
+
+.spa-margin-top h1 {
+	color: #fff !important;
+	font-weight: 700;
+	text-shadow: 1px 1px #000000;
+}
+/* .spa-margin-top label {
+	color:#fff !important;
+    font-weight:700 !important;
+    text-shadow: 1px 1px #000000;
+    font-size: 1.1em;
+    text-transform: uppercase;
+} */
+.heading-background {
+	background-color: #000;
+	color: white;
+	display: block;
+	font-size: 17px;
+	min-height: 20px;
+	padding: 10px;
+}
+
+.heading-background h1 {
+	color: #fff;
+	font-size: 18px;
+}
+
+.maxPartyMsg {
+	color: red;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.available-times-dis {
+	background-color: #dddddd;
+	color: #cccccc;
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	padding: 5px;
+	margin: 2px;
+}
+
+.available-times {
+	background: rgba(55, 179, 218, 0.21);
+	color: #000 !important;
+	display: block;
+	margin: 4px 0 4px 7px;
+	padding: 14px 0;
+	text-align: center;
+	/* width: 48%; */
+}
+
+.available-times:hover {
+	background-color: #0271c9;
+	color: white !important;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+/* End */
+
+/* SPA Calender Style */
+.ui-timepicker-oneLine select {
+	width: 80px;
+}
+
+.ui-datepicker {
+	width: 17em !important;
+}
+
+/* .ui-widget {
+	font-size: 13px !important;
+} */
+/*End SPA Calender Style */

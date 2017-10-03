@@ -1,0 +1,56 @@
+.from-layer-two-div {
+    margin: 10px 0 0 0;
+}
+
+div#main-heading {
+    display: block;
+    padding: 10px 0 10px 0px;
+    color: #6a6a6a;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.main-heading-title a, a:hover, a:active, a:focus {
+    color: #000000;
+	text-decoration: none !important;
+}
+
+ul.MenuBarVertical li {
+    width: 16.5em !important;
+}
+
+ul.MenuBarVertical a {
+    background-color: #fff !important;
+    padding: 19px 0 18px 0px !important;
+    color: #6a6a6a !important;
+    font-size: 17px !important;
+}
+
+ul.MenuBarVertical li {
+    line-height: 0 !important;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+ul.MenuBarVertical li:last-child {
+    border-bottom: none;
+}
+
+
+ul.MenuBarVertical a:hover, ul.MenuBarVertical a:focus {
+ /*    background-color: #eceadd !important; */
+}
+
+ul.MenuBarVertical ul li {
+    width: 12.2em !important;
+}
+
+ul.MenuBarVertical ul {
+    border: none !important;
+}
+
+ul.MenuBarVertical {
+    border: none !important;
+	margin: 20px 0 0 0 !important;
+}
+

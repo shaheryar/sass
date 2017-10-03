@@ -1,0 +1,23 @@
+
+.aui .table {
+    font-size: $default-font-size !important;
+	border-radius: 0px !important;
+}
+
+.aui .table thead th {
+    font-size: $default-font-size !important;
+ }
+ .aui .table td {
+border-top: 1px dotted #999999 !important;
+}
+.aui .table-bordered td {
+    border-left: 1px dotted #999999 !important;
+}
+.aui .table-bordered th, .aui .table-bordered td {
+    border-left: 0px dotted #999999 !important;
+}
+/* .aui .table td { */
+/*     background-color: #f1f1f3 !important; */
+/* } */
+
+/* End */

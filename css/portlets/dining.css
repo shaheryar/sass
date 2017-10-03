@@ -1,0 +1,90 @@
+.dining-heading {
+	
+}
+
+.dining-guest-heading {
+	font-size: 15px !important;
+}
+
+.dining-search-div {
+	background-image: url(../images/dining/dining-reservation.jpg);
+	padding: 10px;
+}
+
+.dining-margin-top {
+	margin-top: 195px;
+	background-image: url(../images/dining/dining-bg.png);
+	padding: 10px;
+}
+
+.dining-search-div .ui-widget-content {
+	background: transparent !important;
+}
+
+.dining-search-label {
+	color: #ffffff !important;
+	font-size: 28px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.dining-search-label .ui-widget-content {
+	color: #ffffff !important;
+}
+
+.dining-search {
+	
+}
+
+.dining-table {
+	
+}
+
+.dining-grid {
+	
+}
+
+.dining-odd-row {
+	
+}
+
+.dining-even-row {
+	
+}
+
+.dining-odd-col {
+	
+}
+
+.dining-even-col {
+	
+}
+
+.dining-date {
+	
+}
+
+.dining-label {
+	
+}
+
+.dining-time {
+	
+}
+
+.dining-partySize {
+	
+}
+
+.dining-addGuest {
+	
+}
+
+.dining-pencil {
+	
+}
+
+.dining-trash {
+	
+}

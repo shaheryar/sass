@@ -1,0 +1,93 @@
+.trans-col-date {
+	width: 15%;
+}
+
+.trans-col-trans-no {
+	width: 15%;
+}
+
+.trans-col-location {
+	width: 20%;
+}
+
+.trans-col-desc {
+	width: 35%;
+}
+
+.trans-col-amount {
+	width: 15%;
+	text-align: right !important;
+}
+
+.trans-total {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.trans-label{
+	margin-bottom: 5px;
+}
+
+.trans-lbl-fromdate{
+	font-weight: bold;
+}
+
+.trans-lbl-todate{
+	font-weight: bold;
+}
+
+/* 1px to 640px */
+@media ( min-width : 1px) and ( max-width : 640px) {
+	.trans-col-amount {
+		text-align: left !important;
+	}
+	.trans-total {
+		font-size: 13px;
+	}
+	.trans-btn-search {
+		margin-left: 0;
+	}
+	.ui-outputlabel {
+		padding: 0;
+	}
+	.trans-lbl-todate {
+		margin-left: 0;
+	}
+}
+
+/* 1px to 979px */
+@media ( min-width : 1px) and ( max-width : 979px) {
+	
+}
+
+/* 641px to 767px */
+@media ( min-width : 641px) and ( max-width : 767px) {
+	.trans-btn-search {
+		margin-top: 0 !important;
+	}
+}
+
+/* 641px and above */
+@media ( min-width : 641px) {
+	.trans-lbl-todate{
+		margin-left: 10px;
+	}
+	.trans-btn-search-div {
+		margin-left: 10px;
+	}
+}
+
+/* 641px to 979px */
+@media ( min-width : 641px) and ( max-width : 979px) {
+	
+}
+
+/* 768px to 979px */
+@media ( min-width : 768px) and ( max-width : 979px) {
+	
+}
+
+/* 980px and above */
+@media ( min-width : 980px) {
+	
+}

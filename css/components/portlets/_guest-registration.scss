@@ -1,0 +1,40 @@
+.guest-remove-btn {
+	padding-bottom: 10px;
+}
+
+.guest-instruction {
+	margin-bottom: 20px;
+}
+
+.guest-captcha-refresh {
+	color: red;
+	font-size: $default-font-size;
+}
+
+.guest-captcha {
+	color: $default-fontColor;
+	border: 2px solid;
+	border-color: $info-bg;
+	background-color: $guest-captcha-bg;
+	margin-right: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+@media ( min-width : 641px) and ( max-width : 980px) {
+	.guest-grid .guest-col {
+		width: 37%;
+	}
+	.guest-fluid .ui-inputfield,.guest-fluid .ui-selectonemenu {
+		width: 95%;
+	}
+}
+
+@media ( max-width : 640px) {
+	.guest-grid .ui-inputfield {
+		width: 100%;
+	}
+	.guest-fluid .ui-grid-row {
+		border-top: 0px !important;
+	}
+}

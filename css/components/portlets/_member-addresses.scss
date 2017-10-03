@@ -1,0 +1,21 @@
+
+@media ( max-width : 640px) {
+	.add-tab-view li {
+		width: 100%;
+	}
+}
+
+@media ( max-width : 400px) {
+	.add-icon {
+		display: none;
+	}
+}
+
+.add-grid {
+	border: $border-width $border-style $border-color;
+    margin: 10px 0 30px !important;
+}
+
+span.add-email {
+	word-break: break-all;
+}

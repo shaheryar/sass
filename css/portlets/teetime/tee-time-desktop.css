@@ -1,0 +1,1057 @@
+.teetime-webservice {@font-face {
+	font-family: 'hk-demo';
+	src: url('../fonts/hk-demo.eot');
+	src: url('../fonts/hk-demo.eot#iefix') format('embedded-opentype'),
+		url('../fonts/hk-demo.woff') format('woff'),
+		url('../fonts/hk-demo.ttf') format('truetype'),
+		url('../fonts/hk-demo.svg#hk-demo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.teeTimeContent ul {
+  margin: 0 !important;
+  background: white !important;
+  border: 1px solid #ebebeb;
+  box-shadow: none !important;
+}
+
+.teeTimeContent .horizontal-dates {
+  max-height: 150px;
+  overflow: hidden !important;
+  padding: 1px 0;
+}
+
+#tabsDiv .ui-button.ui-widget.ui-state-default.ui-button-text-only.ui-state-active {
+    background: #85b2cb -moz-linear-gradient(center top , rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)) repeat scroll 0 0 !important;
+	text-align: center;
+}
+#tabsDiv .ui-button.ui-widget.ui-state-default.ui-button-text-only {
+    background: #c4c4c4 -moz-linear-gradient(center top , rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) repeat scroll 0 0 !important;
+	text-align: center;
+}
+
+.teetime-webservice .ui-button.ui-widget.ui-state-default.ui-button-text-only.ui-state-active {
+    background: #85b2cb -moz-linear-gradient(center top , rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)) repeat scroll 0 0 !important;
+	text-align: center;
+}
+
+.teetime-webservice .ui-button.ui-widget.ui-state-default.ui-button-text-only {
+    background: #c4c4c4 -moz-linear-gradient(center top , rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) repeat scroll 0 0 !important;
+	text-align: center;		
+}
+.teetime-webservice .ui-datatable-tablewrapper .ui-selectonemenu-label.ui-inputfield {
+  background: transparent;
+}
+
+.ui-dialog .ui-widget-header {
+  background-color: #005395 !important;
+}
+
+.radio-selectplayers-area.ui-button.ui-widget.ui-state-default.ui-button-text-only{
+background: #c4c4c4 -moz-linear-gradient(center top , rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) repeat scroll 0 0 !important;
+border: 1px solid #a8a8a8;
+color: #4f4f4f;
+font-weight: bold;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);	
+	
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.leftMarginPlayer {
+	margin-left: 25px;
+	margin-top: -10px !important;
+}
+
+.prefered-time-onemenu {
+	vertical-align: middle !Important;
+}
+
+.timePriority {
+	vertical-align: super;
+	display: inline-block;
+}
+
+.lastPlay-firstPlayer {
+	display: inline-block !important;
+	margin-left: 5px !important;
+}
+
+.timePeriodSel .ui-button-text-only {
+	display: table-cell !important;
+	padding: .5em 1em !important;
+	width: auto !important;
+}
+
+.playersSel .ui-button-text-only {
+	display: table-cell !important;
+	width: auto !important;
+}
+
+.timePeriodSel, .playersSel {
+	display: table !important;
+}
+
+.sort-table {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.fa-sort-size {
+	font-size: 30px !important;
+}
+
+.sort-btn a {
+	font-size: 30px !important;
+}
+
+.sort-btn a {
+	text-decoration: inherit !important;
+}
+
+.sort-btn a:hover {
+	text-decoration: inherit !important;
+}
+
+/* .teetime-content {
+	background-color: #f8f8f8;
+	border-color: #bbb;
+	color: #333;
+	text-shadow: 0 1px 0 #f3f3f3;
+} */
+
+.white-color {
+	color: white;
+}
+
+ul#courseDropDownUL {
+	background-color: #f1f1f1 !important;
+}
+
+.teetime-print {
+	font-size: 18px !important;
+	color: white !important;
+}
+
+i.fa.fa-sun-o.teetime-weather {
+	font-size: 18px !important;
+}
+
+span.update-margin-right {
+	margin-right: 5px;
+}
+
+span.site-name {
+	display: none !Important;
+}
+
+h1.site-title {
+	text-align: center;
+}
+
+nav#breadcrumbs {
+	display: none !Important;
+}
+
+.ui-collapsible.ui-collapsible-inset.ui-corner-all.ui-collapsible-themed-content.ui-collapsible-collapsed .ui-collapsible-content
+	{
+	margin-top: -8px !important;
+}
+
+.teetime-webservice .holes-fieldset .ui-controlgroup-label {
+	float: left;
+	width: 35px;
+	font-size: 14px !important;
+	margin-right: 10px !Important;
+	/* vertical-align: bottom; */
+	margin-top: 5px;
+}
+
+ul.breadcrumb {
+	display: none !Important;
+}
+
+.ui-widget-content {
+	border: 0 !important;
+	background: #f8f8f8 !important;
+	color: #555;
+}
+
+.ui-datagrid-column {
+	background-color: #f8f8f8 !important;
+	border: 0 !important;
+	padding: 1px;
+}
+
+.group-blocked-slot {
+	background-image: url(../images/teesheet/icon-arrow-right.png)
+		!important;
+}
+
+button.btn-reservenow {
+	display: none !important;
+}
+
+.teetime-webservice .holes-fieldset .ui-controlgroup-controls label {
+	font-size: 14px !important;
+	margin-bottom: 15px !Important;
+	margin-right: 5px;
+	margin-left: 2px;
+}
+
+.ui-area-btn-danger {
+	padding-left: 5px !Important;
+	padding-right: 5px !Important;
+}
+
+.ui-area-btn-success {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.rwd-disabled button {
+	display: none;
+}
+
+.ui-datagrid-column.ui-grid-col-2 {
+	width: 80px !important;
+	margin-right: 5px;
+}
+
+.ui-datagrid-column.ui-grid-col-2 img {
+	width: 70px !important;
+	height: 68px !Important;
+	border: 1px solid #336699 !important;
+	padding: 5px !Important;
+}
+
+.teetime-webservice .holes-fieldset {
+	float: right;
+	font-size: 14px !important;
+	margin-top: 0px !Important;
+}
+
+.teetime-webservice .ui-controlgroup, .teetime-webservice fieldset.ui-controlgroup
+	{
+	padding: 0;
+	/* margin: .5em 0; */
+}
+
+.uselastplay-custom {
+	padding: .4em .4em !important;
+}
+
+.ui-selectonelistbox {
+	border: 1px solid #DDD !important;
+	color: #8d8d8d !important;
+	font-weight: 200 !important;
+	margin-bottom: 7px !important;
+	background: white !Important;
+}
+
+.cancel-reason-input {
+	width: 100% !important;
+	height: 50px;
+	max-height: 50px;
+	resize: none;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.hide-first-pic>.ui-grid>div:first-child {
+	display: none !Important;
+}
+
+.teetime-resource-cart {
+	background: url(../images/teesheet/icon-cart-active.png);
+}
+
+.teetime-resource-caddy {
+	background: url(../images/teesheet/icon-caddy-active.png);
+}
+
+.teetime-resource-pull-cart {
+	background: url(../images/teesheet/icon-pullcart-active.png);
+}
+
+.teetime-resource-walk {
+	background: url(../images/teesheet/icon-walk-legend-active.png);
+}
+
+.teetime-player-col-4, .teetime-player-col-5, .teetime-player-col-6 {
+	width: 50%;
+	float: left;
+}
+
+.resource-img {
+	background: aliceblue;
+	width: 36px !important;
+	height: 18px !important;
+	padding: 5px;
+}
+
+.available-square {
+	background: green;
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.reserved-square {
+	background: red;
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.blocked-square {
+	background: grey !important;
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.picturesTable div {
+	display: inline-block !Important;
+}
+
+.ui-grid-a.course-selectone-btn-div {
+	height: 40px !important;
+	max-width: 1336px !important;
+	right: 0px !important;
+}
+
+.course-selectone-btn {
+	margin-top: 5px;
+}
+
+.ui-block-b.course-btn {
+	width: 100% !important;
+}
+
+.course-selectone-btn .ui-state-active span {
+	background: lightslategrey !important;
+}
+
+.ui-block-b.course-btn .btn-teesheet {
+	border: solid 1px;
+	width: auto !important;
+	height: 21px;
+	float: right;
+	padding: 10px;
+	text-align: center;
+}
+
+.weather-fieldset legend {
+	width: 100px;
+	padding: 1px 1px 1px 1px !important;
+	font-size: 16px !Important;
+	height: 40px !important;
+	background: rgba(136, 112, 129, 0.21) !important
+}
+
+.weather-fieldset {
+	background: rgba(136, 112, 129, 0.21) !important
+}
+
+.weather-fieldset .ui-fieldset-toggler {
+	margin-top: 0.7em !important;
+}
+
+.resource-img {
+	width: 40px !Important;
+	height: 25px !important;
+}
+
+.teetime-validationError-dialog {
+	position: fixed !important;
+	top: 50% !important;
+	left: 50% !important;
+	-webkit-transform: translate(-50%, -50%) !important;
+	transform: translate(-50%, -50%) !important;
+}
+
+.calendar-area-top {
+	width: 100% !Important;
+	height: 40px !Important;
+}
+
+.calendar-date-area {
+	height: 40px !Important;
+}
+
+.calendar-date-area label {
+	padding-top: 6px !Important;
+}
+
+.holesLabelDIV {
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.holesLabel {
+	padding: 0px !important;
+}
+
+.tee-label-bottom-border {
+	border-bottom-width: 1px !important;
+}
+
+.holesDIV {
+	height: auto !important;
+}
+
+.member-name {
+	font-size: 3vw !important;
+}
+
+.legend-row-reserved a {
+	font-size: 3vw !important;
+}
+
+.align-right {
+	text-align: right !important;
+}
+
+.cancelReasonLabel {
+	margin-top: 10px !important;
+}
+
+.customPanelLabel {
+	margin-bottom: 10px;
+}
+
+.dialogOKBtn {
+	margin: 0 auto;
+	width: 50px;
+}
+
+.teeTimeContent {
+	height: auto;
+}
+
+.refreshBtn {
+	margin-left: 5px;
+}
+
+.courseConditionDIV {
+	vertical-align: top;
+	margin-left: 5px
+}
+
+.float-right {
+	float: right !important;
+}
+
+.refreshLink {
+	margin-left: 5px;
+}
+
+.resPlayersDIV {
+	overflow: initial;
+}
+
+.notesDIV {
+	overflow: initial;
+}
+
+.notes-input {
+	height: 50px;
+	max-height: 50px;
+	resize: none;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.time-left {
+	overflow: initial;
+}
+
+.updateBtnDIV {
+	text-align: center;
+	margin: 10px;
+}
+
+.h4-div {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.member-name a {
+	color: black !important;
+	text-shadow: none !important;
+	veritcal-align: middle !important;
+	margin-left: 3px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.free-slot a {
+	color: black !important;
+	text-shadow: none !important;
+}
+
+.first-block {
+	border-left-style: solid !important;
+	border-left-width: 1px !important;
+	border-left-color: #ddd !important;
+}
+
+.tee-subheading {
+	padding: 0 !important;
+	margin-bottom: -3px !important;
+}
+
+.first-block-tee {
+	border-left: medium none;
+	border-top: medium none;
+	padding-left: 7px;
+}
+
+.free-slot span {
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+	overflow: hidden !IMPORTANT;
+}
+
+div#loaderImage {
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.useLastPlay-radio {
+	vertical-align: middle !important;
+	margin-bottom: 0px !important;
+	margin-top: 7px !important;
+}
+
+.reservation-holes .ui-radiobutton {
+	vertical-align: middle !important;
+	margin-top: -1px !important;
+	margin-bottom: 0px !important;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.player-actions-div {
+	float: right;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.player-no-label {
+	display: inline-block;
+	font-weight: bold !important;
+	text-transform: uppercase;
+	margin-left: 5px !important;
+}
+
+.playerNoLabelColumn .ui-column-title {
+	display: none !important;
+}
+
+.align-playerName input, .align-playerPhone, .align-playerEmail {
+	width: 100% !important;
+}
+
+.holesViewModeMsg label {
+	background-color: #fedfa0 !important;
+	width: 100%;
+	text-align: center !important;
+	text-shadow: none !important;
+	font-size: 14px !important;
+}
+
+.weatherDIV {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.legendsDIV, .printDIV, .weatherDIV, .currentTimeDIV {
+	margin: 3px;
+	background-color: #2196F3 !important;
+	color: #fff !important;
+	font-size: 14px;
+	text-shadow: none !important;
+	border: none !important;
+	border-radius: 34px !important;
+	padding: 6px;
+	font-weight: normal !important;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.legendsDIV a, .printDIV a, .weatherDIV a {
+	color: white !important;
+}
+
+.legend-square {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+	vertical-align: middle;
+}
+
+span.current-time .ui-clock {
+	color: #ffffff !important;
+	background: none;
+	border: none;
+	font-weight: normal;
+}
+
+span.current-time {
+	border-radius: 20px;
+	margin: 3px;
+	color: #45a7a3;
+	display: inline-block;
+	padding: 8px;
+	vertical-align: top;
+	font-size: 16px;
+	border: 1px solid #45a7a3;
+	text-shadow: none;
+	text-align: center;
+	background-color: #2196F3 !important;
+}
+
+i.fa.fa-clock-o {
+	color: white !important;
+}
+
+.currentTimeDIV span {
+	background: transparent;
+	border: none;
+	color: white;
+	font-weight: normal;
+}
+
+.legend-free-slot label {
+	font-size: 13px !important;
+	margin-bottom: 3px !important;
+	line-height: normal;
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+	overflow: hidden !IMPORTANT;
+}
+
+element.style {
+	width: 25%;
+}
+
+.courseSlots {
+	vertical-align: top !important;
+	border: lightgray;
+	border-width: thin;
+	border-style: solid;
+	min-width: 290px !important;
+	padding-right: 5px;
+	display: table-cell;
+}
+
+.course-slots-heading {
+	width: 100%;
+	display: block !important;
+	text-align: center;
+	border: lightgray !important;
+	border-width: 1px !important;
+	border-style: solid;
+	font-size: 16px !important;
+	font-weight: bold !important;
+	background: snow;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+
+.courseViewsDIV {
+	text-align: center !important;
+	overflow-x: scroll;
+	display: table;
+	width: 100%;
+}
+
+.display-table {
+	display: table !important;
+}
+
+.display-flex {
+	display: flex !important;
+}
+
+.display-table-cell {
+	display: table-cell !important;
+}
+
+.rwd {
+	float: initial !important;
+}
+
+.full-width {
+	width: 100% !important;
+}
+
+.btn-reserve-area {
+	float: right !important;
+}
+
+.multiple-courses-col-6 a {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.select-courses {
+	width: 200px !important;
+	margin: 3px;
+	background-color: cornflowerblue !important;
+	color: #fff !important;
+	font-size: 14px;
+	text-shadow: none !important;
+	border: none !important;
+	border-radius: 10px !important;
+	padding: 6px;
+	font-weight: normal !important;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.select-courses {
+	text-align: left !important;
+	width: 200px !important;
+	float: right !important;
+}
+
+.select-courses .ui-state-highlight {
+	background: steelblue !important;
+}
+
+.time-div label {
+	font-size: 14px !important;
+	color: #ffffff !important;
+	text-align: center;
+}
+
+.time-div {
+	width: 65px !important;
+	text-shadow: none !important;
+	text-align: center;
+}
+
+.teetime-player-col-4, .teetime-player-col-5, .teetime-player-col-6 {
+	height: inherit !important;
+}
+
+.multiple-courses-col-6, .multiple-courses-col-5,
+	.multiple-courses-col-4 {
+	height: inherit !important;
+}
+
+.member-name {
+	text-shadow: none !important;
+	color: black !important;
+	text-align: center !important;
+	padding-left: 1px !important;
+}
+
+/* .member-name img {
+	vertical-align: initial !important;
+} */
+
+.course-views-scroll {
+	display: table;
+	width: 100%;
+	text-align: right;
+}
+
+.course-views-scroll a {
+	font-size: 30px !important;
+	text-decoration: none !important;
+}
+
+.scroll-course-left {
+	float: left !important;
+}
+
+.teetime-left-col {
+	display: inline-block !important;
+	width: 50% !important;
+}
+
+.teetime-right-col {
+	display: inline-block !important;
+	width: 50% !important;
+}
+
+.border-left {
+	border-left-style: solid !important;
+	border-left-width: 1px !important;
+	border-left-color: #ddd !important;
+}
+
+.border-right {
+	border-right-style: solid !important;
+	border-right-width: 1px !important;
+	border-right-color: #ddd !important;
+}
+
+.border-bottom {
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #ddd !important;
+}
+
+.border-top {
+	border-top-style: solid !important;
+	border-top-width: 1px !important;
+	border-top-color: #ddd !important;
+}
+
+.tees-status {
+	width: 49% !important;
+	text-align: right;
+	padding-top: 2px !important;
+}
+
+.tees-status-label {
+	font-size: 14px;
+	color: black;
+}
+
+h2.heading-height {
+	text-align: left !important;
+}
+
+.multiple-courses .available-square {
+	width: 11px;
+	margin-right: 3px;
+}
+
+.multiple-courses .reserved-square {
+	width: 11px;
+	margin-right: 3px;
+}
+
+.multiple-courses .blocked-square {
+	width: 11px;
+	margin-right: 3px;
+}
+
+.mul-tees {
+	padding-right: 5px !important;
+}
+
+.blocked-status {
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+}
+
+.ui-selectonemenu .ui-selectonemenu-label {
+	overflow: visible !important;
+}
+
+.course-label {
+	margin-right: 5px;
+}
+
+.course-selection-div {
+	margin-right: 10px;
+}
+
+.tee-subheading {
+	text-align: left !important;
+	width: 100%;
+	display: block;
+}
+
+.btn-area {
+	width: 120px !important;
+	text-shadow: none !important;
+	height: 42px !important;
+	margin-right: 0px !important;
+}
+
+.btn-area a {
+	font-size:14px !important;
+	}
+
+.slot-area {
+	vertical-align: top;
+	text-align: left;
+	width: 100% !important;
+	height: 46px !important;
+}
+
+.slot-link {
+	width: 100%;
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+
+.slot-link .heading-height {
+	padding-left: 5px !important;
+}
+
+.slot-link:hover {
+	text-decoration: none !important;
+	text-shadow: none !important;
+}
+
+.sel-for-res {
+	background: #1a4d69 !important;
+	text-shadow: none !important;
+}
+
+.font-bold {
+	font-weight: bold !important;
+}
+
+.border-all {
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #ddd !important;
+}
+
+.player-info-label {
+	background: cornflowerblue;
+	color: black !important;
+	text-shadow: none !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+
+.link-groups-check {
+	margin-left: 5px !important;
+	vertical-align: middle !important;
+}
+
+.use-last-play-close {
+	float: right !important;
+	width: 80px !important;
+}
+
+.course-sel {
+	width: auto !important;
+}
+
+.course-label {
+	vertical-align: top !important;
+}
+
+.course-sel li {
+	display: inline-block;
+	margin: 3px;
+	background-color: #2196f3 !important;
+	color: #fff !important;
+	font-size: 16px;
+	text-shadow: none !important;
+	border: none !important;
+	border-radius: 10px !important;
+	padding: 6px;
+	font-weight: normal !important;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.course-sel .ui-state-highlight {
+	background-color: #1a4d69 !important;
+}
+
+.course-selection-div {
+	width: 100%
+}
+
+.align-playerName {
+	width: 100% !important;
+}
+
+.align-player-details {
+	text-align: center !important;
+}
+
+.player-details span {
+	width: 100%;
+	text-align: center !important;
+}
+
+.slot-link {
+	text-transform: uppercase;
+}
+
+.courseViewsDIV td.ui-datagrid-column {
+	vertical-align: top !important;
+}
+
+.full-width .ui-column-title {
+	width: 100% !important;
+}
+
+.icon-tee {
+	font-size: 10px !important;
+	margin: 5px 1px 1px 1px !important;
+	padding: 5px 0px 5px 0px !important;
+}
+
+.exclude-res tbody>tr>td {
+	background-color: red !important;
+}
+
+.exclude-res-div {
+	vertical-align: middle !important;
+	margin-left: 10px;
+}
+
+.tbd-img-link {
+	margin-left: 5px;
+}
+
+.buddies-panel .ui-panel {
+	position: initial !important;
+	width: 100%;
+}
+
+.tee-status-height {
+	height: 20px !important;
+}
+
+.remove-player {
+	width:30px !important;	
+}
+
+.tbd-img {
+	width: 30px !important;
+}
+
+.cancel-reason-div {
+	margin-bottom: 5px !important;
+} 
+     
+}

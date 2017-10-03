@@ -1,0 +1,14 @@
+@media ( max-width : 740px) and ( min-width : 641px) {
+	.credit-book-box {
+		height: 320px;
+	}
+}
+
+.cbp-reset {
+    width: 5% !important;
+    margin-bottom: 6px !important;
+}
+
+.credit-book-box td {
+	width: 50%;
+}

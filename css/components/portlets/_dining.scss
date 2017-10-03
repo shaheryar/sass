@@ -1,0 +1,121 @@
+
+.dining-search-div {
+	background-image: url(/documents/10184/12041/dinig-reservation2.jpg);
+	padding: 10px;
+}
+
+.dining-margin-top {
+	margin-top: 195px;
+	padding: 10px;
+}
+
+.DiningReservation-portlet .ui-corner-all {
+  margin-top: 0 !important;
+}
+
+.DiningReservation-portlet .ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all {
+  background: #fff !important;
+  line-height: 20px !important;
+}
+
+.DiningReservation-portlet .ui-inputfield.ui-widget.ui-state-default.ui-corner-all.hasDatepicker {
+  background: #fff !important;
+}
+
+.DiningReservation-portlet .ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
+  background: #fff !important;
+}
+
+.DiningReservation-portlet .ui-datepicker-trigger.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only {
+  background: #fff !important;
+}
+
+.dining-search-div .ui-widget-content {
+	background: transparent !important;
+}
+
+.DiningReservation-portlet .ui-datepicker-trigger.ui-button-icon-only .ui-button-text {
+  padding: 2px 0 !important;
+}
+
+.DiningReservation-portlet .ui-inputfield, .DiningReservation-portlet .ui-widget-content .ui-inputfield, .DiningReservation-portlet .ui-widget-header .ui-inputfield {
+  color: $default-fontColor !important;
+  text-shadow: none;
+}
+.DiningReservation-portlet .ui-state-default label {
+  line-height: 20px !important;
+}
+
+
+.dining-search {
+	
+}
+
+.dining-table {
+	
+}
+
+.dining-grid {
+	
+}
+
+.dining-odd-row {
+	
+}
+
+.dining-even-row {
+	
+}
+
+.dining-date {
+	
+}
+
+.dining-label {
+	
+}
+
+.dining-time {
+	
+}
+
+.dining-partySize {
+	
+}
+
+.dining-addGuest {
+	
+}
+
+@media screen and (min-width:220px) and (max-width:979px) {
+.DiningReservation-portlet .ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all {
+  height: 30px;
+}      
+}
+
+/* For Mobile Devices */
+@media ( max-width : 640px) {
+	
+	.dining-odd-col  {
+		width:36%;
+	}
+	.dining-even-col {
+		width:64%;
+	}
+	.dining-pencil {
+		font-size: 1.5em !important;
+	}
+	.dining-trash {
+		font-size: 1.5em !important;
+	}
+}
+
+/* For Desktop */
+@media ( min-width : 641px) {	
+	.dining-odd-col  {
+		width:45%;
+	}
+	.dining-even-col {
+		width:55%;
+	}
+}

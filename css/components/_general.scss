@@ -1,0 +1,581 @@
+/* CUSTOM FIXES START */
+
+.ui-button-icon-only .ui-icon {
+    left: 48% !important;
+    top: 13px !important;
+}
+.mp-dialog-grid .upload-image .ui-corner-all {
+  margin-top: 0;
+}
+.ui-widget-header {
+  background-color: transparent;
+  background-image: none;
+  border: medium none;
+}
+
+#ui-area .ui-paginator .ui-state-active {
+  background: $secondry-bg !important;
+  color: $Light-fontColor;
+}
+button.ui-datepicker-trigger.ui-button {
+  padding: 2px 0; 
+}
+.MemberProfile-portlet .mp-dn-heading {
+  padding: 0 0 0 8px;
+}
+.MemberProfile-portlet .mp-email {
+  padding: 4px 0 6px 8px !important;
+  display: inline-block;
+}
+.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all.text-right {
+  text-align: right;
+}
+.header-title {
+  font-size: 24px !important;
+  display: inline-block !important;
+  padding-bottom: 20px !important;
+}
+.taglib-social-bookmark-twitter {
+  top: 3px;
+  position: relative;
+}
+.portlet-blogs .entry-date {
+  color: #444 !important;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+@media screen and (min-width:980px) and (max-width:1199px) {
+ button.ui-datepicker-trigger.ui-button {
+  padding: 0px 0 4px;
+}     
+}
+/* CUSTOM FIXES END */
+
+/* MEMBER PROFILE START */
+.mp-dialog-grid .upload-image .ui-fileupload-buttonbar {
+  background: transparent !important;
+}
+.mp-main-grid .ui-panelgrid .ui-panelgrid-header {
+  margin-bottom: 10px;
+}
+.mp-main-grid .ui-widget-header {
+  background-color: transparent;
+  color: $default-fontColor !important;
+  font-size: 26px !important;
+  margin-bottom: 20px !important;
+  padding: 0;
+  text-align: left;
+}
+.panelPopup-header-icon-container + h1 {
+  background-color: $primary-bg !important;
+  border-radius: 5px;
+  color: $Light-fontColor !important;
+  font-size: 20px !important;
+  margin: 0 0 7px !important;
+  padding: 7px 8px;
+  text-transform: none !important;
+  font-family: $default-font-family !important;
+}
+#ui-area .panelPopup-wraper .panelPopup-header h2 {
+  background-color: $primary-bg !important;
+  border-radius: 5px;
+  color: $Light-fontColor !important;
+  font-size: 20px;
+  margin: 0 0 7px !important;
+  padding: 7px 8px;
+  text-transform: none;
+}
+.MemberProfile-portlet .ui-dialog .ui-widget-header {
+  background-color: $primary-bg;
+  padding: 8px 7px;
+}
+.MemberProfile-portlet .ui-dialog .ui-widget-header .ui-dialog-titlebar-close {
+  margin-top: 2px;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+  width: 40% !important;
+  margin: 0 3px;
+}
+#ui-datepicker-div .ui-state-default {
+  border: 1px solid #cccccc;
+  color: $default-fontColor;
+  font-weight: bold;
+  text-align: center;
+}
+#ui-datepicker-div .ui-datepicker .ui-datepicker-current-day .ui-state-highlight, .ui-datepicker .ui-datepicker-current-day .ui-state-default {
+  background: #efefef none repeat scroll 0 0 !important;
+}
+.MemberProfile-portlet .ui-datepicker-trigger.ui-button-icon-only .ui-button-text {
+  padding: 2px 0;
+}
+/* MEMBER PROFILE END */
+
+/* ADDRESS START */
+.Addresses-portlet .ui-tabs-nav {
+  padding: 0 !important;
+}
+.ChangePassword-portlet  .ui-password {
+  width: 90%;
+}
+@media screen and (min-width:220px) and (max-width:767px) {
+.ChangePassword-portlet  .ui-password {
+  width: 100%;
+}     
+}
+/* ADDRESS END */
+
+/* MY SETTING START */
+.MySettings-portlet .ui-widget-header {
+  background: $primary-bg !important;
+}
+/* MY SETTING END */
+
+/* STATEMENT START */
+.StatementSummary-portlet .ui-dialog-content .rc-icon {
+  color: $Light-fontColor !important;
+  margin-top: 9px;
+}
+
+#ui-area .portlet-borderless-container .table-striped a {
+  color: $secondry-bg;
+  text-decoration: underline;
+}
+.StatementSummary-portlet .ui-datatable-tablewrapper .ui-column-title {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.StatementSummary-portlet .ui-datatable-footer {
+  text-align: left;
+}
+/* STATEMENT END */
+
+/* ACCOUNT SUMMARY START */
+.RecentCharges-portlet .ui-dialog-content .rc-icon {
+  color: $Light-fontColor !important;
+  margin-top: 9px;
+}
+.RecentCharges-portlet .ui-panel-titlebar {
+  background: $primary-bg;
+}
+.RecentCharges-portlet .ui-panel-titlebar .ui-state-default {
+  background-color: $Light-fontColor !important;
+}
+.RecentCharges-portlet .label-long-primary {
+  padding: 10px 0;
+}
+.label-long-primary a span {
+  text-decoration: underline !important;
+}
+/* ACCOUNT SUMMARY END */
+
+/*CREDIT BOOK START */
+.CreditBook-portlet .ui-dialog-content .rc-icon {
+  color: $primary-bg !important;
+  margin-top: 9px;
+}
+/*CREDIT BOOK END */
+
+/* MAKE PAYMENT START */
+.MakePayment-portlet .label-long-primary {
+  padding: 10px 0 !important;
+}
+.MakePayment-portlet .ui-widget-header {
+  background-color: $primary-bg !important;
+  padding :7px 8px;
+}
+/* MAKE PAYMENT END  */
+
+
+/* DEPENDENTS FIXING */
+.componentBox {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 420px;
+    z-index: 9999;
+    margin: 0 auto;
+}
+
+div#loadingOverlay {
+    background-color: rgba(0, 0, 0, 0.88) !important;
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+   /*  display: block !important; */
+    /* z-index: 9999999; */
+    opacity: 1 !important;
+}
+/* END: DEPENDENTS FIXING */
+
+/* CALENDAR FIXING */
+.yui3-skin-sam .calendar-portlet .yui3-calendar-day.lfr-current-day {
+  background-color: $primary-bg !important;
+  color: $Light-fontColor !important;
+}
+.yui3-skin-sam .calendar-portlet .yui3-calendar-day {
+    padding: 5px 0 5px !important;
+}
+/* END: CALENDAR FIXING */
+
+/* MAKE PAYMENT FIXING */
+.pmnt-main-div .ui-commandlink {
+    text-decoration: none !important;
+    margin: 10px 0 !important;
+}
+
+.aui label, .aui input, .aui button, .aui select, .aui textarea {
+    line-height: 18px !important;
+}
+
+/* .pmnt-btn{
+  background-color:$makepayment-bg !important;
+  transition: 0.5s all ease;
+} */
+
+.pmnt-btn:hover{
+  background-color:$makepayment-hover !important;
+}
+/* END: MAKE PAYMENT FIXING */
+
+
+/* MEMBER INTERESTS FIXING */
+.aui .table td {
+    background-color: #FFF;
+}
+
+.ui-datagrid .ui-datagrid-header {
+    background: $primary-bg !important;
+}
+
+
+/* END: MEMBER INTERESTS FIXING */
+
+/* ADDRESSES FIXING */
+.ui-tabs .ui-tabs-panel {
+    padding: 10px 0;
+}
+/* END: ADDRESSES FIXING */
+
+
+
+/* EDIT PROFILE LABEL FIXING */
+
+.ui-dialog .ui-dialog-title {
+    margin: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 22px !important;
+    padding: 0 !important;
+    display: inline-block !important;
+    float: none !important;
+}
+
+
+.ui-datepicker .ui-datepicker-calendar .ui-state-default {
+    color: $default-fontColor !important;
+}
+
+.mp-value-text {
+    display: inline-block;
+    margin: 2px 0 0 0;
+}
+
+.col-head .mp-value-text {
+    margin: 0;
+}
+
+@media only screen and (min-width:980px){
+.hasDatepicker {
+    width: 235px !important;
+}
+}
+/* END: EDIT PROFILE LABEL FIXING */
+
+/* PRIMEFACES ADDRESSES TAB FIXING */
+
+.ui-tabs .ui-tabs-nav li {
+    margin: 0 .2em 1px 0 !important;
+ }
+.ui-tabs .ui-widget-header {
+    background-color: transparent !important;
+    margin: 10px 0 10px 0 !important;
+    border-bottom: 1px solid #9e9e9e !important;
+}
+
+.ui-tabs-nav .ui-tabs-selected a {
+    color: #fff !important;
+    text-shadow: none;
+}
+.ui-tabs.ui-tabs-top .ui-tabs-nav li.ui-tabs-selected {
+    border-bottom: 0;
+    background-color: $primary-bg !important;
+}
+
+/* END: PRIMEFACES ADDRESSES TAB FIXING */
+
+/* PRIMEFACES STATEMENT FIXING */
+  .stmt-label {
+      margin: 18px 0 0 0;
+  }
+
+.label-long-primary {
+  background-color: $secondry-bg;
+  color: #fff;
+  line-height: inherit !important;
+  margin: 1px 0 5px;
+}
+/* END: PRIMEFACES STATEMENT FIXING */
+
+
+/* PRIMEFACES MEMBER ROSTER */
+.roster-profile-email a {
+    color: #000;
+}
+.roster-profile-email a:hover {
+    color: $dark-fontColor;
+    text-decoration: none;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+  background-color: $primary-bg !important;
+  background-image: none !important;
+  border: medium none !important;
+  color: #fff !important;
+}
+
+
+.roster-name {
+    color: black !important;
+    font-weight: bold !important;
+    margin: 10px 0 !important;
+    display: block;
+}
+/* END: PRIMEFACES MEMBER ROSTER */
+
+.ui-corner-all {
+  border-radius:0 !important;
+}
+
+.ui-state-hover {
+font-weight: normal !important;
+}
+.ui-widget-header .ui-state-hover {
+    background-image: none !important;
+    background-color: #fff !important;
+/*     border: none !important; */
+}
+.aui body {
+  color: $default-fontColor;
+  font-family: $seconday-font-family !important;
+  font-size: $default-font-size !important;
+  font-weight: 400 !important;
+  letter-spacing: inherit;
+  padding: 0;
+  background: $background-light;
+}
+.ui-widget {
+   
+    font-size:$default-font-size !important;
+    font-family: $default-font-family !important;
+}
+
+#ui-area, label, .aui input[type="color"], .aui input[type="date"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="email"], .aui input[type="month"], .aui input[type="number"], .aui input[type="password"], .aui input[type="search"], .aui input[type="tel"], .aui input[type="text"], .aui input[type="time"], .aui input[type="url"], .aui input[type="week"], .aui select, .aui textarea, .aui .uneditable-input {
+/*   font-family: 'Open Sans', sans-serif !important; */
+  font-size: $default-font-size !important;
+   font-family: $default-font-family;
+ /*  width: auto; */
+}
+
+.card-tableRow1 td, .card-tableRow2 td, .card-tableRow3 td,.card-tableRow4 td {
+@include border;;
+}
+.modal-body h1 {
+  background-color: #00572e !important;
+  border-radius: 5px;
+  color: #fff !important;
+  font-size: 23px !important;
+  margin: 0 !important;
+  padding: 7px 8px;
+}
+
+.table-responsive a {
+  color: #7e1315 !important;
+  text-decoration: underline;
+}
+
+.aui .table thead th {
+    background: $secondry-bg !important;
+    color: #fff;
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.aui .table thead th {
+    font-size:$default-font-size !important;
+ }
+ 
+ @media screen and (min-width: 220px) and (max-width:980px) {
+	.aui .table thead th {
+    font-size: 13px !important;
+ } 
+	 
+ }
+
+
+.ui-icon-triangle-1-s {
+    background-position: -64px -12px !important;
+}
+
+
+.aui .table-bordered {
+
+	margin: 5px 0;
+}
+
+#ui-area .table-striped tbody > tr:nth-child(even) {
+		> td, > th {
+			background-color:$evenRow-bg;
+		}
+	}
+	
+#ui-area .table-striped tbody > tr:nth-child(odd) {
+		> td, > th {
+			background-color: $oddRow-bg;
+		}
+	}
+
+.aui dt {font-weight:normal !important}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    /* border: 1px solid #a8a8a8; */
+    background-color: transparent !important;
+    font-weight: normal !important;
+    text-align: left;
+    text-shadow: 0px 0px 0px rgba(255,255,255,0) !important;
+}
+
+.amount-position {
+    text-align: right !important;
+}
+.heading-position span {
+   
+    float: right;
+    width: 100%;
+}
+
+.stmt-table th{
+ text-align: center !important;
+
+}
+
+.aui .label, .aui .badge {
+  font-weight: normal  !important;
+  padding: 6px;
+  
+}
+.label-custom{
+
+    background-color: $secondry-bg !important;
+}
+.label-info{
+background-color: $primary-color !important;
+
+}
+.aui .label-success {
+
+background-color: $success-bg !important;
+
+}
+.ui-widget-header{
+font-size:$default-font-size !important;
+font-weight: normal !important;
+/* margin: 10px 0 30px; */
+color:$Light-fontColor !important;
+text-shadow: 0px 0px 0px rgba(255,255,255,0) !important;
+
+}
+
+
+
+.ui-corner-all {
+  margin-top: 3px;
+}
+.ui-paginator .ui-paginator-current, .ui-paginator .ui-paginator-rpp-options{
+font-size:$default-font-size !important;
+color: $default-fontColor !important;
+}
+
+.ui-paginator-next, .ui-paginator-first  {
+
+  background-color: $secondary-color !important;
+}
+/* mobilet-table-table-scroll-start */
+.table-scroll {
+  overflow: auto;
+  width: 100%;
+}
+.table-scroll .table {
+  overflow: scroll !important;
+}
+.table-scroll table th {
+  background-color: #094ca2 !important;
+  border: 1px solid #dddddd !important;
+  color: #fff;
+}
+/* mobilet-table-table-scroll-start */
+.info-bar-right{
+
+  float: right;
+  color: $Light-fontColor;
+}
+
+.ui-widget-content{
+
+  border: 0px !important;
+}
+.ui-datatable thead th, .ui-datatable tbody td, .ui-datatable tfoot td, .ui-datatable tfoot th
+{border: 1px dotted $border-color !important}
+
+.aui .table-bordered {
+
+    border: 1px dotted rgba(153, 153, 153, 0.54) !important; 
+}
+
+//Statements
+.rec-pay-bar, .curr-amo-bar, .rec-char-bar,.curr-bal-bar{
+  padding:10px 0;
+
+}
+
+.rec-pay-bar{
+background-color: $secondry-bg;
+color: $label-fontColor ;    
+
+}
+.curr-amo-bar{
+  background-color: $warning-bg
+
+}
+.rec-char-bar{
+background-color: $secondry-bg
+}
+.curr-bal-bar{
+background-color: $danger-bg
+}
+//
+//CheckBoxes Active State
+
+ .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #7096ab;
+    font-weight: bold;
+    color: #1C4257;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+//CheckBoxes Default State
+
+
+//For Chit
+.text-bold {
+    font-weight: bold;
+}

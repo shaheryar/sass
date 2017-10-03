@@ -1,0 +1,74 @@
+.data-border {
+	@include border;
+}
+
+.poa-property-owners-detail {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.poa-property-details {
+	margin-right: 5px;
+}
+
+.poa-property-ownership-detail {
+	margin-top: 5px;
+}
+
+.poa-property-violation-div {
+	display: inline-block;
+	width: 250px;
+	background: $background-dark !important;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.poa-property-balance-div {
+	display: inline-block;
+	width: 250px;
+	background: $warning-bg !important;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.poa-property-lein-div {
+	display: inline-block;
+	width: 250px;
+	background: $secondry-bg !important;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.poa-property-owner-info {
+	padding-left: 10px;
+}
+
+.poa-property-address-details {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.poa-property-photo-div {
+	padding: 10px;
+}
+
+.poa-property-padding-left {
+	padding-left: 5px;
+}
+
+.poa-property-rental-info-label {
+	color: white !important;
+}
+
+.poa-property-owner-info-label {
+	color: white !important;
+}
+
+.poa-property-info-label {
+	color: white !important;
+}
+
+.poa-property-cur-owner-sel {
+	@include border;
+	color:$Light-fontColor !important;
+}

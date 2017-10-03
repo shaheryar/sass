@@ -1,0 +1,85 @@
+/* Side Nav For Mobile */
+span.sidenav-mobile-view-heading{
+	background: $sidenavBg !important; 
+	font-size: $default-font-size !important;
+}
+.sidenav-mobile-view-div {
+	padding: 0 !important;
+}
+/* side Navigation */
+.sidenav-session-ul {
+    padding: 0;
+	margin: 0 !important; 
+ }
+ li.subLeft{
+ border-bottom:  1px solid #ccc;
+ }
+ span.sidenav-session-heading {
+    color: $sidenavBg;
+    padding: 10px 0 20px 5px;
+    font-size: $fontsize1;
+    text-shadow: $none;
+    text-transform: capitalize;
+    border-bottom:  1px solid $light-gray;
+	font-family: $treasurey-font-family;
+}
+.sidenav-session-children .subLeft a {
+    color: sideNavLinkColor;
+    line-height: $lineheight-normal;
+    text-transform: $none;	
+	padding: 0 0 0 20px;
+	background: url(../../Pinemountainclub-theme/images/club-images/point-arrow.jpg);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+.sidenav-session-children {
+    background-color: $background-light !important;
+ }
+ span.side-nav-session-unselected-item{
+	line-height: $lineheight-normal;
+	text-decoration: $none;
+    text-transform: capitalize;
+	font-size: $fontsize7;
+	padding: 15px 0;
+ }
+span.side-nav-session-selected-item {
+    color: $sidenavBg !important;
+    text-shadow: $none;
+   padding: 20px;
+   font-size: $fontsize7;
+    text-transform: capitalize;
+    margin: 0;
+	font-family: $treasurey-font-family;
+}
+ul li .subLeft > a:hover {
+    color: $sideNavLinkColor;
+	background: $light-gray;
+}
+span.sidenav-session-heading{
+ background: $background-light;
+}
+.sidenav-session-children{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+/* Media Query For Side Navigation*/
+@media screen and (max-width: 1250px) and (min-width: 500px){ 
+	span.side-nav-session-unselected-item{
+		font-size: $default-mobile-fontSize !important;
+		padding:  10px 0px !important;
+	}
+	span.side-nav-session-selected-item {
+		font-size: $default-mobile-fontSize !important;
+		padding: 10px 0px !important;
+	}
+	sidenav-session-ul {
+		margin: 0px !important;
+}
+span.sidenav-session-heading{
+		padding: 0 0 10px 0!important; 
+		font-size: 20px !important;
+}
+.sidenav-session-ul{
+	margin: 10px 20px !important;
+}
+}

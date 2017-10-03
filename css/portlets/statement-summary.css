@@ -1,0 +1,120 @@
+.stmt-info-button {
+	position: inherit !important;
+	margin-bottom: 5px !important;
+}
+
+.stmt-previous-button,.stmt-next-button,.stmt-print-button,.stmt-pmnt-btn {
+	margin-bottom: 5px !important;
+}
+
+.stmt-well {
+	word-wrap: break-word;
+}
+
+.stmt-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Button */
+.stmt-print-button {
+    background-color: #113662 !important;
+    background-image: none !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    border: 0px !important;
+}
+.stmt-print-button:hover {
+    background-color: black !important;
+}
+/* My Modification */
+.ui-datatable .ui-datatable-header, .ui-datatable .ui-datatable-footer {
+	padding: 0px !important;
+}
+.ui-column-title {
+	text-shadow: none !important;
+}
+.ui-selectonemenu-items .ui-state-hover {
+	border: 0px !important;
+	background-image: none !important;
+	background-color: #113662 !important;
+	color: #fff !important;	
+	border-radius: 0px !important;
+}
+.ui-selectonemenu-items .ui-state-highlight {
+	border: 0px !important;
+	background-image: none !important;
+	background-color: #113662 !important;
+	color: #fff !important;	
+	border-radius: 0px !important;
+}
+.ui-datatable thead th, .ui-datatable tbody td, .ui-datatable tfoot td, .ui-datatable tfoot th{
+	border-width: 0px !important;
+}
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+	-webkit-box-shadow: inset 0 0px 0px #8f8f8f !important;
+    box-shadow: inset 0 0px 0px #8f8f8f !important;
+}
+.ui-state-hover {
+	-webkit-box-shadow: inset 0 0px 0px #8f8f8f !important;
+    box-shadow: inset 0 0px 0px #8f8f8f !important;
+}
+.ui-selectonemenu-items-wrapper .ui-widget {
+	font-size: 13px !important;
+}
+.label-long-recent-acti {
+    background-color: #113662;
+    padding: 10px;
+    text-shadow: none;
+}
+.aui .table {
+    font-size: 14px !important;
+	border-radius: 0px !important;
+}
+.aui .table thead th {
+    background-color: #000 !important;
+    color: #fff;
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: center;
+}
+.aui .table thead th {
+    font-size: 13px !important;
+ }
+ .aui .table td {
+border-top: 1px dotted #999999 !important;
+}
+.aui .table-bordered td {
+    border-left: 1px dotted #999999 !important;
+}
+.aui .table-bordered th, .aui .table-bordered td {
+    border-left: 1px dotted #999999 !important;
+}
+/* .aui .table td { */
+/*     background-color: #f1f1f3 !important; */
+/* } */
+
+/* End */
+
+/* Chits Styles */
+.ui-widget-content {
+    border: 0px !important;
+    background: #fff !important;
+    color: #555;
+}
+
+.fa-print {
+    color: #113662;
+    
+}
+
+.chit-times{
+	color: #fff;   
+}
+.chit-print {
+	color: #fff !important;
+}
+.fa-file-text-o {
+    font-size: 12px;
+}
+/* End */

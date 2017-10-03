@@ -1,0 +1,85 @@
+ <table class="sideNavControl">
+	<tr>
+		<td> 
+			<div class="navSide green-black">
+							
+								  <ul class="skin-minimal ctAccordion" id="menu2">#foreach ($nav_item in $nav_items)
+ #* 
+	Case: 1 If we want to show the Selected page's children on sub navigation then use the  #if ($nav_item.isSelected()) 				  
+	Case: 2 If we want to show the Specific page's children on sub navigation then use the #if ($nav_item.getName() == 'Quicklinks') and rename 'Quicklinks' with your desired page name
+ *#
+	
+								 #if ($nav_item.getName() == 'Quicklinks')
+								 
+									#if ($nav_item.hasChildren())
+										<li class="subSide">
+									#else
+										<li>
+									#end
+											<div class="navigation-heading">$nav_item.icon() $htmlUtil.extractText($nav_item.getName())</div>
+											#if ($nav_item.hasChildren())
+												<ul class="side-nav-js">
+													<div class="nav-hr"> </div>
+													#foreach ($nav_child in $nav_item.getChildren())
+														#if ($nav_child.hasChildren())
+															<li class="subSide">
+														#else
+															<li>
+														#end
+															<a href="$nav_child.getURL()" $nav_child.getTarget()>$htmlUtil.extractText($nav_child.getName())</a>
+																
+															#if ($nav_child.hasChildren())
+																<ul>
+																	#foreach ($nav_child2 in $nav_child.getChildren())
+																		#if ($nav_child2.hasChildren())
+																			<li class="subSide">
+																		#else
+																			<li>
+																		#end
+																			<a href="$nav_child2.getURL()" $nav_child2.getTarget()>$htmlUtil.extractText($nav_child2.getName())</a>
+																			
+																			#if ($nav_child2.hasChildren())
+																				<ul>
+																					#foreach ($nav_child3 in $nav_child2.getChildren())
+																						#if ($nav_child3.hasChildren())
+																							<li class="subSide">
+																						#else
+																							<li>
+																						#end
+																								<a href="$nav_child3.getURL()" $nav_child3.getTarget()>$htmlUtil.extractText($nav_child3.getName())</a>
+																							
+																								#if ($nav_child3.hasChildren())
+																									<ul >
+																										#foreach ($nav_child4 in $nav_child3.getChildren())
+																											#if ($nav_child4.hasChildren())
+																												<li class="subSide">
+																											#else
+																												<li>
+																											#end
+																												<a href="$nav_child4.getURL()" $nav_child4.getTarget()>$htmlUtil.extractText($nav_child4.getName())</a>
+																											</li>
+																										#end
+																									</ul>
+																								#end
+																							</li>
+																					#end
+																				</ul>
+																			#end
+																			
+																		</li>
+																	#end
+																</ul>
+															#end
+															
+														</li>
+													#end
+												</ul>
+											#end
+										</li>
+									#end
+									#end
+								</ul>
+			</div>
+		</td>
+	</tr>
+</table>
